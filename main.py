@@ -1,39 +1,40 @@
 import concurrent.futures
 import time
 from scrapers import aldi, publix, walmart
+from lib.enrich import enrich_results
 
-def run_scrapers_parallel(zip_code, items):
+
+def run_scrapers_parallel(zip_code, items, category_map=None):
     """
-    Runs Publix and Walmart scrapers simultaneously.
-    Returns a combined list of product dictionaries.
+    Runs Aldi, Publix, and Walmart scrapers in parallel.
+    Enriches results with clean_price, normalized_qty, unit_type, brand_type,
+    category, and price_per_unit. Returns a combined list of product dicts.
     """
     print(f"🚀 Starting parallel scrape for: {items} in {zip_code}")
     results = []
 
-    # ThreadPoolExecutor allows us to run I/O bound tasks (browsers) in parallel
-    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
-        # 1. Submit both functions to the pool
-        # syntax: executor.submit(function_name, arg1, arg2)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         future_aldi = executor.submit(aldi.run, zip_code, items)
         time.sleep(1)
-
         future_publix = executor.submit(publix.run, zip_code, items)
-        
-        # Add a tiny delay for Walmart to prevent conflicting browser startup
-        time.sleep(1) 
+        time.sleep(1)
         future_walmart = executor.submit(walmart.run, zip_code, items)
 
-        # 2. Wait for them to finish and gather results as they complete
-        futures = [future_aldi, future_publix, future_walmart]
-        
-        for future in concurrent.futures.as_completed(futures):
+        name_to_future = {
+            "Aldi": future_aldi,
+            "Publix": future_publix,
+            "Walmart": future_walmart,
+        }
+        for future in concurrent.futures.as_completed(name_to_future.values()):
+            name = next(n for n, f in name_to_future.items() if f is future)
             try:
                 data = future.result()
                 if data:
                     results.extend(data)
             except Exception as e:
-                print(f"❌ A scraper crashed: {e}")
+                print(f"❌ {name} scraper crashed: {e}")
 
+    enrich_results(results, category_map=category_map)
     return results
 
 if __name__ == "__main__":
@@ -56,17 +57,11 @@ if __name__ == "__main__":
     print(f"🏁 SCRAPING COMPLETE in {end_time - start_time:.2f} seconds")
     print("="*40)
     
-    # Helper to sort by price (removing '$' sign)
-    def get_price(p):
-        try:
-            # Cleanup "$3.99" -> 3.99
-            clean_price = p['price'].replace('$', '').replace('current price', '').strip()
-            return float(clean_price)
-        except:
-            return 999.0 # Put "N/A" prices at the bottom
-            
-    all_products.sort(key=get_price)
+    # Sort by enriched clean_price
+    all_products.sort(key=lambda p: p.get("clean_price") or 999.0)
 
     # Print clean list to console
     for p in all_products:
-        print(f"[{p['store']}] {p['product_name']} | {p['price']}")
+        ppu = p.get("price_per_unit")
+        ppu_str = f" (${ppu:.4f}/{p.get('unit_type', '')})" if ppu is not None else ""
+        print(f"[{p['store']}] {p['product_name']} | {p['price']}{ppu_str}")

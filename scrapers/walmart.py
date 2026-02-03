@@ -6,11 +6,22 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import StaleElementReferenceException
-import undetected_chromedriver as uc 
+import undetected_chromedriver as uc
+
+try:
+    from .utils import get_chrome_major_version
+except ImportError:
+    from utils import get_chrome_major_version
+
 
 def setup_stealth_driver():
     options = uc.ChromeOptions()
-    driver = uc.Chrome(options=options)
+    # Match installed Chrome version to avoid "ChromeDriver only supports Chrome version X" crash
+    major = get_chrome_major_version()
+    if major is not None:
+        driver = uc.Chrome(options=options, version_main=major)
+    else:
+        driver = uc.Chrome(options=options)
     driver.maximize_window()
     return driver
 
@@ -29,20 +40,29 @@ def set_store_location(driver, zip_code):
         input("Press Enter here once the page loads...")
 
     try:
-        # 1. TYPE ZIP CODE
+        # 1. TYPE ZIP CODE (retry on stale element – page can re-render)
         print("Waiting for Zip Input...")
-        for attempt in range(3):
+        zip_typed = False
+        for attempt in range(4):
             try:
                 search_input = WebDriverWait(driver, 15).until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, "input[data-automation-id='store-zip-code']"))
                 )
                 force_click(driver, search_input)
                 time.sleep(0.5)
-                search_input.clear()
-                search_input.send_keys(zip_code)
-                time.sleep(1)
-                search_input.send_keys(Keys.RETURN)
-                break
+                for _ in range(2):
+                    try:
+                        search_input = driver.find_element(By.CSS_SELECTOR, "input[data-automation-id='store-zip-code']")
+                        search_input.clear()
+                        search_input.send_keys(zip_code)
+                        time.sleep(1)
+                        search_input.send_keys(Keys.RETURN)
+                        zip_typed = True
+                        break
+                    except StaleElementReferenceException:
+                        time.sleep(0.5)
+                if zip_typed:
+                    break
             except Exception as e:
                 print(f"Retry {attempt}: {e}")
                 time.sleep(2)
@@ -104,9 +124,11 @@ def scrape_items(driver, items):
             soup = BeautifulSoup(driver.page_source, 'html.parser')
             cards = soup.find_all('div', attrs={'data-test-id': 'gpt-product-tile-grid-container'})
             
+            # Top 5 + keyword filter (collect up to 5 matches per search term)
             count = 0
             for card in cards:
-                if count >= 5: break
+                if count >= 5:
+                    break
                 try:
                     title_tag = card.find('h3', attrs={'data-automation-id': 'product-title'})
                     title = title_tag.get_text(strip=True) if title_tag else "Unknown"
