@@ -35,6 +35,17 @@ Compare grocery prices across **Aldi**, **Publix**, and **Walmart** by entering 
 
 Optional: set **SMART_GROCERY_ZIP** in the environment to use a default zip for the daily basket.
 
+## Tests
+
+Unit tests cover **unit standardization** (`scrapers/units.py`) and **product name matching** (`scrapers/match.py`). From the project root:
+
+```bash
+pip install -r requirements.txt
+python -m pytest tests/ -v
+```
+
+**Tip:** If you use conda, run these commands in Command Prompt (or your terminal) with the `base` env active so `python` and `pip` are on your PATH.
+
 ## Daily basket (longitudinal data)
 
 A fixed 12-item list (milk, eggs, butter, bananas, chicken breast, etc.) can be run on a **schedule** to answer "Is Tuesday cheaper?" or compare stores over time.

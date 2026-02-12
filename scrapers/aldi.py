@@ -10,11 +10,11 @@ from selenium.webdriver.support import expected_conditions as EC
 # Note: This relative import works when running from main.py
 # To run this file directly, use: python -m scrapers.aldi
 try:
-    # This works when running from main.py
-    from .utils import setup_driver 
+    from .utils import setup_driver
+    from .match import product_matches_query
 except ImportError:
-    # This works when running this file directly for testing
     from utils import setup_driver
+    from match import product_matches_query
     
 def scrape_prices(driver, items):
     data = []
@@ -69,29 +69,24 @@ def scrape_prices(driver, items):
 
                     full_product_name = f"{brand} {title}".strip()
 
-                    # --- NEW FLEXIBLE MATCHING ---
-                    query_words = [w.lower() for w in item.split() if len(w) > 2]
-                    
-                    if query_words:
-                        if not any(w in full_product_name.lower() for w in query_words):
-                            continue
-                    else:
-                        if item.lower() not in full_product_name.lower():
-                            continue
-                    # -----------------------------
+                    if not product_matches_query(full_product_name, item):
+                        continue
 
-
+                    scraper_error = (
+                        price == "N/A" or not full_product_name or title == "No Title"
+                    )
                     data.append({
                         "search_term": item,
                         "product_name": full_product_name,
                         "unit_size": unit,
                         "price": price,
                         "store": "Aldi",
-                        "date": datetime.now().strftime("%Y-%m-%d")
+                        "date": datetime.now().strftime("%Y-%m-%d"),
+                        "scraper_error": scraper_error,
                     })
                     found_count += 1
                     
-                except AttributeError:
+                except (AttributeError, TypeError) as parse_err:
                     continue 
 
         except Exception as e:

@@ -9,9 +9,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import StaleElementReferenceException
 
 try:
-    from .utils import setup_driver 
+    from .utils import setup_driver
+    from .match import product_matches_query, match_score, get_query_tokens
 except ImportError:
-    from utils import setup_driver 
+    from utils import setup_driver
+    from match import product_matches_query, match_score, get_query_tokens 
 
 def force_click(driver, element):
     driver.execute_script("arguments[0].click();", element)
@@ -147,26 +149,6 @@ def scrape_items(driver, items, debug=False):
     data = []
     print("Preparing to scrape items...")
 
-    # Build query words once per item; strip parentheses for more flexible matching
-    def get_query_words(search_term):
-        words = []
-        for w in search_term.replace("(", " ").replace(")", " ").split():
-            w_clean = w.lower().strip()
-            if len(w_clean) > 2 and w_clean not in ("the", "and", "for"):
-                words.append(w_clean)
-        return words if words else [search_term.lower()]
-
-    def word_matches(text_lower, query_word):
-        """True if query_word or its singular/plural form appears in text (e.g. bananas vs banana)."""
-        if query_word in text_lower:
-            return True
-        if query_word.endswith("s") and len(query_word) > 1:
-            if query_word[:-1] in text_lower:
-                return True
-        elif query_word + "s" in text_lower:
-            return True
-        return False
-
     for item in items:
         print(f"Searching for: {item}...")
         try:
@@ -200,9 +182,8 @@ def scrape_items(driver, items, debug=False):
             index = 0
             max_attempts = 45
             first_fetch = True
-            query_words = get_query_words(item)
             if debug:
-                print(f"  [debug] query_words for matching: {query_words}")
+                print(f"  [debug] query_tokens for matching: {get_query_tokens(item)}")
 
             def get_cards():
                 # Primary: li with price symbol (most product cards)
@@ -270,19 +251,21 @@ def scrape_items(driver, items, debug=False):
                         unit = line
                 # Title: prefer a line that matches our search (e.g. "Banana", "Organic Bananas")
                 # so we don't use the badge text ("Best seller", "Gluten free") as the product name.
-                # When several lines match, prefer the longest (more descriptive product name).
-                if query_words:
-                    best_match = None
-                    for line in lines:
-                        line_clean = line.strip()
-                        if not line_clean or "$" in line_clean or len(line_clean) < 2 or len(line_clean) > 200:
-                            continue
-                        if not any(word_matches(line_clean.lower(), w) for w in query_words):
-                            continue
-                        if best_match is None or len(line_clean) > len(best_match):
-                            best_match = line_clean
-                    if best_match:
-                        title = best_match
+                # When several lines match, prefer by match_score then length.
+                best_match = None
+                best_score = -1.0
+                for line in lines:
+                    line_clean = line.strip()
+                    if not line_clean or "$" in line_clean or len(line_clean) < 2 or len(line_clean) > 200:
+                        continue
+                    if not product_matches_query(line_clean, item):
+                        continue
+                    score = match_score(line_clean, item)
+                    if score > best_score or (score == best_score and (best_match is None or len(line_clean) > len(best_match))):
+                        best_score = score
+                        best_match = line_clean
+                if best_match:
+                    title = best_match
                 if title == "Unknown":
                     for line in lines:
                         line_clean = line.strip()
@@ -290,17 +273,14 @@ def scrape_items(driver, items, debug=False):
                             title = line_clean
                             break
                 full_name = f"Publix {title}"
-                name_lower = full_name.lower()
-                if query_words:
-                    if not any(word_matches(name_lower, w) for w in query_words):
-                        if debug and count == 0 and index < 5:
-                            print(f"  [debug] Skip (no keyword match): {repr(full_name[:70])}...")
-                        index += 1
-                        continue
-                else:
-                    if item.lower() not in full_name.lower():
-                        index += 1
-                        continue
+                if not product_matches_query(full_name, item):
+                    if debug and count == 0 and index < 5:
+                        print(f"  [debug] Skip (no keyword match): {repr(full_name[:70])}...")
+                    index += 1
+                    continue
+                scraper_error = (
+                    price == "N/A" or not title or title == "Unknown" or not price.strip()
+                )
                 data.append({
                     "search_term": item,
                     "product_name": full_name,
@@ -308,6 +288,7 @@ def scrape_items(driver, items, debug=False):
                     "price": price,
                     "store": "Publix",
                     "date": datetime.now().strftime("%Y-%m-%d"),
+                    "scraper_error": scraper_error,
                 })
                 if debug:
                     print(f"  [debug] Kept: {full_name[:60]}... | {price}")

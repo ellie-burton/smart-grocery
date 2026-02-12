@@ -1,0 +1,76 @@
+﻿search_term,product_name,price,store,unit_size,price_per_unit_fmt,quality,category,brand_type
+Bread,"Walmart Great Value White Sandwich Bread, 20 oz",$1.54,Walmart,20 oz,$0.0770/oz,—,Pantry,National
+Bread,"Walmart Great Value White Round Top Bread Loaf, 20 oz",$1.54,Walmart,20 oz,$0.0770/oz,—,Pantry,National
+Bread,"Publix Publix Bread, Enriched, Large White",Current price: $2.65,Publix,20 oz,$0.1325/oz,—,Pantry,Private
+Bread,"Publix Publix Bread, Buttercrust",Current price: $3.15,Publix,20 oz,$0.1575/oz,—,Pantry,Private
+Bread,"Publix Publix Bread, Honey Wheat",Current price: $3.31,Publix,20 oz,$0.1655/oz,—,Pantry,Private
+Bread,"Publix Publix Bread, White Sandwich",Current price: $3.31,Publix,20 oz,$0.1655/oz,—,Pantry,Private
+Bread,"Publix Publix Bread, 100% Whole Wheat",Current price: $3.31,Publix,20 oz,$0.1655/oz,—,Pantry,Private
+Bread,"Walmart Sara Lee Butter Bread, 20 oz, White Bread, Bag",$3.34,Walmart,Bag,—,⚠️,Pantry,National
+Bread,"Simply Nature Organic  Graintastic Thin-sliced Bread, 20.4 oz",$3.85,Aldi,20.4 oz,$0.1887/oz,—,Pantry,Private
+Bread,"Simply Nature Organic  Seedtastic Thin-Sliced Bread, 20.4 oz",$3.85,Aldi,20 oz,$0.1925/oz,—,Pantry,Private
+Bread,"Simply Nature Sprouted 7 Grain Bread, 16 oz",$3.95,Aldi,16 oz,$0.2469/oz,—,Pantry,Private
+Bread,"Simply Nature Low Sodium Sprouted 7 Grain Bread, 16 oz",$3.95,Aldi,16 oz,$0.2469/oz,—,Pantry,Private
+Bread,"Simply Nature Graintastic Organic  Bread, 27 oz",$4.39,Aldi,27 oz,$0.1626/oz,—,Pantry,Private
+Bread,Walmart Dave's Killer Bread® Thin Sliced 21 Whole Grains and Seeds Organic Bread 20.5 oz. Loaf,$5.78,Walmart,,—,⚠️,Pantry,National
+Bread,"Walmart Chicago Deli Hawaiian Bread Mini Dogs, 8 oz (Frozen)",$5.87,Walmart,8 oz (Frozen),$0.7338/oz,—,Pantry,National
+Butter,"Countryside Creamery Salted Butter Sticks, 1 lb",$3.29,Aldi,16 oz,$0.2056/oz,—,Dairy,National
+Butter,"Publix Publix Butter, Salted, Sweet Cream",Current price: $3.87,Publix,8 oz,$0.4838/oz,—,Dairy,Private
+Butter,"Walmart Country Crock Plant Butter with Olive Oil, 14 oz Tub (Refrigerated)",$3.98,Walmart,14 oz Tub (Refrigerated),$0.2843/oz,—,Dairy,National
+Butter,"Walmart Country Crock Plant Butter with Avocado Oil, 14 oz Tub (Refrigerated)",$3.98,Walmart,14 oz Tub (Refrigerated),$0.2843/oz,—,Dairy,National
+Butter,"Walmart Country Crock Dairy Free Vegan Plant Butter with Olive Oil, 16 oz, 4 Sticks (Refrigerated)",$3.98,Walmart,4 Sticks (Refrigerated),—,⚠️,Dairy,National
+Butter,"Walmart Country Crock Dairy Free Vegan Plant Butter with Avocado Oil, 16 oz, 4 Sticks (Refrigerated)",$3.98,Walmart,4 Sticks (Refrigerated),—,⚠️,Dairy,National
+Butter,"Countryside Creamery Spreadable Irish  Butter with Canola Oil, 7.5 oz",$4.19,Aldi,7.5 oz,$0.5587/oz,—,Dairy,National
+Butter,"Countryside Creamery Spreadable Butter Light, 15 oz",$4.25,Aldi,15 oz,$0.2833/oz,—,Dairy,National
+Butter,"Countryside Creamery Spreadable Butter with Canola Oil, 15 oz",$4.25,Aldi,15 oz.,$0.2833/oz,—,Dairy,National
+Butter,"Countryside Creamery Pure Irish  Butter, 8 oz",$4.39,Aldi,8 oz,$0.5487/oz,—,Dairy,National
+Butter,"Walmart Land O Lakes Salted Stick Butter, 16 oz box, 4 Sticks",$4.96,Walmart,4 Sticks,—,⚠️,Dairy,National
+Butter,"Publix Publix Butter, Sweet Cream, Salted",Current price: $5.31,Publix,16 oz,$0.3319/oz,—,Dairy,Private
+Butter,"Publix Publix Butter, Sweet Cream, Unsalted",Current price: $5.31,Publix,16 oz,$0.3319/oz,—,Dairy,Private
+Butter,Publix Kerrygold Grass-Fed Pure Irish Salted Butter Foil,Current price: $6.91,Publix,8 oz,$0.8638/oz,—,Dairy,Private
+Butter,"Publix Kerrygold Butter, Pure Irish, Value Pack",Current price: $12.49,Publix,4 x 4 oz,$3.1225/oz,—,Dairy,Private
+Chicken Breast,"Kirkwood Split Chicken Breasts, per lb",$5.37,Aldi,avg. 2.7 lb/package  ($1.99/lb),$0.1243/oz,—,Meat,National
+Chicken Breast,"Simply Nature Organic Chicken Breasts, per lb",$5.79,Aldi,avg. 1 lb/package  ($5.79/lb),$0.3619/oz,—,Meat,Private
+Chicken Breast,"Kirkwood Fresh Chicken Breasts, per lb",$6.11,Aldi,avg. 1.75 lb/package  ($3.49/lb),$0.2182/oz,—,Meat,National
+Chicken Breast,Simply Nature Organic  Chicken  Breast Strips,$8.11,Aldi,avg. 1.25 lb/package  ($6.49/lb),$0.4055/oz,—,Meat,Private
+Chicken Breast,Simply Nature Organic  Chicken  Breast Strips,$9.11,Aldi,avg. 1.25 lb/package  ($7.29/lb),$0.4555/oz,—,Meat,Private
+Chicken Breast,Publix Just Bare Brand Boneless Skinless Chicken Breast Fillets,Current price: $9.43,Publix,1.13 lb,$0.5216/oz,—,Meat,National
+Chicken Breast,"Walmart Perdue Harvestland, Free Range, Fresh Boneless Chicken Breasts, 1.3-1.9 lb. Tray",$9.94,Walmart,1.3-1.9 lb. Tray,$0.4779/oz,—,Meat,National
+Chicken Breast,"Walmart Great Value All Natural Boneless Skinless Chicken Breasts, 3 lb (Frozen)",$9.94,Walmart,3 lb (Frozen),$0.2071/oz,—,Meat,National
+Chicken Breast,"Walmart Freshness Guaranteed Boneless, Skinless Chicken Breasts, 4.7-6.1 lb Tray",$11.57,Walmart,4.7-6.1 lb Tray,$0.1539/oz,—,Meat,National
+Chicken Breast,Publix Perdue Fresh Boneless Skinless Chicken Breasts,Current price: $11.86 per package (estimated),Publix,About 1.53 lb / package,$0.4845/oz,—,Meat,Private
+Chicken Breast,Publix Springer Mountain Farms Boneless Skinless Chicken Breasts,Current price: $11.97 per package (estimated),Publix,About 1.55 lb / package,$0.4827/oz,—,Meat,Private
+Chicken Breast,"Walmart Perdue Harvestland Individually Wrapped Chicken Breast, 2.25 lb. (Frozen)",$12.74,Walmart,2.25 lb. (Frozen),$0.3539/oz,—,Meat,National
+Chicken Breast,"Publix Publix Boneless Skinless Chicken Breast, USDA Grade A, 97% Fat Free",Current price: $13.01 per package (estimated),Publix,About 2.18 lb / package,$0.3730/oz,—,Meat,Private
+Chicken Breast,"Walmart Perdue Harvestland, Free Range, Fresh Boneless Chicken Breast, 2.75-3.6 lb. Tray",$15.36,Walmart,2.75-3.6 lb. Tray,$0.3491/oz,—,Meat,National
+Chicken Breast,"Publix Publix Chicken All Natural Boneless Skinless Chicken Breast (4 lb or more pkg), USDA Grade A, 97% Fat Free",Current price: $25.88 per package (estimated),Publix,About 4.68 lb / package,$0.3456/oz,—,Meat,Private
+Eggs,"Reggano Oven Ready Lasagna Noodles, 12 oz",$1.55,Aldi,12 oz,$0.1292/oz,—,Dairy,National
+Eggs,"Walmart Great Value Large White Eggs, 12 Count",$1.97,Walmart,12 Count,$0.1642/count,—,Dairy,National
+Eggs,"Goldhen Grade  A Large White Eggs, 1 dozen",$2.19,Aldi,12 ct,$0.1825/count,—,Dairy,Private
+Eggs,"Publix Publix Eggs, Large",Current price: $2.43,Publix,12 ct,$0.2025/count,—,Dairy,Private
+Eggs,"Walmart Great Value Large White Eggs, 18 Count",$2.92,Walmart,18 Count,$0.1622/count,—,Dairy,National
+Eggs,"Goldhen Cage  Free Large Eggs - Grade A, 1 dozen",$3.19,Aldi,12 ct,$0.2658/count,—,Dairy,Private
+Eggs,"Goldhen Free  Range Large Brown Grade A Eggs, 12 count",$4.25,Aldi,12 ct,$0.3542/count,—,Dairy,Private
+Eggs,Publix Publix Large Grade A Eggs,Current price: $4.81,Publix,18 ct,$0.2672/count,—,Dairy,Private
+Eggs,"Goldhen Liquid  Egg Whites, 32 oz",$5.29,Aldi,32 oz,$0.1653/oz,—,Dairy,Private
+Eggs,"Walmart Great Value Large White Eggs, 36 Count",$5.82,Walmart,36 Count,$0.1617/count,—,Dairy,National
+Eggs,Publix Nellies Free Range Eggs,Current price: $6.09,Publix,12 ct,$0.5075/count,—,Dairy,National
+Eggs,Walmart Pete & Gerry's Organic Eggs Large 12 Ct,$6.54,Walmart,,—,⚠️,Dairy,National
+Eggs,"Publix Publix Eggs, Large",Current price: $7.97,Publix,30 ct,$0.2657/count,—,Dairy,Private
+Eggs,"Publix Nellies Eggs, Free Range, Grade A, Brown, Extra Large",Current price: $8.85,Publix,18 ct,$0.4917/count,—,Dairy,National
+Eggs,"Walmart Great Value Large White Eggs, 60 Count",$9.56,Walmart,60 Count,$0.1593/count,—,Dairy,National
+Milk,"Friendly Farms 1% Milk, 64 fl oz",$2.25,Aldi,0.5 gal,$0.0352/oz,—,Dairy,Private
+Milk,"Friendly Farms 2% Milk, 64 fl oz",$2.25,Aldi,0.5 gal,$0.0352/oz,—,Dairy,Private
+Milk,"Friendly Farms Whole Milk, 0.5 gal",$2.25,Aldi,0.5 gal,$0.0352/oz,—,Dairy,Private
+Milk,"Walmart Feastables Protein Fortified Chocolate Milk, Shelf-Stable, 14 fl oz, Single Bottle",$2.47,Walmart,Single Bottle,—,⚠️,Dairy,National
+Milk,"Publix Publix Milk, Whole",Current price: $3.23,Publix,64 oz,$0.0505/oz,—,Dairy,Private
+Milk,"Publix Silk Almond Milk, Original, Dairy Free, Gluten Free, Seriously Creamy Vegan Plant Based Milk with 5 Essential Nutrients, 64 fl oz Half Gallon",Current price: $3.33,Publix,64 fl oz,$0.0520/oz,—,Dairy,Private
+Milk,"Publix Silk Almond Milk, Vanilla, Dairy Free, Gluten Free, Seriously Creamy Vegan Plant Based Milk with Great Taste and 5 Essential Nutrients, 64 fl oz Half Gallon",Current price: $3.33,Publix,64 fl oz,$0.0520/oz,—,Dairy,Private
+Milk,"Simply Nature Organic Whole Milk, 64 fl oz",$4.25,Aldi,64 fl oz,$0.0664/oz,—,Dairy,Private
+Milk,"Walmart Lactaid Whole Milk, 64 oz",$4.48,Walmart,64 oz,$0.0700/oz,—,Dairy,National
+Milk,"Walmart Lactaid Whole Milk, Calcium Enriched, 64 oz",$4.48,Walmart,64 oz,$0.0700/oz,—,Dairy,National
+Milk,"Walmart Lactaid 2% Reduced Fat Milk, 64 oz",$4.48,Walmart,64 oz,$0.0700/oz,—,Dairy,National
+Milk,"Walmart Lactaid Fat Free Milk, 64 oz",$4.48,Walmart,64 oz,$0.0700/oz,—,Dairy,National
+Milk,"Publix Publix Milk, Whole",Current price: $4.73,Publix,1 gal,$0.0370/oz,—,Dairy,Private
+Milk,"Publix Publix Milk, Reduced Fat, 2% Milkfat",Current price: $4.73,Publix,1 gal,$0.0370/oz,—,Dairy,Private
+Milk,"Russell Stover Assorted Milk & Dark Chocolate Heart Shaped Box, 17 count",$9.39,Aldi,10 oz,$0.9390/oz,—,Dairy,National

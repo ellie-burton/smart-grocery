@@ -1,3 +1,7 @@
+"""
+Deprecated: use main.py and main.run_scrapers_parallel() instead.
+This file does not enrich results (clean_price, unit_type, etc.) and is kept only for reference.
+"""
 import concurrent.futures
 import time
 from scrapers import publix, walmart, aldi
@@ -10,7 +14,7 @@ def run_scrapers_parallel(zip_code, items):
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         # 1. Submit both functions to the pool
         # syntax: executor.submit(function_name, arg1, arg2)
-        future_aldi = executor.submit(aldi .run, zip_code, items)
+        future_aldi = executor.submit(aldi.run, zip_code, items)
 
         future_publix = executor.submit(publix.run, zip_code, items)
         

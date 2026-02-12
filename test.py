@@ -1,13 +1,14 @@
 """
-Command-line script to run scrapers and save results to a temp CSV.
+Command-line script to run scrapers and save results to data/temp_results.csv.
 Use this to verify enrichment and unit standardization without the Streamlit UI.
 
 Usage (from project root):
   python test.py
+  python test.py 35401
   python test.py 35401 "milk,eggs,bread"
 
 Defaults: zip 35401, items ["milk", "eggs", "bread"].
-Output: data/temp_results.csv (or temp_results.csv if data/ missing)
+Output: data/temp_results.csv
 """
 import sys
 import csv
@@ -15,11 +16,12 @@ from pathlib import Path
 
 import main
 
-# Defaults
+# Project root = parent of this file; output under data/
+PROJECT_ROOT = Path(__file__).resolve().parent
+OUTPUT_DIR = PROJECT_ROOT / "data"
+TEMP_CSV = OUTPUT_DIR / "temp_results.csv"
 DEFAULT_ZIP = "35401"
 DEFAULT_ITEMS = ["milk", "eggs", "bread"]
-OUTPUT_DIR = Path(__file__).resolve().parent / "data"
-TEMP_CSV = OUTPUT_DIR / "temp_results.csv"
 
 
 def parse_args():
@@ -39,8 +41,6 @@ def save_results(results, path):
         return
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-
-    # Use first row to get all keys (enriched + raw)
     fieldnames = list(results[0].keys())
     with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")

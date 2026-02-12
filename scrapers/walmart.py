@@ -10,8 +10,10 @@ import undetected_chromedriver as uc
 
 try:
     from .utils import get_chrome_major_version
+    from .match import product_matches_query
 except ImportError:
     from utils import get_chrome_major_version
+    from match import product_matches_query
 
 
 def setup_stealth_driver():
@@ -155,29 +157,25 @@ def scrape_items(driver, items):
                             unit = parts[-1].strip()
 
                     full_name = f"Walmart {title}"
-                    
-                    # --- NEW FLEXIBLE MATCHING ---
-                    query_words = [w.lower() for w in item.split() if len(w) > 2]
-                    
-                    if query_words:
-                        if not any(w in full_name.lower() for w in query_words):
-                            continue
-                    else:
-                        if item.lower() not in full_name.lower():
-                            continue
-                    # -----------------------------
 
+                    if not product_matches_query(full_name, item):
+                        continue
+
+                    scraper_error = (
+                        price == "N/A" or not title or title == "Unknown"
+                    )
                     data.append({
                         "search_term": item,
                         "product_name": full_name,
                         "unit_size": unit,
                         "price": price,
                         "store": "Walmart",
-                        "date": datetime.now().strftime("%Y-%m-%d")
+                        "date": datetime.now().strftime("%Y-%m-%d"),
+                        "scraper_error": scraper_error,
                     })
                     count += 1
                     
-                except AttributeError:
+                except (AttributeError, TypeError):
                     continue
                     
         except Exception as e:

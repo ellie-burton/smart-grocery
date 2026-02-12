@@ -2,6 +2,12 @@
 
 import streamlit as st
 
+with st.sidebar:
+    st.markdown("## Smart Grocer")
+    st.caption("Your local price comparison tool")
+    st.markdown("---")
+    st.page_link("app.py", label="← Back to main", icon="🏠")
+
 st.title("How it works")
 st.markdown("A short guide to how Smart Grocery finds and compares prices.")
 

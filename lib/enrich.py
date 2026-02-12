@@ -6,6 +6,7 @@ brand_type, category, and optional flags. Used before saving or displaying.
 import re
 
 from scrapers.units import standardize_unit
+from scrapers.match import match_score
 
 # Private-label prefixes (case-insensitive); product name starting with these -> "Private"
 PRIVATE_LABEL_PREFIXES = (
@@ -102,6 +103,25 @@ def get_brand_type(product_name):
     return "National"
 
 
+def _extract_unit_phrase_from_text(text):
+    """
+    Try to find a unit phrase in product name/title when scraper left unit_size empty.
+    E.g. "Pete & Gerry's Organic Eggs Large 12 Ct" -> "12 Ct"
+    Returns None if no recognizable pattern.
+    """
+    if not text or not isinstance(text, str):
+        return None
+    # Match: number (optional decimal) + optional space + unit word (ct, count, oz, fl oz, gal, lb, etc.)
+    m = re.search(
+        r"\b(\d+\.?\d*)\s*(?:fl\s*)?(?:oz|ct|count|gal|gallon|lb|pound|sticks?|bottles?)\b",
+        text,
+        re.IGNORECASE,
+    )
+    if m:
+        return f"{m.group(1)} {m.group(0).split()[-1].lower()}"
+    return None
+
+
 def get_category(search_term, category_map=None):
     """Maps search_term to category. Uses category_map or DEFAULT_CATEGORY_MAP."""
     if not search_term:
@@ -118,21 +138,30 @@ def enrich_results(results, category_map=None):
     - normalized_qty (float or None)
     - unit_type ('oz'|'count'|None)
     - unit_uncertain (bool)
+    - scraper_error (bool, preserved from scraper or default False)
+    - name_match_uncertain (bool, from match_score threshold)
     - brand_type ('Private'|'National'|'Unknown')
     - category (str)
     - price_per_unit (float or None when comparable)
 
     Modifies each dict in place and returns the same list.
     """
+    NAME_MATCH_UNCERTAIN_THRESHOLD = 0.5  # below this score -> name_match_uncertain
     for row in results:
+        if row.get("scraper_error") is None:
+            row["scraper_error"] = False
         # Clean price
         raw_price = row.get("price")
         cp = clean_price(raw_price)
         row["clean_price"] = cp if cp is not None else 999.0  # sentinel for sort
 
-        # Unit standardization
+        # Unit standardization: use unit_size first; if empty, try to extract from product_name
         raw_unit = row.get("unit_size") or ""
         parsed = standardize_unit(raw_unit)
+        if not parsed and raw_unit.strip() == "":
+            fallback = _extract_unit_phrase_from_text(row.get("product_name"))
+            if fallback:
+                parsed = standardize_unit(fallback)
         if parsed:
             row["normalized_qty"] = parsed["qty"]
             row["unit_type"] = parsed["unit"]
@@ -153,5 +182,9 @@ def enrich_results(results, category_map=None):
 
         # Category
         row["category"] = get_category(row.get("search_term"), category_map)
+
+        # Name match confidence (low score -> uncertain)
+        score = match_score(row.get("product_name"), row.get("search_term"))
+        row["name_match_uncertain"] = score < NAME_MATCH_UNCERTAIN_THRESHOLD
 
     return results
