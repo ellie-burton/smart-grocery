@@ -2,6 +2,8 @@
 
 Compare grocery prices across **Aldi**, **Publix**, and **Walmart** by entering a list and location. Uses a Streamlit UI and optional daily-basket script for longitudinal tracking.
 
+> **Note:** The scrapers have not been maintained since **March 11, 2026**. Aldi, Publix, and Walmart frequently change their site layouts and bot-detection logic, so live scraping is **not guaranteed** to still work. The app, analysis notebook, and report figures all run against the included `data/daily_basket_cleaned.csv`, so everything except a fresh scrape will continue to function regardless.
+
 ## Requirements
 
 - **Python 3.9+**
