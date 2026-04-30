@@ -29,20 +29,10 @@ Compare grocery prices across **Aldi**, **Publix**, and **Walmart** by entering 
 | Command | What it does |
 |---------|--------------|
 | `streamlit run app.py` | Start the web UI (enter list + zip, get prices). |
-| `python test.py [zip] "item1,item2"` | Run all three scrapers from the CLI; saves to `data/temp_results.csv`. |
 | `python run_daily_basket.py [zip]` | Run the fixed 12-item daily basket; appends to `data/daily_basket.csv`. |
 | `python main.py` | Run scrapers with default zip and list (no CSV). |
 
 Optional: set **SMART_GROCERY_ZIP** in the environment to use a default zip for the daily basket.
-
-## Tests
-
-Unit tests cover **unit standardization** (`scrapers/units.py`) and **product name matching** (`scrapers/match.py`). From the project root:
-
-```bash
-pip install -r requirements.txt
-python -m pytest tests/ -v
-```
 
 **Tip:** If you use conda, run these commands in Command Prompt (or your terminal) with the `base` env active so `python` and `pip` are on your PATH.
 

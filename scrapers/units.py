@@ -34,6 +34,12 @@ def standardize_unit(raw_unit_str):
     s = re.sub(r"\s*\([^)]*\)", "", s).strip()
     if not s:
         return None
+    
+    # Skip non-unit descriptors that shouldn't be parsed
+    skip_patterns = ["shelf-stable", "shelf stable", "non-gmo", "organic", "natural"]
+    for skip in skip_patterns:
+        if s == skip:
+            return None
 
     # --- CONVERSION LOGIC ---
     # 1. Handle "Dozen" -> 12 count
@@ -65,11 +71,13 @@ def standardize_unit(raw_unit_str):
         val = _first_float(re.findall(r"[\d\.]+", s))
         return {"qty": val if val is not None else 1.0, "unit": "count"}
 
-    # 5. Standard Ounces (oz, fl oz) / Counts (ct, count) — check before stick/bottle/bag
+    # 5. Standard Ounces - handle various formats including "Fluid Ounce", "fl oz", "oz"
+    # Check for ounce patterns (case-insensitive via lower())
     numbers = re.findall(r"[\d\.]+", s)
     val = _first_float(numbers)
     if val is not None:
-        if "oz" in s:  # covers "fl oz" as well, and "20 oz bag"
+        # "90 fluid ounce", "24.5 ounce", "fl oz", "oz"
+        if "ounce" in s or "oz" in s:
             return {"qty": val, "unit": "oz"}
         if "ct" in s or "count" in s:
             return {"qty": val, "unit": "count"}
@@ -86,9 +94,17 @@ def standardize_unit(raw_unit_str):
             val = 1.0
         return {"qty": val if val is not None else 1.0, "unit": "count"}
 
-    # 4e. Handle "bag" (ambiguous size; treat as 1 count for price-per-unit)
+    # 4e. Handle "bag" - try to extract oz from it first (e.g. "16 oz bag")
     if "bag" in s:
+        # Already handled by oz check above, but if no oz found:
         val = _first_float(re.findall(r"[\d\.]+", s))
         return {"qty": val if val is not None else 1.0, "unit": "count"}
+    
+    # 4f. Handle "loaf" for bread (e.g. "20 oz loaf")
+    if "loaf" in s:
+        val = _first_float(re.findall(r"[\d\.]+", s))
+        if val is not None:
+            return {"qty": val, "unit": "oz"}
+        return {"qty": 1.0, "unit": "count"}
 
     return None

@@ -10,14 +10,13 @@ def run_scrapers_parallel(zip_code, items, category_map=None):
     Enriches results with clean_price, normalized_qty, unit_type, brand_type,
     category, and price_per_unit. Returns a combined list of product dicts.
     """
-    print(f"🚀 Starting parallel scrape for: {items} in {zip_code}")
+    print(f"Starting parallel scrape for: {items} in {zip_code}")
     results = []
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         future_aldi = executor.submit(aldi.run, zip_code, items)
-        time.sleep(1)
+        time.sleep(1)  # stagger browser launches for Aldi / Publix
         future_publix = executor.submit(publix.run, zip_code, items)
-        time.sleep(1)
         future_walmart = executor.submit(walmart.run, zip_code, items)
 
         name_to_future = {
@@ -32,7 +31,7 @@ def run_scrapers_parallel(zip_code, items, category_map=None):
                 if data:
                     results.extend(data)
             except Exception as e:
-                print(f"❌ {name} scraper crashed: {e}")
+                print(f"ERROR: {name} scraper crashed: {e}")
 
     enrich_results(results, category_map=category_map)
     return results

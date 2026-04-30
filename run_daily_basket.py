@@ -29,6 +29,25 @@ def get_zip_code():
     return os.environ.get("SMART_GROCERY_ZIP", DEFAULT_ZIP)
 
 
+CANONICAL_FIELDNAMES = [
+    "search_term",
+    "product_name", 
+    "unit_size",
+    "price",
+    "store",
+    "date",
+    "clean_price",
+    "normalized_qty",
+    "unit_type",
+    "unit_uncertain",
+    "price_per_unit",
+    "brand_type",
+    "category",
+    "scraper_error",
+    "name_match_uncertain",
+]
+
+
 def append_results(results, path):
     """Append enriched results to CSV; create file with header if needed."""
     path = Path(path)
@@ -39,7 +58,16 @@ def append_results(results, path):
         print("No results to save.")
         return
 
-    fieldnames = list(results[0].keys())
+    # Use canonical field order for consistent schema across runs
+    # This prevents schema drift when dict key ordering changes
+    fieldnames = CANONICAL_FIELDNAMES
+    
+    # Warn if results have unexpected fields (for debugging)
+    result_keys = set(results[0].keys()) if results else set()
+    extra_keys = result_keys - set(fieldnames)
+    if extra_keys:
+        print(f"Warning: Results contain unexpected fields (will be ignored): {extra_keys}")
+    
     with open(path, "a", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
         if not file_exists:

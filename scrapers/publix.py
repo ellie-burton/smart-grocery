@@ -1,3 +1,13 @@
+"""
+Publix scraper — Selenium-based.
+
+Navigates the Publix delivery (Instacart) storefront, searches for each item,
+and parses product cards from the rendered page.
+
+Location selection has been removed — the site uses the browser's default /
+previously-saved location, which is sufficient for price comparison purposes.
+"""
+
 import re
 import time
 from datetime import datetime
@@ -13,146 +23,63 @@ try:
     from .match import product_matches_query, match_score, get_query_tokens
 except ImportError:
     from utils import setup_driver
-    from match import product_matches_query, match_score, get_query_tokens 
+    from match import product_matches_query, match_score, get_query_tokens
+
 
 def force_click(driver, element):
     driver.execute_script("arguments[0].click();", element)
 
-def set_store_location(driver, zip_code):
-    print(f"Setting Publix (Delivery/Pickup) location to: {zip_code}")
-    driver.get("https://delivery.publix.com/store/publix/storefront")
-    
-    try:
-        # 1. Wait for Shopping Modal
-        print("Waiting for shopping modal...")
-        WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located((By.XPATH, "//h2[contains(text(), 'How would you like to shop')]"))
-        )
-        time.sleep(3)
 
-        # 2. Click 'Edit' Button
-        print("Scanning for 'Edit' button...")
-        edit_buttons = driver.find_elements(By.XPATH, "//button[contains(., 'Edit')]")
+def _dismiss_landing_popup(driver):
+    """
+    The Publix/Instacart storefront shows a pickup-or-delivery popup on
+    first load.  Click through confirmation buttons until the search bar
+    is reachable.  Multiple overlays can appear in sequence, so we loop.
+    """
+    confirm_xpaths = [
+        "//button[contains(., 'Confirm')]",
+        "//button[contains(., 'Shop this store')]",
+        "//button[contains(., 'Continue')]",
+        "//button[contains(., 'Start shopping')]",
+    ]
+    for attempt in range(5):
         clicked = False
-        
-        for btn in edit_buttons:
-            try:
-                sibling = btn.find_element(By.XPATH, "./preceding-sibling::button")
-                if "pickup" in sibling.text.lower():
-                    force_click(driver, btn)
+        for xpath in confirm_xpaths:
+            btns = driver.find_elements(By.XPATH, xpath)
+            if btns:
+                try:
+                    force_click(driver, btns[0])
+                    print(f"Dismissed popup via: {xpath}")
                     clicked = True
+                    time.sleep(3)
                     break
-            except:
-                continue
-        
-        if not clicked and len(edit_buttons) >= 2:
-            force_click(driver, edit_buttons[1])
-        
-        time.sleep(4) 
+                except Exception:
+                    continue
+        if not clicked:
+            break
+        time.sleep(1)
 
-        # 3. INTERACT WITH ZIP INPUT
-        print("Looking for 'Near...' button to click...")
-        try:
-            near_btn = WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, "//button[.//span[contains(text(), 'Near')]]"))
-            )
-            near_btn.click()
-            time.sleep(1)
+    # Wait for any remaining overlay to fade before searching
+    try:
+        WebDriverWait(driver, 8).until(
+            EC.element_to_be_clickable((By.ID, "search-bar-input"))
+        )
+    except Exception:
+        print("Search bar not yet clickable — proceeding anyway.")
 
-            real_input = WebDriverWait(driver, 5).until(
-                EC.visibility_of_element_located((By.XPATH, "//input[@type='text' or @type='tel']"))
-            )
-            
-            real_input.clear()
-            real_input.send_keys(zip_code)
-            real_input.send_keys(Keys.ENTER)
-
-            time.sleep(2) 
-
-            # Keyboard Selection
-            real_input.send_keys(Keys.ARROW_DOWN)
-            time.sleep(1)
-            
-            real_input.send_keys(Keys.ENTER)
-            print(f"Entered Zip: {zip_code}")
-            
-        except Exception as e:
-            print(f"Zip input interaction failed: {e}")
-
-        time.sleep(3)
-
-        # 3.5 HANDLE "SAVE ADDRESS" BUTTON (The New Fix)
-        # Some addresses require a manual save confirmation
-        try:
-            save_addr_btn = driver.find_elements(By.XPATH, "//button[contains(., 'Save Address')]")
-            if save_addr_btn:
-                print("Found 'Save Address' button. Clicking it...")
-                force_click(driver, save_addr_btn[0])
-                time.sleep(3) # Wait for next screen
-        except:
-            pass
-
-        time.sleep(3) # Wait for Store List to load
-
-        # 4. SELECT FIRST STORE CARD
-        print("Selecting first store card...")
-        try:
-            # Check if store list is present (if not, maybe we are already set)
-            store_list = driver.find_elements(By.XPATH, "//ul[@aria-labelledby='locations-list']")
-            if store_list:
-                first_store_btn = WebDriverWait(driver, 10).until(
-                    EC.element_to_be_clickable((By.XPATH, "//ul[@aria-labelledby='locations-list']/li[1]//button"))
-                )
-                driver.execute_script("arguments[0].scrollIntoView(true);", first_store_btn)
-                time.sleep(1)
-                force_click(driver, first_store_btn)
-                print("Clicked store card.")
-            else:
-                print("Store list not found. Assuming location set successfully.")
-        except Exception as e:
-            print(f"Could not click store card: {e}")
-
-        time.sleep(2)
-
-        # 5. STEP 1: CLICK "SHOP THIS STORE"
-        print("Step 1: Clicking 'Shop this store'...")
-        try:
-            shop_btn = WebDriverWait(driver, 5).until(
-                EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Shop this store')]"))
-            )
-            force_click(driver, shop_btn)
-            print("Clicked 'Shop this store'.")
-        except:
-            print("'Shop this store' button not found (might have skipped).")
-
-        time.sleep(6) 
-
-        # 6. STEP 2: FINAL CONFIRMATION
-        print("Step 2: Waiting for Final Confirmation...")
-        try:
-            confirm_btn = WebDriverWait(driver, 5).until(
-                EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Confirm') or contains(., 'Switch')]"))
-            )
-            force_click(driver, confirm_btn)
-            print("Final Confirmation clicked!")
-        except:
-            print("No final confirmation popup found (maybe auto-confirmed).")
-
-        time.sleep(5)
-        return "Publix Delivery"
-
-    except Exception as e:
-        print(f"Error setting location: {e}")
-        return "Publix Default"
 
 def scrape_items(driver, items, debug=False):
     data = []
-    print("Preparing to scrape items...")
+
+    print("Navigating to Publix storefront...")
+    driver.get("https://delivery.publix.com/store/publix/storefront")
+    time.sleep(5)
+
+    _dismiss_landing_popup(driver)
 
     for item in items:
         print(f"Searching for: {item}...")
         try:
-            # 1. FIND THE SEARCH BAR
             try:
                 search_box = WebDriverWait(driver, 15).until(
                     EC.element_to_be_clickable((By.ID, "search-bar-input"))
@@ -161,13 +88,11 @@ def scrape_items(driver, items, debug=False):
                 print("ID selector failed, trying generic form input...")
                 search_box = driver.find_element(By.CSS_SELECTOR, "form[role='search'] input")
 
-            # Click to focus
             try:
                 search_box.click()
             except Exception:
                 force_click(driver, search_box)
 
-            # 2. TYPE SEARCH TERM
             search_box.send_keys(Keys.CONTROL + "a")
             search_box.send_keys(Keys.BACK_SPACE)
             time.sleep(0.5)
@@ -177,7 +102,6 @@ def scrape_items(driver, items, debug=False):
 
             time.sleep(6)
 
-            # 3. PARSE RESULTS (re-find cards each index to avoid stale element)
             count = 0
             index = 0
             max_attempts = 45
@@ -186,11 +110,9 @@ def scrape_items(driver, items, debug=False):
                 print(f"  [debug] query_tokens for matching: {get_query_tokens(item)}")
 
             def get_cards():
-                # Primary: li with price symbol (most product cards)
                 cards = driver.find_elements(By.XPATH, "//li[contains(., '$')]")
                 if cards:
                     return cards
-                # Produce/weight items often show "per lb" or "Current price" without $ in same li
                 cards = driver.find_elements(
                     By.XPATH,
                     "//li[contains(., 'Current price') or contains(., 'per lb') or contains(., 'per each') or contains(., 'Price')]",
@@ -228,7 +150,6 @@ def scrape_items(driver, items, debug=False):
                 if text is None:
                     index += 1
                     continue
-                # Skip if no price hint at all ($ or produce-style "per lb" / "Current price")
                 has_price_hint = "$" in text or "per lb" in text or "per each" in text or "Current price" in text.lower()
                 if not text or not has_price_hint:
                     if debug and index < 3:
@@ -239,7 +160,6 @@ def scrape_items(driver, items, debug=False):
                 price = "N/A"
                 title = "Unknown"
                 unit = ""
-                # First pass: collect price and unit; pick title (prefer line that matches search)
                 for line in lines:
                     if "$" in line and price == "N/A":
                         price = line
@@ -249,9 +169,6 @@ def scrape_items(driver, items, debug=False):
                             price = f"${num.group()}" if "$" not in line else line
                     elif any(x in line.lower() for x in ["oz", "ct", "lb", "gal", "pk"]):
                         unit = line
-                # Title: prefer a line that matches our search (e.g. "Banana", "Organic Bananas")
-                # so we don't use the badge text ("Best seller", "Gluten free") as the product name.
-                # When several lines match, prefer by match_score then length.
                 best_match = None
                 best_score = -1.0
                 for line in lines:
@@ -306,13 +223,17 @@ def scrape_items(driver, items, debug=False):
 
     return data
 
+
 def run(zip_code, items, debug=False):
+    """
+    zip_code is accepted for interface compatibility but no longer used.
+    """
     driver = setup_driver()
     try:
-        set_store_location(driver, zip_code)
         return scrape_items(driver, items, debug=debug)
     finally:
         driver.quit()
 
+
 if __name__ == "__main__":
-    print(run("2816 Wynthrope Hall Dr", ["eggs", "bread"]))
+    print(run("35401", ["eggs", "bread"]))

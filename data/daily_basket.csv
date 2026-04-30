@@ -139,3 +139,839 @@ Dish Soap,"Walmart Dawn Platinum Dish Soap Liquid, Dishwashing Liquid, Grease Re
 Dish Soap,"Walmart Dawn Platinum Plus PowerSuds Liquid Dish Soap, 51.5 oz. Refill",51.5 oz. Refill,$12.94,Walmart,2026-02-03,12.94,51.5,oz,False,0.251262,National,Household
 Dish Soap,"Walmart Dawn Ultra Liquid Dish Soap, Dishwashing Liquid, Grease Removal, Original, 18oz",18oz,$2.94,Walmart,2026-02-03,2.94,18.0,oz,False,0.163333,National,Household
 Dish Soap,"Walmart Dawn Ultra Liquid Dish Soap, Dishwashing Liquid, Grease Removal, Original, 5.8oz",5.8oz,$0.97,Walmart,2026-02-03,0.97,5.8,oz,False,0.167241,National,Household
+Whole Milk,"Friendly Farms Whole  Milk, 1 gal",1 gal,$3.75,Aldi,2026-02-18,False,3.75,128.0,oz,False,0.029297,Private,Dairy,False
+Whole Milk,"Friendly Farms Whole Milk, 0.5 gal",0.5 gal,$2.25,Aldi,2026-02-18,False,2.25,64.0,oz,False,0.035156,Private,Dairy,False
+Whole Milk,"Friendly Farms Lactose Free Whole Milk, 64 fl oz",64 fl oz,$3.29,Aldi,2026-02-18,False,3.29,64.0,oz,False,0.051406,Private,Dairy,False
+Whole Milk,"Simply Nature Kids Organic Whole Milk, 59 fl oz",59 fl oz,$5.49,Aldi,2026-02-18,False,5.49,59.0,oz,False,0.093051,Private,Dairy,False
+Large Eggs (12 count),"Goldhen Free  Range Large Brown Grade A Eggs, 12 count",12 ct,$4.25,Aldi,2026-02-18,False,4.25,12.0,count,False,0.354167,Private,Dairy,False
+Large Eggs (12 count),"Goldhen Pasture Raised Large Brown Eggs Grade A, 12 count",12 ct,$4.35,Aldi,2026-02-18,False,4.35,12.0,count,False,0.3625,Private,Dairy,False
+Large Eggs (12 count),"Happy Farms Mozzarella String  Cheese, 12 count",12 oz,$3.45,Aldi,2026-02-18,False,3.45,12.0,oz,False,0.2875,National,Dairy,False
+Large Eggs (12 count),"Happy Farms Gouda Cheese Snack Sticks, 12 count",9 oz,$3.19,Aldi,2026-02-18,False,3.19,9.0,oz,False,0.354444,National,Dairy,False
+Large Eggs (12 count),"Happy Farms Habanero Jack Cheese Snack Sticks, 12 count",9 oz,$3.19,Aldi,2026-02-18,False,3.19,9.0,oz,False,0.354444,National,Dairy,False
+Salted Butter,"Countryside Creamery Salted Butter Sticks, 1 lb",16 oz,$3.65,Aldi,2026-02-18,False,3.65,16.0,oz,False,0.228125,National,Dairy,False
+Salted Butter,"Simply Nature Organic Salted Butter, 16 oz",16 oz,$6.85,Aldi,2026-02-18,False,6.85,16.0,oz,False,0.428125,Private,Dairy,False
+Bananas,"Bananas, per lb",avg. 0.33 lb/piece  ($0.49/lb),$0.16,Aldi,2026-02-18,False,0.16,5.28,oz,False,0.030303,National,Produce,False
+Bananas,Sweet Banana Pepper,1 ea,$1.64,Aldi,2026-02-18,False,1.64,,,True,,National,Produce,False
+Bananas,"Simply Nature Dark Chocolate Covered Banana, 4 oz",4 oz,$4.39,Aldi,2026-02-18,False,4.39,4.0,oz,False,1.0975,Private,Produce,False
+Bananas,"Organic Bananas, per lb",avg. 1 lb/piece  ($0.73/lb),$0.73,Aldi,2026-02-18,False,0.73,16.0,oz,False,0.045625,National,Produce,False
+Bananas,"Bake Shop Banana Nut Muffins, 4 count",14.1 oz,$4.29,Aldi,2026-02-18,False,4.29,14.1,oz,False,0.304255,National,Produce,False
+Gala Apples,"Gala Apples, 3 lb",3 lb,$2.19,Aldi,2026-02-18,False,2.19,48.0,oz,False,0.045625,National,Produce,False
+Gala Apples,"Organic Gala Apples, 3 lb",3 lb,$4.75,Aldi,2026-02-18,False,4.75,48.0,oz,False,0.098958,National,Produce,False
+Iceberg Lettuce,"Iceberg Lettuce, each",1 each,$2.55,Aldi,2026-02-18,False,2.55,1.0,count,False,2.55,National,Produce,False
+Ground Beef 80/20,"Fresh  80% Lean 20% Fat Ground Beef, per lb",avg. 2 lb/package  ($5.49/lb),$10.98,Aldi,2026-02-18,False,10.98,32.0,oz,False,0.343125,National,Meat,False
+Ground Beef 80/20,"Fresh  80% Lean 20% Fat Ground Beef Patties, 4 count",avg. 1.33 lb/package  ($5.59/lb),$7.43,Aldi,2026-02-18,False,7.43,21.28,oz,False,0.349154,National,Meat,False
+Ground Beef 80/20,"Fresh  80%  Lean 20% Fat Ground Beef Patties Family Pack, 10 count",2.2 lb,$12.00,Aldi,2026-02-18,False,12.0,35.2,oz,False,0.340909,National,Meat,False
+Ground Beef 80/20,"Never Any! Antibiotic Free 80% Lean Ground Pork, 16 oz",16 oz,$3.55,Aldi,2026-02-18,False,3.55,16.0,oz,False,0.221875,Private,Meat,False
+Chicken Breast,Simply Nature Organic  Chicken  Breast Strips,avg. 1.25 lb/package  ($7.29/lb),$9.11,Aldi,2026-02-18,False,9.11,20.0,oz,False,0.4555,Private,Meat,False
+Chicken Breast,Simply Nature Organic  Chicken  Breast Strips,avg. 1.25 lb/package  ($6.49/lb),$8.11,Aldi,2026-02-18,False,8.11,20.0,oz,False,0.4055,Private,Meat,False
+Chicken Breast,"Simply Nature Organic Chicken Breasts, per lb",avg. 1 lb/package  ($5.79/lb),$5.79,Aldi,2026-02-18,False,5.79,16.0,oz,False,0.361875,Private,Meat,False
+Chicken Breast,"Kirkwood Fresh Chicken Breasts, per lb",avg. 1.75 lb/package  ($3.49/lb),$6.11,Aldi,2026-02-18,False,6.11,28.0,oz,False,0.218214,National,Meat,False
+Chicken Breast,"Kirkwood Split Chicken Breasts, per lb",avg. 2.7 lb/package  ($1.99/lb),$5.37,Aldi,2026-02-18,False,5.37,43.2,oz,False,0.124306,National,Meat,False
+White Bread,"L'oven Fresh White Bread,  20 oz",20 oz,$1.55,Aldi,2026-02-18,False,1.55,20.0,oz,False,0.0775,National,Pantry,False
+White Bread,"L'oven Fresh Keto  Friendly White Bread, 14 oz",14 oz,$4.95,Aldi,2026-02-18,False,4.95,14.0,oz,False,0.353571,National,Pantry,False
+White Bread,"liveGfree Gluten Free Wide Pan White Bread, 20 oz",20 oz,$7.69,Aldi,2026-02-18,False,7.69,20.0,oz,False,0.3845,National,Pantry,False
+Tomato Sauce,"Happy Harvest Tomato Sauce, 8 oz",8 oz,$0.55,Aldi,2026-02-18,False,0.55,8.0,oz,False,0.06875,National,Pantry,False
+Dish Soap,"Dawn Ultra Dish Soap, 28 fl oz",28 fl oz,$4.95,Aldi,2026-02-18,False,4.95,28.0,oz,False,0.176786,National,Household,False
+Whole Milk,Publix Lactaid Whole Milk,96 fl oz,Current price: $7.75,Publix,2026-02-18,False,7.75,96.0,oz,False,0.080729,Private,Dairy,False
+Whole Milk,Publix Organic Valley® Grassmilk® Organic Whole Milk,59 fl oz,Current price: $8.19,Publix,2026-02-18,False,8.19,59.0,oz,False,0.138814,National,Dairy,False
+Whole Milk,"Publix Publix Milk, Whole",64 oz,Current price: $3.23,Publix,2026-02-18,False,3.23,64.0,oz,False,0.050469,Private,Dairy,False
+Whole Milk,"Publix Publix Milk, Whole",1 gal,Current price: $4.73,Publix,2026-02-18,False,4.73,128.0,oz,False,0.036953,Private,Dairy,False
+Whole Milk,"Publix Publix Milk, Whole",,Current price: $2.43,Publix,2026-02-18,False,2.43,,,True,,Private,Dairy,False
+Large Eggs (12 count),"Publix Nellies Eggs, Free Range, Grade A, Brown, Extra Large",18 ct,Current price: $8.75,Publix,2026-02-18,False,8.75,18.0,count,False,0.486111,National,Dairy,False
+Large Eggs (12 count),Publix 12 ct,12 ct,Current price: $4.41,Publix,2026-02-18,False,4.41,12.0,count,False,0.3675,Private,Dairy,False
+Large Eggs (12 count),"Publix Publix Eggs, Large",12 ct,Current price: $2.43,Publix,2026-02-18,False,2.43,12.0,count,False,0.2025,Private,Dairy,False
+Large Eggs (12 count),Publix Eggland's Best Grade A Large White Eggs,12 ct,Current price: $4.41,Publix,2026-02-18,False,4.41,12.0,count,False,0.3675,National,Dairy,False
+Large Eggs (12 count),"Publix Eggland's Best Cage Free Large Brown Eggs, 12 count",12 ct,Current price: $5.53,Publix,2026-02-18,False,5.53,12.0,count,False,0.460833,National,Dairy,False
+Salted Butter,"Publix Land O Lakes Butter, Salted",1 lb,Current price: $6.63,Publix,2026-02-18,False,6.63,16.0,oz,False,0.414375,National,Dairy,False
+Salted Butter,"Publix Land O Lakes Butter, Salted, Half Sticks",1 lb,Current price: $6.63,Publix,2026-02-18,False,6.63,16.0,oz,False,0.414375,National,Dairy,False
+Salted Butter,"Publix Publix Butter, Sweet Cream, Salted",16 oz,Current price: $5.31,Publix,2026-02-18,False,5.31,16.0,oz,False,0.331875,Private,Dairy,False
+Salted Butter,"Publix Publix Butter, Salted, Sweet Cream",8 oz,Current price: $2.43,Publix,2026-02-18,False,2.43,8.0,oz,False,0.30375,Private,Dairy,False
+Salted Butter,"Publix Publix Whipped Butter, Salted",8 oz,Current price: $3.87,Publix,2026-02-18,False,3.87,8.0,oz,False,0.48375,Private,Dairy,False
+Bananas,Publix Tru Fru Nature's Bananas Hyper-Chilled in Peanut Butter & Dark Chocolate,8 oz,Current price: $9.97,Publix,2026-02-18,False,9.97,8.0,oz,False,1.24625,Private,Produce,False
+Bananas,Publix Diana’s Gluten Free Dark Chocolate Frozen Fresh Fruit Banana Sticks,4 x 2.3 oz,Current price: $7.53,Publix,2026-02-18,False,7.53,4.0,oz,False,1.8825,Private,Produce,False
+Bananas,Publix Banana,About 0.41 lb each,Current price: $0.34 each (estimated),Publix,2026-02-18,False,0.34,6.56,oz,False,0.051829,Private,Produce,False
+Bananas,Publix Organic Bananas,About 0.46 lb each,Current price: $0.49 each (estimated),Publix,2026-02-18,False,0.49,7.36,oz,False,0.066576,Private,Produce,False
+Bananas,Publix Tru Fru Nature's Bananas Hyper-Chilled in Peanut Butter & Dark Chocolate,8 oz,Current price: $9.97,Publix,2026-02-18,False,9.97,8.0,oz,False,1.24625,Private,Produce,False
+Gala Apples,Publix Gala Apple,About 0.54 lb each,Current price: $1.59 each (estimated),Publix,2026-02-18,False,1.59,8.64,oz,False,0.184028,Private,Produce,False
+Gala Apples,Publix GreenWise Organic Gala Apples,2 lb,Current price: $6.63,Publix,2026-02-18,False,6.63,32.0,oz,False,0.207187,Private,Produce,False
+Gala Apples,Publix CMI Orchards Gala Snack Apples,2 lb,Current price: $5.53,Publix,2026-02-18,False,5.53,32.0,oz,False,0.172813,Private,Produce,False
+Iceberg Lettuce,Publix Iceberg Lettuce,,Current price: $2.97,Publix,2026-02-18,False,2.97,,,True,,Private,Produce,False
+Iceberg Lettuce,Publix Organic Iceberg Lettuce,,Current price: $3.87,Publix,2026-02-18,False,3.87,,,True,,Private,Produce,False
+Iceberg Lettuce,Publix Fresh Express Iceberg Lettuce Shreds,,Current price: $4.19,Publix,2026-02-18,False,4.19,,,True,,National,Produce,False
+Ground Beef 80/20,"Publix Schweid & Sons Ground Beef, 80%/20%, Butcher's Blend",16 oz,Current price: $9.19,Publix,2026-02-18,False,9.19,16.0,oz,False,0.574375,Private,Meat,False
+Ground Beef 80/20,"Publix Publix Ground Chuck Beef, USDA-Inspected",About 1.52 lb / package,Current price: $10.93 per package (estimated),Publix,2026-02-18,False,10.93,24.32,oz,False,0.449424,Private,Meat,False
+Ground Beef 80/20,Publix GreenWise Ground Chuck 100% Beef 80% Lean 20% Fat,About 1.19 lb each,Current price: $13.08 each (estimated),Publix,2026-02-18,False,13.08,19.04,oz,False,0.686975,Private,Meat,False
+Ground Beef 80/20,"Publix Schweid & Sons Ground Beef, 80%/20%, Butcher's Blend",16 oz,Current price: $9.19,Publix,2026-02-18,False,9.19,16.0,oz,False,0.574375,Private,Meat,False
+Ground Beef 80/20,Publix Force of Nature Grass Fed Ground Beef 80/20,16 oz,Current price: $10.99,Publix,2026-02-18,False,10.99,16.0,oz,False,0.686875,National,Meat,False
+Chicken Breast,Publix Just Bare Brand Boneless Skinless Chicken Breast Fillets,1.13 lb,Current price: $9.43,Publix,2026-02-18,False,9.43,18.08,oz,False,0.521571,National,Meat,False
+Chicken Breast,Publix Just Bare Fully Cooked Lightly Breaded Chicken Breast Bites,1.5 lb,Current price: $15.49,Publix,2026-02-18,False,15.49,24.0,oz,False,0.645417,National,Meat,False
+Chicken Breast,"Publix Publix Boneless Skinless Chicken Breast, USDA Grade A, 97% Fat Free",About 2.14 lb / package,Current price: $10.15 per package (estimated),Publix,2026-02-18,False,10.15,34.24,oz,False,0.296437,Private,Meat,False
+Chicken Breast,Publix Just Bare Brand Boneless Skinless Chicken Breast Fillets,1.13 lb,Current price: $9.43,Publix,2026-02-18,False,9.43,18.08,oz,False,0.521571,National,Meat,False
+Chicken Breast,Publix Perdue Fresh Boneless Skinless Chicken Breasts,About 1.53 lb / package,Current price: $11.86 per package (estimated),Publix,2026-02-18,False,11.86,24.48,oz,False,0.484477,Private,Meat,False
+White Bread,"Publix Nature's Own Butterbread, Sliced White Bread, 20 oz Loaf",20 oz,Current price: $4.87,Publix,2026-02-18,False,4.87,20.0,oz,False,0.2435,National,Pantry,False
+White Bread,"Publix Nature's Own Perfectly Crafted White Bread, Thick Sliced Non-GMO Sandwich Bread, 22 oz Loaf",22 oz,Current price: $5.31,Publix,2026-02-18,False,5.31,22.0,oz,False,0.241364,National,Pantry,False
+White Bread,"Publix Publix Bread, Enriched, Large White",20 oz,Current price: $2.65,Publix,2026-02-18,False,2.65,20.0,oz,False,0.1325,Private,Pantry,False
+White Bread,"Publix Publix Bread, White Sandwich",20 oz,Current price: $3.31,Publix,2026-02-18,False,3.31,20.0,oz,False,0.1655,Private,Pantry,False
+White Bread,"Publix Publix Bread, White, Old Fashioned, Enriched",20 oz,Current price: $3.05,Publix,2026-02-18,False,3.05,20.0,oz,False,0.1525,Private,Pantry,False
+Spaghetti Pasta,Publix Barilla Spaghetti - Non-GMO Pasta Made with Durum Wheat Semolina & Kosher Certified,1 lb,Current price: $2.19,Publix,2026-02-18,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,"Publix Ronzoni Spaghetti, 16 oz, Classic Pasta, Non-GMO, Great Taste",1 lb,Current price: $2.19,Publix,2026-02-18,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,Publix Barilla Thin Spaghetti Pasta,16 oz,Current price: $2.19,Publix,2026-02-18,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,"Publix Ronzoni Spaghetti, 16 oz, Classic Pasta, Non-GMO, Great Taste",1 lb,Current price: $2.19,Publix,2026-02-18,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,"Publix Ronzoni Thin Spaghetti, 16 oz, Non-GMO Pasta for Entrees, Soups, Sides",1 lb,Current price: $2.19,Publix,2026-02-18,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Tomato Sauce,Publix Tuttorosso Tomato Sauce,28 oz,Current price: $2.87,Publix,2026-02-18,False,2.87,28.0,oz,False,0.1025,Private,Pantry,False
+Tomato Sauce,Publix Contadina Tomato Sauce,8 oz,Current price: $1.09,Publix,2026-02-18,False,1.09,8.0,oz,False,0.13625,National,Pantry,False
+Tomato Sauce,Publix Publix Tomato Sauce,15 oz,Current price: $1.35,Publix,2026-02-18,False,1.35,15.0,oz,False,0.09,Private,Pantry,False
+Tomato Sauce,Publix Publix Tomato Sauce,8 oz,Current price: $0.83,Publix,2026-02-18,False,0.83,8.0,oz,False,0.10375,Private,Pantry,False
+Tomato Sauce,Publix Publix Tomato Sauce,29 oz,Current price: $2.43,Publix,2026-02-18,False,2.43,29.0,oz,False,0.083793,Private,Pantry,False
+Dish Soap,"Publix Dawn Platinum Dishwashing Liquid Dish Soap, Refreshing Rain Scent",54.8 fl oz,Current price: $12.69,Publix,2026-02-18,False,12.69,54.8,oz,False,0.231569,Private,Household,False
+Dish Soap,Publix Dawn Ultra Dish Soap,70 fl oz,Current price: $12.69,Publix,2026-02-18,False,12.69,70.0,oz,False,0.181286,Private,Household,False
+Dish Soap,"Publix Dawn Ultra Dishwashing Liquid Dish Soap, Original Scent",7.5 fl oz,Current price: $2.09,Publix,2026-02-18,False,2.09,7.5,oz,False,0.278667,Private,Household,False
+Dish Soap,"Publix Ajax Triple Action Liquid Dish Soap, Orange",28 fl oz,Current price: $3.17,Publix,2026-02-18,False,3.17,28.0,oz,False,0.113214,Private,Household,False
+Dish Soap,Publix Seventh Generation Dish Liquid Soap Free & Clear Liquid Soap,19 fl oz,Current price: $4.41,Publix,2026-02-18,False,4.41,19.0,oz,False,0.232105,Private,Household,False
+Whole Milk,"Walmart Lactaid Whole Milk, 64 oz",64 oz,$4.48,Walmart,2026-02-18,False,4.48,64.0,oz,False,0.07,National,Dairy,False
+Whole Milk,"Walmart a2 Milk® Vitamin D Whole Milk, 59 oz",59 oz,$4.37,Walmart,2026-02-18,False,4.37,59.0,oz,False,0.074068,National,Dairy,False
+Whole Milk,"Walmart Organic Valley Grassmilk Organic Grassfed Whole Milk, 59 fl oz",59 fl oz,$6.67,Walmart,2026-02-18,False,6.67,59.0,oz,False,0.113051,National,Dairy,False
+Whole Milk,"Walmart Lactaid Whole Milk, 96 oz",96 oz,$6.38,Walmart,2026-02-18,False,6.38,96.0,oz,False,0.066458,National,Dairy,False
+Whole Milk,"Walmart Great Value Whole Vitamin D Milk, Gallon, 128 fl oz",128 fl oz,$3.38,Walmart,2026-02-18,False,3.38,128.0,oz,False,0.026406,National,Dairy,False
+Large Eggs (12 count),"Walmart Eggland's Best Large White Eggs, 12 Count",12 Count,$3.87,Walmart,2026-02-18,False,3.87,12.0,count,False,0.3225,National,Dairy,False
+Large Eggs (12 count),"Walmart Eggland's Best Extra Large White Eggs, 12 Count",12 Count,$3.96,Walmart,2026-02-18,False,3.96,12.0,count,False,0.33,National,Dairy,False
+Large Eggs (12 count),"Walmart Eggland's Best Large White Eggs, 24 Count",24 Count,$7.46,Walmart,2026-02-18,False,7.46,24.0,count,False,0.310833,National,Dairy,False
+Large Eggs (12 count),"Walmart Eggland's Best Extra Large White Eggs, 18 Count",18 Count,$5.84,Walmart,2026-02-18,False,5.84,18.0,count,False,0.324444,National,Dairy,False
+Large Eggs (12 count),Walmart Pete & Gerry's Organic Eggs Large 12 Ct,,$6.54,Walmart,2026-02-18,False,6.54,12.0,count,False,0.545,National,Dairy,False
+Salted Butter,"Walmart Country Crock Homestyle Dairy Free Butter Salted Sticks, 16 oz, 4-pack",4-pack,$3.47,Walmart,2026-02-18,False,3.47,4.0,count,False,0.8675,National,Dairy,False
+Salted Butter,"Walmart Land O Lakes Salted Butter Balls, 8 oz Bag",8 oz Bag,$3.97,Walmart,2026-02-18,False,3.97,8.0,oz,False,0.49625,National,Dairy,False
+Salted Butter,"Walmart Great Value Sweet Cream Salted Butter, 16 oz, 4 Sticks",4 Sticks,$3.44,Walmart,2026-02-18,False,3.44,4.0,count,False,0.86,National,Dairy,False
+Salted Butter,"Walmart Great Value Sweet Cream Salted Butter Twin Pack, 16 oz, 8 Sticks",8 Sticks,$6.46,Walmart,2026-02-18,False,6.46,8.0,count,False,0.8075,National,Dairy,False
+Salted Butter,"Walmart Land O Lakes Salted Stick Butter, 16 oz box, 4 Sticks",4 Sticks,$4.96,Walmart,2026-02-18,False,4.96,4.0,count,False,1.24,National,Dairy,False
+Bananas,"Walmart Fresh Banana, Each",Each,$0.20,Walmart,2026-02-18,False,0.2,1.0,count,False,0.2,National,Produce,False
+Bananas,"Walmart Marketside Fresh Organic Bananas, Bunch",Bunch,$1.71,Walmart,2026-02-18,False,1.71,,,True,,National,Produce,False
+Bananas,"Walmart Great Value Sliced Bananas, 16 oz Bag",16 oz Bag,$2.47,Walmart,2026-02-18,False,2.47,16.0,oz,False,0.154375,National,Produce,False
+Bananas,"Walmart Savor Banana Slices, 30 Pound - 1 each.",30 Pound - 1 each.,$136.04,Walmart,2026-02-18,False,136.04,480.0,oz,False,0.283417,National,Produce,False
+Bananas,"Walmart Dole Individually Quick Frozen Sliced Banana, 30 Pound -- 1 Each",30 Pound -- 1 Each,$130.55,Walmart,2026-02-18,False,130.55,480.0,oz,False,0.271979,National,Produce,False
+Gala Apples,"Walmart Fresh Gala Apples, 3 lb Bag",3 lb Bag,$2.38,Walmart,2026-02-18,False,2.38,48.0,oz,False,0.049583,National,Produce,False
+Gala Apples,"Walmart Fresh Gala Apple, Each",Each,$0.73,Walmart,2026-02-18,False,0.73,1.0,count,False,0.73,National,Produce,False
+Gala Apples,"Walmart Fresh Organic Gala Apples, 3 lb Bag",3 lb Bag,$4.97,Walmart,2026-02-18,False,4.97,48.0,oz,False,0.103542,National,Produce,False
+Gala Apples,Walmart The Perfect Garnish Co. Dehydrated Apples Gala - 35 slices - Natural Fruit,,$14.99,Walmart,2026-02-18,False,14.99,,,True,,National,Produce,False
+Gala Apples,"Walmart Fresh Gala Apples, 9-Count Box (4 lb.)",9-Count Box (4 lb.),$25.99,Walmart,2026-02-18,False,25.99,9.0,count,False,2.887778,National,Produce,False
+Iceberg Lettuce,"Walmart Fresh Iceberg Lettuce, Each",Each,$2.17,Walmart,2026-02-18,False,2.17,1.0,count,False,2.17,National,Produce,False
+Iceberg Lettuce,"Walmart Marketside Fresh Shredded Iceberg Lettuce, 8 oz, Bag",Bag,$1.97,Walmart,2026-02-18,False,1.97,1.0,count,False,1.97,National,Produce,False
+Iceberg Lettuce,"Walmart Marketside Organic Fresh Iceberg Lettuce, Each",Each,$2.66,Walmart,2026-02-18,False,2.66,1.0,count,False,2.66,National,Produce,False
+Iceberg Lettuce,"Walmart Marketside Fresh Shredded Iceberg Lettuce, 16 oz Bag",16 oz Bag,$3.84,Walmart,2026-02-18,False,3.84,16.0,oz,False,0.24,National,Produce,False
+Iceberg Lettuce,Walmart Iceberg Lettuce Seeds,,$4.85,Walmart,2026-02-18,False,4.85,,,True,,National,Produce,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 1 lb Tray, Fresh, All Natural*",All Natural*,$7.43,Walmart,2026-02-18,False,7.43,,,True,,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 5 lb Roll, Fresh, All Natural*",All Natural*,$26.43,Walmart,2026-02-18,False,26.43,,,True,,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 1 lb Roll, Fresh, All Natural*",All Natural*,$7.23,Walmart,2026-02-18,False,7.23,,,True,,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 3 lb Roll, Fresh, All Natural*",All Natural*,$19.43,Walmart,2026-02-18,False,19.43,,,True,,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 4.5 lb Tray, Fresh, All Natural*",All Natural*,$23.73,Walmart,2026-02-18,False,23.73,,,True,,National,Meat,False
+Chicken Breast,"Walmart Sanderson Farms Fresh Boneless Skinless Chicken Breast Fillets, 25g Protein, 4oz 112g, 1.6 - 3.05lb",1.6 - 3.05lb,$10.67,Walmart,2026-02-18,False,10.67,25.6,oz,False,0.416797,National,Meat,False
+Chicken Breast,"Walmart Sanderson Farms, Boneless Skinless Chicken Breast Fillets with Rib Meat, 25g Protein, 3.0 - 4 lb",3.0 - 4 lb,$13.54,Walmart,2026-02-18,False,13.54,48.0,oz,False,0.282083,National,Meat,False
+Chicken Breast,"Walmart Perdue Harvestland, Free Range, Fresh Boneless Chicken Breasts, 1.3-1.9 lb. Tray",1.3-1.9 lb. Tray,$9.94,Walmart,2026-02-18,False,9.94,20.8,oz,False,0.477885,National,Meat,False
+Chicken Breast,"Walmart Freshness Guaranteed Boneless, Skinless Chicken Breasts, 4.7-6.1 lb Tray",4.7-6.1 lb Tray,$11.57,Walmart,2026-02-18,False,11.57,75.2,oz,False,0.153856,National,Meat,False
+Chicken Breast,"Walmart Great Value All Natural Boneless Skinless Chicken Breasts, 3 lb (Frozen)",3 lb (Frozen),$9.94,Walmart,2026-02-18,False,9.94,48.0,oz,False,0.207083,National,Meat,False
+White Bread,"Walmart Sola Sweet & Buttery Sliced Bread, Soft White Bread, Non-GMO, 14 oz, Regular, Shelf-Stable",Shelf-Stable,$5.64,Walmart,2026-02-18,False,5.64,,,True,,National,Pantry,False
+White Bread,"Walmart Sola Sweet Oat Sliced Bread, Soft White Bread, Non-GMO, 14 oz, Regular, Shelf-Stable",Shelf-Stable,$5.64,Walmart,2026-02-18,False,5.64,,,True,,National,Pantry,False
+White Bread,"Walmart Bimbo Soft White Bread, 20 oz, White Bread, Bag",Bag,$1.98,Walmart,2026-02-18,False,1.98,1.0,count,False,1.98,National,Pantry,False
+White Bread,"Walmart Dave's Killer Bread White Bread Done Right Organic Bread Loaf, 24 oz, Shelf-Stable (24 ounce)",Shelf-Stable (24 ounce),$6.42,Walmart,2026-02-18,False,6.42,,,True,,National,Pantry,False
+White Bread,"Walmart Sara Lee Sandwich White Bread, 24 oz, Plain Sandwich Bread, Bag",Bag,$2.62,Walmart,2026-02-18,False,2.62,1.0,count,False,2.62,National,Pantry,False
+Spaghetti Pasta,"Walmart Mueller’s Spaghetti (12-Pack, 32 oz Each) – Classic Italian Pasta for All Your Favorite Dishes – Perfect for spaghetti and meatballs, pasta primavera, creamy Alfredo, or homemade carbonara.",or homemade carbonara.,N/A,Walmart,2026-02-18,True,999.0,,,True,,National,Pantry,False
+Spaghetti Pasta,"Walmart Brami Spaghetti High Protein Pasta, Made in Italy, 21g Protein, High Fiber, Low Carb Vs. Regular Pasta Noodles, Durum Wheat Plus Lupini Beans, Bronze Cut Shelf-Stable Noodles, 14.5 oz Box",14.5 oz Box,$2.98,Walmart,2026-02-18,False,2.98,14.5,oz,False,0.205517,National,Pantry,False
+Spaghetti Pasta,"Walmart Carbe Diem! Spaghetti Pasta, 12 OZ",12 OZ,$3.78,Walmart,2026-02-18,False,3.78,12.0,oz,False,0.315,National,Pantry,False
+Spaghetti Pasta,"Walmart Barilla Classic Non-GMO, Kosher Certified Spaghetti Pasta, 16 oz",16 oz,$1.84,Walmart,2026-02-18,False,1.84,16.0,oz,False,0.115,National,Pantry,False
+Spaghetti Pasta,"Walmart Barilla Protein+ Spaghetti Pasta, Plant Based Pasta, 14.5oz",14.5oz,$2.52,Walmart,2026-02-18,False,2.52,14.5,oz,False,0.173793,National,Pantry,False
+Tomato Sauce,"Walmart Contadina Tomato Sauce, Canned Tomatoes, 15 oz Can",15 oz Can,$1.16,Walmart,2026-02-18,False,1.16,15.0,oz,False,0.077333,National,Pantry,False
+Tomato Sauce,"Walmart Contadina Tomato Sauce, Canned Tomatoes, 15 oz Can",15 oz Can,$1.16,Walmart,2026-02-18,False,1.16,15.0,oz,False,0.077333,National,Pantry,False
+Tomato Sauce,"Walmart Bertolli Pasta Sauce with Olive Oil and Garlic, Spaghetti Tomato Sauce, 24 oz",24 oz,$2.88,Walmart,2026-02-18,False,2.88,24.0,oz,False,0.12,National,Pantry,False
+Tomato Sauce,"Walmart Carbone Fine Foods Tomato Basil Sauce, 24 oz",24 oz,$7.97,Walmart,2026-02-18,False,7.97,24.0,oz,False,0.332083,National,Pantry,False
+Tomato Sauce,"Walmart Great Value Tomato Sauce, 15 oz",15 oz,$0.96,Walmart,2026-02-18,False,0.96,15.0,oz,False,0.064,National,Pantry,False
+Dish Soap,"Walmart Dawn Platinum EZ-Squeeze Dish Soap Liquid, Dishwashing Liquid, Grease Removal, Fresh Rain, 18oz",18oz,$3.94,Walmart,2026-02-18,False,3.94,18.0,oz,False,0.218889,National,Household,False
+Dish Soap,"Walmart Dawn Platinum EZ-Squeeze Dish Soap Liquid, Dishwashing Liquid, Grease Removal, Fresh Rain, 24.3oz",24.3oz,$4.94,Walmart,2026-02-18,False,4.94,24.3,oz,False,0.203292,National,Household,False
+Dish Soap,"Walmart Dawn Platinum Bleach Alternative EZ-Squeeze Dish Soap, Dishwashing Liquid, Clean Lemon, 24.3 fl oz",24.3 fl oz,$4.94,Walmart,2026-02-18,False,4.94,24.3,oz,False,0.203292,National,Household,False
+Dish Soap,"Walmart Ajax Ultra Triple Action Dishwashing Liquid Dish Soap, Orange Scent, 90 Fluid Ounce",90 Fluid Ounce,$5.97,Walmart,2026-02-18,False,5.97,,,True,,National,Household,False
+Dish Soap,"Walmart Dawn EZ-Squeeze Ultra Dish Soap Dishwashing Liquid, Original Scent, 22.0 fl oz",22.0 fl oz,$3.94,Walmart,2026-02-18,False,3.94,22.0,oz,False,0.179091,National,Household,False
+Whole Milk,"Friendly Farms Whole  Milk, 1 gal",1 gal,$3.75,Aldi,2026-03-04,False,3.75,128.0,oz,False,0.029297,Private,Dairy,False
+Whole Milk,"Friendly Farms Whole Milk, 0.5 gal",0.5 gal,$2.25,Aldi,2026-03-04,False,2.25,64.0,oz,False,0.035156,Private,Dairy,False
+Whole Milk,"Friendly Farms Lactose Free Whole Milk, 64 fl oz",64 fl oz,$3.29,Aldi,2026-03-04,False,3.29,64.0,oz,False,0.051406,Private,Dairy,False
+Whole Milk,"Simply Nature Kids Organic Whole Milk, 59 fl oz",59 fl oz,$5.49,Aldi,2026-03-04,False,5.49,59.0,oz,False,0.093051,Private,Dairy,False
+Large Eggs (12 count),"Goldhen Free  Range Large Brown Grade A Eggs, 12 count",12 ct,$4.25,Aldi,2026-03-04,False,4.25,12.0,count,False,0.354167,Private,Dairy,False
+Large Eggs (12 count),"Goldhen Pasture Raised Large Brown Eggs Grade A, 12 count",12 ct,$4.35,Aldi,2026-03-04,False,4.35,12.0,count,False,0.3625,Private,Dairy,False
+Large Eggs (12 count),"Happy Farms Mozzarella String  Cheese, 12 count",12 oz,$3.45,Aldi,2026-03-04,False,3.45,12.0,oz,False,0.2875,National,Dairy,False
+Large Eggs (12 count),"Happy Farms Gouda Cheese Snack Sticks, 12 count",9 oz,$3.19,Aldi,2026-03-04,False,3.19,9.0,oz,False,0.354444,National,Dairy,False
+Large Eggs (12 count),"Happy Farms Habanero Jack Cheese Snack Sticks, 12 count",9 oz,$3.19,Aldi,2026-03-04,False,3.19,9.0,oz,False,0.354444,National,Dairy,False
+Salted Butter,"Countryside Creamery Salted Butter Sticks, 1 lb",16 oz,$3.55,Aldi,2026-03-04,False,3.55,16.0,oz,False,0.221875,National,Dairy,False
+Salted Butter,"Simply Nature Organic Salted Butter, 16 oz",16 oz.,$6.85,Aldi,2026-03-04,False,6.85,16.0,oz,False,0.428125,Private,Dairy,False
+Bananas,"Bananas, per lb",avg. 0.33 lb/piece  ($0.47/lb),$0.16,Aldi,2026-03-04,False,0.16,5.28,oz,False,0.030303,National,Produce,False
+Bananas,Sweet Banana Pepper,1 ea,$1.64,Aldi,2026-03-04,False,1.64,,,True,,National,Produce,False
+Bananas,"Simply Nature Dark Chocolate Covered Banana, 4 oz",4 oz,$4.39,Aldi,2026-03-04,False,4.39,4.0,oz,False,1.0975,Private,Produce,False
+Bananas,"Organic Bananas, per lb",avg. 1 lb/piece  ($0.73/lb),$0.73,Aldi,2026-03-04,False,0.73,16.0,oz,False,0.045625,National,Produce,False
+Bananas,"Bake Shop Banana Nut Muffins, 4 count",14.1 oz,$4.29,Aldi,2026-03-04,False,4.29,14.1,oz,False,0.304255,National,Produce,False
+Gala Apples,"Gala Apples, 3 lb",3 lb,$2.45,Aldi,2026-03-04,False,2.45,48.0,oz,False,0.051042,National,Produce,False
+Gala Apples,"Organic Gala Apples, 3 lb",3 lb,$4.75,Aldi,2026-03-04,False,4.75,48.0,oz,False,0.098958,National,Produce,False
+Iceberg Lettuce,"Iceberg Lettuce, each",1 each,$2.39,Aldi,2026-03-04,False,2.39,1.0,count,False,2.39,National,Produce,False
+Ground Beef 80/20,"Fresh  80% Lean 20% Fat Ground Beef, per lb",avg. 2 lb/package  ($5.49/lb),$10.98,Aldi,2026-03-04,False,10.98,32.0,oz,False,0.343125,National,Meat,False
+Ground Beef 80/20,"Fresh  80% Lean 20% Fat Ground Beef Patties, 4 count",avg. 1.33 lb/package  ($5.59/lb),$7.43,Aldi,2026-03-04,False,7.43,21.28,oz,False,0.349154,National,Meat,False
+Ground Beef 80/20,"Fresh  80%  Lean 20% Fat Ground Beef Patties Family Pack, 10 count",2.2 lb,$12.00,Aldi,2026-03-04,False,12.0,35.2,oz,False,0.340909,National,Meat,False
+Ground Beef 80/20,"Never Any! Antibiotic Free 80% Lean Ground Pork, 16 oz",16 oz,$3.55,Aldi,2026-03-04,False,3.55,16.0,oz,False,0.221875,Private,Meat,False
+Chicken Breast,Simply Nature Organic  Chicken  Breast Strips,avg. 1.25 lb/package  ($7.29/lb),$9.11,Aldi,2026-03-04,False,9.11,20.0,oz,False,0.4555,Private,Meat,False
+Chicken Breast,Simply Nature Organic  Chicken  Breast Strips,avg. 1.25 lb/package  ($6.49/lb),$8.11,Aldi,2026-03-04,False,8.11,20.0,oz,False,0.4055,Private,Meat,False
+Chicken Breast,"Simply Nature Organic Chicken Breasts, per lb",avg. 1 lb/package  ($5.79/lb),$5.79,Aldi,2026-03-04,False,5.79,16.0,oz,False,0.361875,Private,Meat,False
+Chicken Breast,"Kirkwood Fresh Chicken Breasts, per lb",avg. 1.75 lb/package  ($3.29/lb),$5.76,Aldi,2026-03-04,False,5.76,28.0,oz,False,0.205714,National,Meat,False
+Chicken Breast,"Kirkwood Split Chicken Breasts, per lb",avg. 2.7 lb/package  ($1.99/lb),$5.37,Aldi,2026-03-04,False,5.37,43.2,oz,False,0.124306,National,Meat,False
+White Bread,"L'oven Fresh White Bread,  20 oz",20 oz,$1.65,Aldi,2026-03-04,False,1.65,20.0,oz,False,0.0825,National,Pantry,False
+White Bread,"L'oven Fresh Keto  Friendly White Bread, 14 oz",14 oz,$4.95,Aldi,2026-03-04,False,4.95,14.0,oz,False,0.353571,National,Pantry,False
+White Bread,"liveGfree Gluten Free Wide Pan White Bread, 20 oz",20 oz,$7.69,Aldi,2026-03-04,False,7.69,20.0,oz,False,0.3845,National,Pantry,False
+Tomato Sauce,"Happy Harvest Tomato Sauce, 8 oz",8 oz,$0.55,Aldi,2026-03-04,False,0.55,8.0,oz,False,0.06875,National,Pantry,False
+Dish Soap,"Dawn Ultra Dish Soap, 28 fl oz",28 fl oz,$4.95,Aldi,2026-03-04,False,4.95,28.0,oz,False,0.176786,National,Household,False
+Whole Milk,Publix Lactaid Whole Milk,96 fl oz,Current price: $7.75,Publix,2026-03-04,False,7.75,96.0,oz,False,0.080729,Private,Dairy,False
+Whole Milk,Publix Organic Valley® Whole Milk,64 fl oz,Current price: $4.95,Publix,2026-03-04,False,4.95,64.0,oz,False,0.077344,National,Dairy,False
+Whole Milk,"Publix Publix Milk, Whole",1 gal,Current price: $4.73,Publix,2026-03-04,False,4.73,128.0,oz,False,0.036953,Private,Dairy,False
+Whole Milk,"Publix Publix Milk, Whole",64 oz,Current price: $3.23,Publix,2026-03-04,False,3.23,64.0,oz,False,0.050469,Private,Dairy,False
+Whole Milk,"Publix Publix Milk, Whole",,Current price: $2.43,Publix,2026-03-04,False,2.43,,,True,,Private,Dairy,False
+Large Eggs (12 count),Publix 12 ct,12 ct,Current price: $5.53,Publix,2026-03-04,False,5.53,12.0,count,False,0.460833,Private,Dairy,False
+Large Eggs (12 count),Publix Eggland's Best Grade A Large White Eggs,12 ct,Current price: $4.41,Publix,2026-03-04,False,4.41,12.0,count,False,0.3675,National,Dairy,False
+Large Eggs (12 count),"Publix Eggland's Best Cage Free Large Brown Eggs, 12 count",12 ct,Current price: $5.53,Publix,2026-03-04,False,5.53,12.0,count,False,0.460833,National,Dairy,False
+Large Eggs (12 count),"Publix Eggland's Best Classic Extra Large White Eggs, 12 count",12 ct,Current price: $4.59,Publix,2026-03-04,False,4.59,12.0,count,False,0.3825,National,Dairy,False
+Large Eggs (12 count),"Publix Eggland's Best 100% USDA Organic Certified Large Brown Eggs, 12 count",12 ct,Current price: $7.75,Publix,2026-03-04,False,7.75,12.0,count,False,0.645833,National,Dairy,False
+Salted Butter,"Publix Land O Lakes Butter, Salted",1 lb,Current price: $6.63,Publix,2026-03-04,False,6.63,16.0,oz,False,0.414375,National,Dairy,False
+Salted Butter,"Publix Truly Grass Fed Butter, Natural Creamy, Salted",,Current price: $12.19,Publix,2026-03-04,False,12.19,,,True,,Private,Dairy,False
+Salted Butter,"Publix Publix Butter, Sweet Cream, Salted",16 oz,Current price: $5.31,Publix,2026-03-04,False,5.31,16.0,oz,False,0.331875,Private,Dairy,False
+Salted Butter,"Publix Publix Butter, Salted, Sweet Cream",8 oz,Current price: $2.43,Publix,2026-03-04,False,2.43,8.0,oz,False,0.30375,Private,Dairy,False
+Salted Butter,"Publix Publix Whipped Butter, Salted",8 oz,Current price: $3.87,Publix,2026-03-04,False,3.87,8.0,oz,False,0.48375,Private,Dairy,False
+Bananas,Publix Tru Fru Nature's Bananas Hyper-Chilled in Peanut Butter & Dark Chocolate,8 oz,Current price: $9.97,Publix,2026-03-04,False,9.97,8.0,oz,False,1.24625,Private,Produce,False
+Bananas,Publix Banana,About 0.41 lb each,Current price: $0.33 each (estimated),Publix,2026-03-04,False,0.33,6.56,oz,False,0.050305,Private,Produce,False
+Bananas,Publix Organic Bananas,About 0.46 lb each,Current price: $0.50 each (estimated),Publix,2026-03-04,False,0.5,7.36,oz,False,0.067935,Private,Produce,False
+Bananas,Publix Publix Sweetened Banana Chips,15 oz,Current price: $6.09,Publix,2026-03-04,False,6.09,15.0,oz,False,0.406,Private,Produce,False
+Bananas,Publix Tru Fru Nature's Bananas Hyper-Chilled in Peanut Butter & Dark Chocolate,8 oz,Current price: $9.97,Publix,2026-03-04,False,9.97,8.0,oz,False,1.24625,Private,Produce,False
+Gala Apples,Publix Gala Apple,About 0.54 lb each,Current price: $1.59 each (estimated),Publix,2026-03-04,False,1.59,8.64,oz,False,0.184028,Private,Produce,False
+Gala Apples,Publix GreenWise Organic Gala Apples,2 lb,Current price: $6.63,Publix,2026-03-04,False,6.63,32.0,oz,False,0.207187,Private,Produce,False
+Gala Apples,Publix Organic Gala Apple,About 0.42 lb each,Current price: $1.64 each (estimated),Publix,2026-03-04,False,1.64,6.72,oz,False,0.244048,Private,Produce,False
+Gala Apples,Publix CMI Orchards Gala Snack Apples,2 lb,Current price: $5.53,Publix,2026-03-04,False,5.53,32.0,oz,False,0.172813,Private,Produce,False
+Iceberg Lettuce,Publix Iceberg Lettuce,,Current price: $2.97,Publix,2026-03-04,False,2.97,,,True,,Private,Produce,False
+Iceberg Lettuce,Publix Fresh Express Iceberg Lettuce Shreds,,Current price: $4.19,Publix,2026-03-04,False,4.19,,,True,,National,Produce,False
+Ground Beef 80/20,"Publix Publix Ground Chuck Beef, USDA-Inspected",About 1.52 lb / package,Current price: $14.27 per package (estimated),Publix,2026-03-04,False,14.27,24.32,oz,False,0.58676,Private,Meat,False
+Ground Beef 80/20,Publix GreenWise Ground Chuck 100% Beef 80% Lean 20% Fat,About 1.15 lb each,Current price: $12.64 each (estimated),Publix,2026-03-04,False,12.64,18.4,oz,False,0.686957,Private,Meat,False
+Ground Beef 80/20,"Publix Schweid & Sons Ground Beef, 80%/20%, Butcher's Blend",16 oz,Current price: $9.19,Publix,2026-03-04,False,9.19,16.0,oz,False,0.574375,Private,Meat,False
+Ground Beef 80/20,"Publix Publix Ground Chuck Beef, USDA-Inspected",About 3.2 lb / package,Current price: $29.09 per package (estimated),Publix,2026-03-04,False,29.09,51.2,oz,False,0.568164,Private,Meat,False
+Ground Beef 80/20,Publix Publix Market Ground Beef,About 1.15 lb / package,Current price: $8.91 per package (estimated),Publix,2026-03-04,False,8.91,18.4,oz,False,0.484239,Private,Meat,False
+Chicken Breast,Publix Just Bare Brand Boneless Skinless Chicken Breast Fillets,1.13 lb,Current price: $9.43,Publix,2026-03-04,False,9.43,18.08,oz,False,0.521571,National,Meat,False
+Chicken Breast,Publix Just Bare Fully Cooked Lightly Breaded Chicken Breast Bites,1.5 lb,Current price: $15.49,Publix,2026-03-04,False,15.49,24.0,oz,False,0.645417,National,Meat,False
+Chicken Breast,"Publix Publix Boneless Skinless Chicken Breast, USDA Grade A, 97% Fat Free",About 2.14 lb / package,Current price: $12.76 per package (estimated),Publix,2026-03-04,False,12.76,34.24,oz,False,0.372664,Private,Meat,False
+Chicken Breast,Publix Just Bare Brand Boneless Skinless Chicken Breast Fillets,1.13 lb,Current price: $9.43,Publix,2026-03-04,False,9.43,18.08,oz,False,0.521571,National,Meat,False
+Chicken Breast,"Publix Publix Chicken All Natural Boneless Skinless Chicken Breast (4 lb or more pkg), USDA Grade A, 97% Fat Free",About 4.81 lb each,Current price: $26.57 each (estimated),Publix,2026-03-04,False,26.57,76.96,oz,False,0.345244,Private,Meat,False
+White Bread,"Publix Nature's Own Butterbread, Sliced White Bread, 20 oz Loaf",20 oz,Current price: $4.87,Publix,2026-03-04,False,4.87,20.0,oz,False,0.2435,National,Pantry,False
+White Bread,"Publix Nature's Own Perfectly Crafted White Bread, Thick Sliced Non-GMO Sandwich Bread, 22 oz Loaf",22 oz,Current price: $5.31,Publix,2026-03-04,False,5.31,22.0,oz,False,0.241364,National,Pantry,False
+White Bread,"Publix Publix Bread, Enriched, Large White",20 oz,Current price: $2.65,Publix,2026-03-04,False,2.65,20.0,oz,False,0.1325,Private,Pantry,False
+White Bread,"Publix Publix Bread, White Sandwich",20 oz,Current price: $3.31,Publix,2026-03-04,False,3.31,20.0,oz,False,0.1655,Private,Pantry,False
+White Bread,"Publix Publix Bread, White, Old Fashioned, Enriched",20 oz,Current price: $3.05,Publix,2026-03-04,False,3.05,20.0,oz,False,0.1525,Private,Pantry,False
+Spaghetti Pasta,Publix Barilla Spaghetti - Non-GMO Pasta Made with Durum Wheat Semolina & Kosher Certified,1 lb,Current price: $2.19,Publix,2026-03-04,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,"Publix Barilla Protein+ (Plus) Thin Spaghetti Pasta- Plant Based - Made from Lentils, Chickpeas & Peas",14.5 oz,Current price: $3.53,Publix,2026-03-04,False,3.53,14.5,oz,False,0.243448,Private,Pantry,False
+Spaghetti Pasta,"Publix Ronzoni Spaghetti, 16 oz, Classic Pasta, Non-GMO, Great Taste",1 lb,Current price: $2.19,Publix,2026-03-04,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,Publix Barilla Thin Spaghetti Pasta,16 oz,Current price: $2.19,Publix,2026-03-04,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,"Publix Barilla Protein+ (Plus) Thin Spaghetti Pasta- Plant Based - Made from Lentils, Chickpeas & Peas",14.5 oz,Current price: $3.53,Publix,2026-03-04,False,3.53,14.5,oz,False,0.243448,Private,Pantry,False
+Tomato Sauce,Publix Tuttorosso Tomato Sauce,28 oz,Current price: $2.87,Publix,2026-03-04,False,2.87,28.0,oz,False,0.1025,Private,Pantry,False
+Tomato Sauce,Publix Publix Tomato Sauce,15 oz,Current price: $1.35,Publix,2026-03-04,False,1.35,15.0,oz,False,0.09,Private,Pantry,False
+Tomato Sauce,Publix Publix Tomato Sauce,8 oz,Current price: $0.83,Publix,2026-03-04,False,0.83,8.0,oz,False,0.10375,Private,Pantry,False
+Tomato Sauce,Publix Publix Tomato Sauce,29 oz,Current price: $2.43,Publix,2026-03-04,False,2.43,29.0,oz,False,0.083793,Private,Pantry,False
+Tomato Sauce,"Publix Ragu Chunky Tomato, Garlic and Onion Pasta Sauce, Diced Tomatoes, Delicious Garlic and Onions, 24 oz",24 oz,Current price: $3.81,Publix,2026-03-04,False,3.81,24.0,oz,False,0.15875,Private,Pantry,False
+Dish Soap,Publix Dawn Ultra Dish Soap,70 fl oz,Current price: $10.99,Publix,2026-03-04,False,10.99,70.0,oz,False,0.157,Private,Household,False
+Dish Soap,"Publix Dawn Platinum EZ-Squeeze Dish Soap, Wild Jasmine",24.3 fl oz,Current price: $5.53,Publix,2026-03-04,False,5.53,24.3,oz,False,0.227572,Private,Household,False
+Dish Soap,Publix Dawn Ultra Dish Soap,18 fl oz,Current price: $3.49,Publix,2026-03-04,False,3.49,18.0,oz,False,0.193889,Private,Household,False
+Dish Soap,"Publix Dawn Ultra Dishwashing Liquid Dish Soap, Original Scent",7.5 fl oz,Current price: $2.09,Publix,2026-03-04,False,2.09,7.5,oz,False,0.278667,Private,Household,False
+Dish Soap,Publix Dawn PowerwashDish Spray Dish SoapFresh,16 oz,Current price: $5.53,Publix,2026-03-04,False,5.53,16.0,oz,False,0.345625,Private,Household,False
+Whole Milk,"Walmart Lactaid Whole Milk, 64 oz",64 oz,$448current price $4.48,Walmart,2026-03-04,False,448.0,64.0,oz,False,7.0,National,Dairy,False
+Whole Milk,"Walmart Horizon Organic DHA Omega-3 Whole Milk, DHA Whole, 64 fl oz Carton",64 fl oz Carton,$646current price $6.4610.1 ¢/fl oz,Walmart,2026-03-04,False,646.0,64.0,oz,False,10.09375,National,Dairy,False
+Whole Milk,"Walmart Lactaid Whole Milk, 96 oz",96 oz,$638current price $6.386.6 ¢/fl oz,Walmart,2026-03-04,False,638.0,96.0,oz,False,6.645833,National,Dairy,False
+Whole Milk,"Walmart Organic Valley Grassmilk Organic Grassfed Whole Milk, 59 fl oz",59 fl oz,$667current price $6.6710.4 ¢/fl oz,Walmart,2026-03-04,False,667.0,59.0,oz,False,11.305085,National,Dairy,False
+Whole Milk,"Walmart Great Value Whole Vitamin D Milk, Gallon, 128 fl oz",128 fl oz,$338current price $3.382.6 ¢/fl oz,Walmart,2026-03-04,False,338.0,128.0,oz,False,2.640625,National,Dairy,False
+Large Eggs (12 count),Walmart Pete & Gerry's Organic Eggs Large 12 Ct,,$587current price $5.8724.5 ¢/oz,Walmart,2026-03-04,False,587.0,12.0,count,False,48.916667,National,Dairy,False
+Large Eggs (12 count),"Walmart Great Value Large White Eggs, 12 Count",12 Count,$167current price $1.677.0 ¢/oz,Walmart,2026-03-04,False,167.0,12.0,count,False,13.916667,National,Dairy,False
+Large Eggs (12 count),"Walmart Eggland's Best Large White Eggs, 12 Count",12 Count,$387current price $3.8716.1 ¢/oz,Walmart,2026-03-04,False,387.0,12.0,count,False,32.25,National,Dairy,False
+Large Eggs (12 count),"Walmart Marketside Large Cage-Free Brown Eggs, 12 Count",12 Count,$296current price $2.9612.3 ¢/oz,Walmart,2026-03-04,False,296.0,12.0,count,False,24.666667,National,Dairy,False
+Large Eggs (12 count),"Walmart Eggland's Best Cage Free Large Brown Eggs, 12 Count",12 Count,$462current price $4.6219.3 ¢/oz,Walmart,2026-03-04,False,462.0,12.0,count,False,38.5,National,Dairy,False
+Salted Butter,"Walmart Land O Lakes Salted Butter in Half Sticks, 4 Half Sticks, 8 oz Pack",8 oz Pack,"Now$257current price Now $2.57, Was $2.86$2.8632.1 ¢/oz",Walmart,2026-03-04,False,257.0,8.0,count,False,32.125,National,Dairy,False
+Salted Butter,"Walmart Land O Lakes Salted Butter in Half Sticks, 8 Half Sticks, 1 lb Pack",1 lb Pack,"Now$446current price Now $4.46, Was $4.96$4.9627.9 ¢/oz",Walmart,2026-03-04,False,446.0,16.0,oz,False,27.875,National,Dairy,False
+Salted Butter,"Walmart Kerrygold Grass-Fed Pure Irish Salted Butter Sticks, 8 oz, 2 Sticks",2 Sticks,$524current price $5.2465.5 ¢/oz,Walmart,2026-03-04,False,524.0,2.0,count,False,262.0,National,Dairy,False
+Salted Butter,"Walmart Kerrygold Grass-Fed Salted Pure Irish Butter, 8 oz.",8 oz.,$484current price $4.8460.5 ¢/oz,Walmart,2026-03-04,False,484.0,8.0,oz,False,60.5,National,Dairy,False
+Salted Butter,"Walmart Great Value Sweet Cream Salted Butter, 16 oz, 4 Sticks",4 Sticks,$344current price $3.4421.5 ¢/oz,Walmart,2026-03-04,False,344.0,4.0,count,False,86.0,National,Dairy,False
+Bananas,"Walmart Fresh Banana, Each",Each,$020current price $0.20each (est.)50.0 ¢/lbFinal cost by weight,Walmart,2026-03-04,False,20.0,1.0,count,False,20.0,National,Produce,False
+Bananas,"Walmart Marketside Fresh Organic Bananas, Bunch",Bunch,$171current price $1.71each (est.)74.0 ¢/lbFinal cost by weight,Walmart,2026-03-04,False,171.0,,,True,,National,Produce,False
+Bananas,"Walmart Great Value Sliced Bananas, 16 oz Bag",16 oz Bag,$247current price $2.4715.4 ¢/oz,Walmart,2026-03-04,False,247.0,16.0,oz,False,15.4375,National,Produce,False
+Bananas,"Walmart Dole Chef-Ready Cuts individually Quick Frozen Zip Bag Sliced Banana, 5 lb - Case of 2",5 lb - Case of 2,$8273current price $82.73,Walmart,2026-03-04,False,8273.0,80.0,oz,False,,National,Produce,False
+Bananas,"Walmart Simple Kitchen Freeze-Dried Sliced Bananas, 1.6 oz",1.6 oz,"Now$331current price Now $3.31, Was $3.92$3.92$2.07/oz",Walmart,2026-03-04,False,331.0,1.6,oz,False,206.875,National,Produce,False
+Gala Apples,"Walmart Fresh Gala Apple, Each",Each,"Now$046current price Now $0.46, Was $0.73$0.73each (est.)94.0 ¢/lbFinal cost by weight",Walmart,2026-03-04,False,46.0,1.0,count,False,46.0,National,Produce,False
+Gala Apples,"Walmart Fresh Gala Apples, 3 lb Bag",3 lb Bag,$217current price $2.1772.3 ¢/lb,Walmart,2026-03-04,False,217.0,48.0,oz,False,4.520833,National,Produce,False
+Gala Apples,Walmart The Perfect Garnish Co. Dehydrated Apples Gala - 35 slices - Natural Fruit,,$1499current price $14.99,Walmart,2026-03-04,False,1499.0,,,True,,National,Produce,False
+Gala Apples,"Walmart Fresh Organic Gala Apples, 3 lb Bag",3 lb Bag,$512current price $5.12$1.71/lb,Walmart,2026-03-04,False,512.0,48.0,oz,False,10.666667,National,Produce,False
+Gala Apples,"Walmart Fresh Gala Apples, 9-Count Box (4 lb.)",9-Count Box (4 lb.),$2599current price $25.99,Walmart,2026-03-04,False,2599.0,9.0,count,False,,National,Produce,False
+Iceberg Lettuce,Walmart Fieldpack Unbranded Fresh Iceberg Lettuce,,$228current price $2.28,Walmart,2026-03-04,False,228.0,,,True,,National,Produce,False
+Iceberg Lettuce,"Walmart Marketside Fresh Shredded Iceberg Lettuce, 8 oz, Bag",Bag,$197current price $1.9724.6 ¢/oz,Walmart,2026-03-04,False,197.0,1.0,count,False,197.0,National,Produce,False
+Iceberg Lettuce,"Walmart Marketside Organic Fresh Iceberg Lettuce, Each",Each,$266current price $2.66,Walmart,2026-03-04,False,266.0,1.0,count,False,266.0,National,Produce,False
+Iceberg Lettuce,"Walmart Marketside Fresh Shredded Iceberg Lettuce, 16 oz Bag",16 oz Bag,$384current price $3.8424.0 ¢/oz,Walmart,2026-03-04,False,384.0,16.0,oz,False,24.0,National,Produce,False
+Iceberg Lettuce,Walmart Iceberg Lettuce Seeds,,$495current price $4.95,Walmart,2026-03-04,False,495.0,,,True,,National,Produce,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 2.25 lb Tray, Fresh, All Natural*",All Natural*,$1643current price $16.43$7.30/lb,Walmart,2026-03-04,False,1643.0,36.0,oz,False,,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 1 lb Tray, Fresh, All Natural*",All Natural*,$743current price $7.43$7.43/lb,Walmart,2026-03-04,False,743.0,16.0,oz,False,46.4375,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 5 lb Roll, Fresh, All Natural*",All Natural*,$2693current price $26.93$5.39/lb,Walmart,2026-03-04,False,2693.0,80.0,oz,False,,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 1 lb Roll, Fresh, All Natural*",All Natural*,$693current price $6.93$6.93/lb,Walmart,2026-03-04,False,693.0,16.0,oz,False,43.3125,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 3 lb Roll, Fresh, All Natural*",All Natural*,$1943current price $19.43$6.48/lb,Walmart,2026-03-04,False,1943.0,48.0,oz,False,,National,Meat,False
+Chicken Breast,"Walmart Sanderson Farms Fresh Boneless Skinless Chicken Breast Fillets, 25g Protein, 4oz 112g, 1.6 - 3.05lb",1.6 - 3.05lb,"Now$948current price Now $9.48, Was $10.67$10.67$4.12/lbFinal cost by weight",Walmart,2026-03-04,False,948.0,25.6,oz,False,37.03125,National,Meat,False
+Chicken Breast,"Walmart Sanderson Farms, Boneless Skinless Chicken Breast Fillets with Rib Meat, 25g Protein, 3.0 - 4 lb",3.0 - 4 lb,"Now$1183current price Now $11.83, Was $13.54$13.54$3.47/lbFinal cost by weight",Walmart,2026-03-04,False,1183.0,48.0,oz,False,,National,Meat,False
+Chicken Breast,"Walmart Freshness Guaranteed Boneless, Skinless Chicken Breasts, 4.7-6.1 lb Tray",4.7-6.1 lb Tray,$1157current price $11.57avg price$2.57/lbFinal cost by weight,Walmart,2026-03-04,False,1157.0,75.2,oz,False,,National,Meat,False
+Chicken Breast,"Walmart Great Value All Natural Boneless Skinless Chicken Breasts, 3 lb (Frozen)",3 lb (Frozen),"Now$894current price Now $8.94, Was $9.94$9.94$2.98/lb",Walmart,2026-03-04,False,894.0,48.0,oz,False,18.625,National,Meat,False
+Chicken Breast,"Walmart Perdue Harvestland, Free Range, Fresh Boneless Chicken Breasts, 1.3-1.9 lb. Tray",1.3-1.9 lb. Tray,"Now$273current price Now $2.73, Was $9.94$9.94$1.50/lbFinal cost by weight",Walmart,2026-03-04,False,273.0,20.8,oz,False,13.125,National,Meat,False
+White Bread,"Walmart Sara Lee Sandwich White Bread, 24 oz, Plain Sandwich Bread, Bag",Bag,$262current price $2.6210.9 ¢/oz,Walmart,2026-03-04,False,262.0,1.0,count,False,262.0,National,Pantry,False
+White Bread,"Walmart Dave's Killer Bread White Bread Done Right Organic Bread Loaf, 24 oz, Shelf-Stable (24 ounce)",Shelf-Stable (24 ounce),$642current price $6.4226.8 ¢/oz,Walmart,2026-03-04,False,642.0,24.0,oz,False,26.75,National,Pantry,False
+White Bread,"Walmart Sara Lee White Bread, Half Loaf, 12 oz, Bread, Bag",Bag,$214current price $2.1417.8 ¢/oz,Walmart,2026-03-04,False,214.0,1.0,count,False,214.0,National,Pantry,False
+White Bread,"Walmart Great Value White Sandwich Bread, 20 oz",20 oz,$148current price $1.487.4 ¢/oz,Walmart,2026-03-04,False,148.0,20.0,oz,False,7.4,National,Pantry,False
+White Bread,"Walmart Great Value White Round Top Bread Loaf, 20 oz",20 oz,$148current price $1.487.4 ¢/oz,Walmart,2026-03-04,False,148.0,20.0,oz,False,7.4,National,Pantry,False
+Spaghetti Pasta,"Walmart Brami Spaghetti High Protein Pasta, Made in Italy, 21g Protein, High Fiber, Low Carb Vs. Regular Pasta Noodles, Durum Wheat Plus Lupini Beans, Bronze Cut Shelf-Stable Noodles, 14.5 oz Box",14.5 oz Box,$324current price $3.24,Walmart,2026-03-04,False,324.0,14.5,oz,False,22.344828,National,Pantry,False
+Spaghetti Pasta,"Walmart (3 pack) Brami Spaghetti High Protein Pasta, Made in Italy, 21g Protein, High Fiber, Low Carb Vs. Regular Pasta Noodles, Durum Wheat Plus Lupini Beans, Bronze Cut Shelf-Stable Noodles, 14.5 oz Box",14.5 oz Box,$972current price $9.72,Walmart,2026-03-04,False,972.0,14.5,oz,False,67.034483,National,Pantry,False
+Spaghetti Pasta,"Walmart Brami Spaghetti High Protein Pasta, Made in Italy, 21g Protein, High Fiber, Low Carb Vs. Regular Pasta Noodles, Durum Wheat Plus Lupini Beans, Bronze Cut Shelf-Stable Noodles, 14.5 oz Box",14.5 oz Box,$324current price $3.2422.3 ¢/ozOptions from $3.24 – $9.72,Walmart,2026-03-04,False,324.0,14.5,oz,False,22.344828,National,Pantry,False
+Spaghetti Pasta,"Walmart Carbe Diem Spaghetti Pasta, 12 OZ",12 OZ,$378current price $3.7831.5 ¢/oz,Walmart,2026-03-04,False,378.0,12.0,oz,False,31.5,National,Pantry,False
+Spaghetti Pasta,"Walmart Miracle Noodle Egg White Spaghetti High Protein, Low Carb Pasta, 3.5 oz",3.5 oz,$492current price $4.92$1.41/oz,Walmart,2026-03-04,False,492.0,3.5,oz,False,140.571429,National,Pantry,False
+Tomato Sauce,"Walmart RAGU Chunky Tomato Garlic and Onion Pasta Sauce, 45 oz",45 oz,$374current price $3.74,Walmart,2026-03-04,False,374.0,45.0,oz,False,8.311111,National,Pantry,False
+Tomato Sauce,"Walmart Classico Fire Roasted Tomato & Garlic Pasta Sauce, 24 oz Jar",24 oz Jar,$298current price $2.9812.4 ¢/ozOptions from $2.98 – $17.88,Walmart,2026-03-04,False,298.0,24.0,oz,False,12.416667,National,Pantry,False
+Tomato Sauce,"Walmart Classico Tomato & Basil Pasta Sauce, 24 oz Jar",24 oz Jar,$242current price $2.4210.1 ¢/ozOptions from $2.42 – $4.84,Walmart,2026-03-04,False,242.0,24.0,oz,False,10.083333,National,Pantry,False
+Tomato Sauce,"Walmart Sonoma Gourmet Creamy Tomato Parmesan Pasta Sauce, 24.5 Ounce",24.5 Ounce,$798current price $7.9832.6 ¢/oz,Walmart,2026-03-04,False,798.0,,,True,,National,Pantry,False
+Tomato Sauce,"Walmart Great Value Tomato Sauce, 15 oz",15 oz,$148current price $1.489.9 ¢/oz,Walmart,2026-03-04,False,148.0,15.0,oz,False,9.866667,National,Pantry,False
+Dish Soap,"Walmart Dawn Platinum Plus Dishwashing Soap, Powe suds, EZ-Squeeze Bottle, 13.6 oz",13.6 oz,"Now$354current price Now $3.54, Was $3.94$3.9426.0 ¢/fl oz",Walmart,2026-03-04,False,354.0,13.6,oz,False,26.029412,National,Household,False
+Dish Soap,"Walmart Dawn EZ-Squeeze Ultra Dish Soap Dishwashing Liquid, Original Scent, 22.0 fl oz",22.0 fl oz,"Now$354current price Now $3.54, Was $3.94$3.9416.1 ¢/fl oz",Walmart,2026-03-04,False,354.0,22.0,oz,False,16.090909,National,Household,False
+Dish Soap,"Walmart Ajax Ultra Triple Action Dishwashing Liquid Dish Soap, Orange Scent, 90 Fluid Ounce",90 Fluid Ounce,$597current price $5.976.6 ¢/fl oz,Walmart,2026-03-04,False,597.0,,,True,,National,Household,False
+Dish Soap,"Walmart Dawn Platinum Plus Dishwashing Soap, Powe suds, EZ-Squeeze Bottle, 13.6 oz",13.6 oz,"Now$354current price Now $3.54, Was $3.94$3.9426.0 ¢/fl oz",Walmart,2026-03-04,False,354.0,13.6,oz,False,26.029412,National,Household,False
+Dish Soap,"Walmart Dawn Ultra, EZ Squeeze Dish Soap Orange, 22oz",22oz,"Now$354current price Now $3.54, Was $3.94$3.9416.1 ¢/fl ozOptions from $3.54 – $55.00",Walmart,2026-03-04,False,354.0,22.0,oz,False,16.090909,National,Household,False
+Whole Milk,"Friendly Farms Whole  Milk, 1 gal",1 gal,$3.75,Aldi,2026-03-06,False,3.75,128.0,oz,False,0.029297,Private,Dairy,False
+Whole Milk,"Friendly Farms Whole Milk, 0.5 gal",0.5 gal,$2.25,Aldi,2026-03-06,False,2.25,64.0,oz,False,0.035156,Private,Dairy,False
+Whole Milk,"Friendly Farms Lactose Free Whole Milk, 64 fl oz",64 fl oz,$3.29,Aldi,2026-03-06,False,3.29,64.0,oz,False,0.051406,Private,Dairy,False
+Whole Milk,"Simply Nature Kids Organic Whole Milk, 59 fl oz",59 fl oz,$5.49,Aldi,2026-03-06,False,5.49,59.0,oz,False,0.093051,Private,Dairy,False
+Large Eggs (12 count),"Goldhen Free  Range Large Brown Grade A Eggs, 12 count",12 ct,$4.25,Aldi,2026-03-06,False,4.25,12.0,count,False,0.354167,Private,Dairy,False
+Large Eggs (12 count),"Goldhen Pasture Raised Large Brown Eggs Grade A, 12 count",12 ct,$4.35,Aldi,2026-03-06,False,4.35,12.0,count,False,0.3625,Private,Dairy,False
+Large Eggs (12 count),"Happy Farms Mozzarella String  Cheese, 12 count",12 oz,$3.45,Aldi,2026-03-06,False,3.45,12.0,oz,False,0.2875,National,Dairy,False
+Large Eggs (12 count),"Happy Farms Gouda Cheese Snack Sticks, 12 count",9 oz,$3.19,Aldi,2026-03-06,False,3.19,9.0,oz,False,0.354444,National,Dairy,False
+Large Eggs (12 count),"Happy Farms Habanero Jack Cheese Snack Sticks, 12 count",9 oz,$3.19,Aldi,2026-03-06,False,3.19,9.0,oz,False,0.354444,National,Dairy,False
+Salted Butter,"Countryside Creamery Salted Butter Sticks, 1 lb",16 oz,$3.55,Aldi,2026-03-06,False,3.55,16.0,oz,False,0.221875,National,Dairy,False
+Salted Butter,"Simply Nature Organic Salted Butter, 16 oz",16 oz.,$6.85,Aldi,2026-03-06,False,6.85,16.0,oz,False,0.428125,Private,Dairy,False
+Bananas,"Bananas, per lb",avg. 0.33 lb/piece  ($0.47/lb),$0.16,Aldi,2026-03-06,False,0.16,5.28,oz,False,0.030303,National,Produce,False
+Bananas,Sweet Banana Pepper,1 ea,$1.64,Aldi,2026-03-06,False,1.64,,,True,,National,Produce,False
+Bananas,"Simply Nature Dark Chocolate Covered Banana, 4 oz",4 oz,$4.39,Aldi,2026-03-06,False,4.39,4.0,oz,False,1.0975,Private,Produce,False
+Bananas,"Organic Bananas, per lb",avg. 1 lb/piece  ($0.73/lb),$0.73,Aldi,2026-03-06,False,0.73,16.0,oz,False,0.045625,National,Produce,False
+Bananas,"Bake Shop Banana Nut Muffins, 4 count",14.1 oz,$4.29,Aldi,2026-03-06,False,4.29,14.1,oz,False,0.304255,National,Produce,False
+Gala Apples,"Gala Apples, 3 lb",3 lb,$2.45,Aldi,2026-03-06,False,2.45,48.0,oz,False,0.051042,National,Produce,False
+Gala Apples,"Organic Gala Apples, 3 lb",3 lb,$4.75,Aldi,2026-03-06,False,4.75,48.0,oz,False,0.098958,National,Produce,False
+Iceberg Lettuce,"Iceberg Lettuce, each",1 each,$2.39,Aldi,2026-03-06,False,2.39,1.0,count,False,2.39,National,Produce,False
+Ground Beef 80/20,"Fresh  80% Lean 20% Fat Ground Beef, per lb",avg. 2 lb/package  ($5.49/lb),$10.98,Aldi,2026-03-06,False,10.98,32.0,oz,False,0.343125,National,Meat,False
+Ground Beef 80/20,"Fresh  80% Lean 20% Fat Ground Beef Patties, 4 count",avg. 1.33 lb/package  ($5.59/lb),$7.43,Aldi,2026-03-06,False,7.43,21.28,oz,False,0.349154,National,Meat,False
+Ground Beef 80/20,"Fresh  80%  Lean 20% Fat Ground Beef Patties Family Pack, 10 count",2.2 lb,$12.00,Aldi,2026-03-06,False,12.0,35.2,oz,False,0.340909,National,Meat,False
+Ground Beef 80/20,"Never Any! Antibiotic Free 80% Lean Ground Pork, 16 oz",16 oz.,$3.55,Aldi,2026-03-06,False,3.55,16.0,oz,False,0.221875,Private,Meat,False
+Chicken Breast,Simply Nature Organic  Chicken  Breast Strips,avg. 1.25 lb/package  ($7.29/lb),$9.11,Aldi,2026-03-06,False,9.11,20.0,oz,False,0.4555,Private,Meat,False
+Chicken Breast,Simply Nature Organic  Chicken  Breast Strips,avg. 1.25 lb/package  ($6.49/lb),$8.11,Aldi,2026-03-06,False,8.11,20.0,oz,False,0.4055,Private,Meat,False
+Chicken Breast,"Simply Nature Organic Chicken Breasts, per lb",avg. 1 lb/package  ($5.79/lb),$5.79,Aldi,2026-03-06,False,5.79,16.0,oz,False,0.361875,Private,Meat,False
+Chicken Breast,"Kirkwood Fresh Chicken Breasts, per lb",avg. 1.75 lb/package  ($3.29/lb),$5.76,Aldi,2026-03-06,False,5.76,28.0,oz,False,0.205714,National,Meat,False
+Chicken Breast,"Kirkwood Split Chicken Breasts, per lb",avg. 2.5 lb/package  ($1.99/lb),$4.98,Aldi,2026-03-06,False,4.98,40.0,oz,False,0.1245,National,Meat,False
+White Bread,"L'oven Fresh White Bread,  20 oz",20 oz,$1.65,Aldi,2026-03-06,False,1.65,20.0,oz,False,0.0825,National,Pantry,False
+White Bread,"L'oven Fresh Keto  Friendly White Bread, 14 oz",14 oz,$4.95,Aldi,2026-03-06,False,4.95,14.0,oz,False,0.353571,National,Pantry,False
+White Bread,"liveGfree Gluten Free Wide Pan White Bread, 20 oz",20 oz,$7.69,Aldi,2026-03-06,False,7.69,20.0,oz,False,0.3845,National,Pantry,False
+Tomato Sauce,"Happy Harvest Tomato Sauce, 8 oz",8 oz,$0.55,Aldi,2026-03-06,False,0.55,8.0,oz,False,0.06875,National,Pantry,False
+Dish Soap,"Dawn Ultra Dish Soap, 28 fl oz",28 fl oz,$4.95,Aldi,2026-03-06,False,4.95,28.0,oz,False,0.176786,National,Household,False
+Whole Milk,Publix Organic Valley® Whole Milk,64 fl oz,Current price: $4.95,Publix,2026-03-06,False,4.95,64.0,oz,False,0.077344,National,Dairy,False
+Whole Milk,Publix Lactaid Whole Milk,96 fl oz,Current price: $7.75,Publix,2026-03-06,False,7.75,96.0,oz,False,0.080729,Private,Dairy,False
+Whole Milk,"Publix Publix Milk, Whole",1 gal,Current price: $4.73,Publix,2026-03-06,False,4.73,128.0,oz,False,0.036953,Private,Dairy,False
+Whole Milk,"Publix Publix Milk, Whole",64 oz,Current price: $3.23,Publix,2026-03-06,False,3.23,64.0,oz,False,0.050469,Private,Dairy,False
+Whole Milk,"Publix Publix Milk, Whole",,Current price: $2.43,Publix,2026-03-06,False,2.43,,,True,,Private,Dairy,False
+Large Eggs (12 count),"Publix Nellies Eggs, Free Range, Grade A, Brown, Extra Large",18 ct,Current price: $8.85,Publix,2026-03-06,False,8.85,18.0,count,False,0.491667,National,Dairy,False
+Large Eggs (12 count),Publix 12 ct,12 ct,Current price: $5.97,Publix,2026-03-06,False,5.97,12.0,count,False,0.4975,Private,Dairy,False
+Large Eggs (12 count),Publix Eggland's Best Grade A Large White Eggs,12 ct,Current price: $4.41,Publix,2026-03-06,False,4.41,12.0,count,False,0.3675,National,Dairy,False
+Large Eggs (12 count),"Publix Eggland's Best Cage Free Large Brown Eggs, 12 count",12 ct,Current price: $5.53,Publix,2026-03-06,False,5.53,12.0,count,False,0.460833,National,Dairy,False
+Large Eggs (12 count),"Publix Eggland's Best Classic Extra Large White Eggs, 12 count",12 ct,Current price: $4.59,Publix,2026-03-06,False,4.59,12.0,count,False,0.3825,National,Dairy,False
+Salted Butter,Publix Kerrygold Grass-Fed Salted Butter Sticks,8 oz,Current price: $6.91,Publix,2026-03-06,False,6.91,8.0,oz,False,0.86375,Private,Dairy,False
+Salted Butter,"Publix Publix Butter, Sweet Cream, Salted",16 oz,Current price: $5.31,Publix,2026-03-06,False,5.31,16.0,oz,False,0.331875,Private,Dairy,False
+Salted Butter,"Publix Publix Butter, Salted, Sweet Cream",8 oz,Current price: $2.43,Publix,2026-03-06,False,2.43,8.0,oz,False,0.30375,Private,Dairy,False
+Salted Butter,"Publix Publix Whipped Butter, Salted",8 oz,Current price: $3.87,Publix,2026-03-06,False,3.87,8.0,oz,False,0.48375,Private,Dairy,False
+Salted Butter,Publix Kerrygold Grass-Fed Salted Butter Sticks,8 oz,Current price: $6.91,Publix,2026-03-06,False,6.91,8.0,oz,False,0.86375,Private,Dairy,False
+Bananas,Publix Banana,About 0.41 lb each,Current price: $0.33 each (estimated),Publix,2026-03-06,False,0.33,6.56,oz,False,0.050305,Private,Produce,False
+Bananas,Publix Organic Bananas,About 0.47 lb each,Current price: $0.50 each (estimated),Publix,2026-03-06,False,0.5,7.52,oz,False,0.066489,Private,Produce,False
+Bananas,Publix Publix Sweetened Banana Chips,15 oz,Current price: $6.09,Publix,2026-03-06,False,6.09,15.0,oz,False,0.406,Private,Produce,False
+Bananas,"Publix Activia Strawberry Banana Probiotic Yogurt, Delicious Low Fat Yogurt Cups to Help Support Gut Health, 4 oz, 4 Count",4 x 4 oz,Current price: $3.91,Publix,2026-03-06,False,3.91,4.0,oz,False,0.9775,Private,Produce,False
+Bananas,"Publix Publix Strawberries & Bananas, Sliced",48 oz,Current price: $13.29,Publix,2026-03-06,False,13.29,48.0,oz,False,0.276875,Private,Produce,False
+Gala Apples,Publix Gala Apple,About 0.54 lb each,Current price: $1.59 each (estimated),Publix,2026-03-06,False,1.59,8.64,oz,False,0.184028,Private,Produce,False
+Gala Apples,Publix GreenWise Organic Gala Apples,2 lb,Current price: $6.63,Publix,2026-03-06,False,6.63,32.0,oz,False,0.207187,Private,Produce,False
+Gala Apples,Publix Organic Gala Apple,About 0.42 lb each,Current price: $1.64 each (estimated),Publix,2026-03-06,False,1.64,6.72,oz,False,0.244048,Private,Produce,False
+Gala Apples,Publix CMI Orchards Gala Snack Apples,2 lb,Current price: $5.53,Publix,2026-03-06,False,5.53,32.0,oz,False,0.172813,Private,Produce,False
+Iceberg Lettuce,Publix Iceberg Lettuce,,Current price: $2.97,Publix,2026-03-06,False,2.97,,,True,,Private,Produce,False
+Ground Beef 80/20,"Publix Publix Ground Chuck Beef, USDA-Inspected",About 1.52 lb / package,Current price: $14.27 per package (estimated),Publix,2026-03-06,False,14.27,24.32,oz,False,0.58676,Private,Meat,False
+Ground Beef 80/20,Publix GreenWise Ground Chuck 100% Beef 80% Lean 20% Fat,About 1.15 lb each,Current price: $12.64 each (estimated),Publix,2026-03-06,False,12.64,18.4,oz,False,0.686957,Private,Meat,False
+Ground Beef 80/20,"Publix Schweid & Sons Ground Beef, 80%/20%, Butcher's Blend",16 oz,Current price: $9.19,Publix,2026-03-06,False,9.19,16.0,oz,False,0.574375,Private,Meat,False
+Ground Beef 80/20,"Publix Publix Ground Chuck Beef, USDA-Inspected",About 3.31 lb / package,Current price: $30.09 per package (estimated),Publix,2026-03-06,False,30.09,52.96,oz,False,0.568165,Private,Meat,False
+Ground Beef 80/20,Publix Publix Market Ground Beef,About 1.15 lb / package,Current price: $8.91 per package (estimated),Publix,2026-03-06,False,8.91,18.4,oz,False,0.484239,Private,Meat,False
+Chicken Breast,Publix Just Bare Brand Boneless Skinless Chicken Breast Fillets,1.13 lb,Current price: $9.43,Publix,2026-03-06,False,9.43,18.08,oz,False,0.521571,National,Meat,False
+Chicken Breast,Publix Just Bare Fully Cooked Lightly Breaded Chicken Breast Bites,1.5 lb,Current price: $15.49,Publix,2026-03-06,False,15.49,24.0,oz,False,0.645417,National,Meat,False
+Chicken Breast,"Publix Publix Boneless Skinless Chicken Breast, USDA Grade A, 97% Fat Free",About 2.16 lb / package,Current price: $12.87 per package (estimated),Publix,2026-03-06,False,12.87,34.56,oz,False,0.372396,Private,Meat,False
+Chicken Breast,Publix Perdue Fresh Boneless Skinless Chicken Breasts,About 1.53 lb / package,Current price: $11.86 per package (estimated),Publix,2026-03-06,False,11.86,24.48,oz,False,0.484477,Private,Meat,False
+Chicken Breast,Publix Just Bare Brand Boneless Skinless Chicken Breast Fillets,1.13 lb,Current price: $9.43,Publix,2026-03-06,False,9.43,18.08,oz,False,0.521571,National,Meat,False
+White Bread,"Publix Nature's Own Butterbread, Sliced White Bread, 20 oz Loaf",20 oz,Current price: $4.87,Publix,2026-03-06,False,4.87,20.0,oz,False,0.2435,National,Pantry,False
+White Bread,"Publix Nature's Own Perfectly Crafted White Bread, Thick Sliced Non-GMO Sandwich Bread, 22 oz Loaf",22 oz,Current price: $5.31,Publix,2026-03-06,False,5.31,22.0,oz,False,0.241364,National,Pantry,False
+White Bread,"Publix Publix Bread, Enriched, Large White",20 oz,Current price: $2.65,Publix,2026-03-06,False,2.65,20.0,oz,False,0.1325,Private,Pantry,False
+White Bread,"Publix Publix Bread, White Sandwich",20 oz,Current price: $3.31,Publix,2026-03-06,False,3.31,20.0,oz,False,0.1655,Private,Pantry,False
+White Bread,"Publix Publix Bread, White, Old Fashioned, Enriched",20 oz,Current price: $3.05,Publix,2026-03-06,False,3.05,20.0,oz,False,0.1525,Private,Pantry,False
+Spaghetti Pasta,"Publix Ronzoni Spaghetti, 16 oz, Classic Pasta, Non-GMO, Great Taste",1 lb,Current price: $2.19,Publix,2026-03-06,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,Publix Barilla Spaghetti - Non-GMO Pasta Made with Durum Wheat Semolina & Kosher Certified,1 lb,Current price: $2.19,Publix,2026-03-06,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,"Publix Ronzoni Spaghetti, 16 oz, Classic Pasta, Non-GMO, Great Taste",1 lb,Current price: $2.19,Publix,2026-03-06,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,Publix Barilla Thin Spaghetti Pasta,16 oz,Current price: $2.19,Publix,2026-03-06,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,"Publix Ronzoni Thin Spaghetti, 16 oz, Non-GMO Pasta for Entrees, Soups, Sides",1 lb,Current price: $2.19,Publix,2026-03-06,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Tomato Sauce,Publix Contadina Tomato Sauce,8 oz,Current price: $1.09,Publix,2026-03-06,False,1.09,8.0,oz,False,0.13625,National,Pantry,False
+Tomato Sauce,Publix Contadina Tomato Sauce,14.5 oz,Current price: $1.97,Publix,2026-03-06,False,1.97,14.5,oz,False,0.135862,National,Pantry,False
+Tomato Sauce,Publix Publix Tomato Sauce,15 oz,Current price: $1.35,Publix,2026-03-06,False,1.35,15.0,oz,False,0.09,Private,Pantry,False
+Tomato Sauce,Publix Publix Tomato Sauce,8 oz,Current price: $0.83,Publix,2026-03-06,False,0.83,8.0,oz,False,0.10375,Private,Pantry,False
+Tomato Sauce,Publix Publix Tomato Sauce,29 oz,Current price: $2.43,Publix,2026-03-06,False,2.43,29.0,oz,False,0.083793,Private,Pantry,False
+Dish Soap,Publix Dawn Ultra Dish Soap,70 fl oz,Current price: $10.99,Publix,2026-03-06,False,10.99,70.0,oz,False,0.157,Private,Household,False
+Dish Soap,"Publix Dawn Platinum EZ-Squeeze Dish Soap, Wild Jasmine",24.3 fl oz,Current price: $5.53,Publix,2026-03-06,False,5.53,24.3,oz,False,0.227572,Private,Household,False
+Dish Soap,"Publix Dawn Ultra Dishwashing Liquid Dish Soap, Original Scent",7.5 fl oz,Current price: $2.09,Publix,2026-03-06,False,2.09,7.5,oz,False,0.278667,Private,Household,False
+Dish Soap,"Publix Ajax Triple Action Liquid Dish Soap, Orange",28 fl oz,Current price: $3.17,Publix,2026-03-06,False,3.17,28.0,oz,False,0.113214,Private,Household,False
+Dish Soap,Publix Dawn PowerwashDish Spray Dish SoapFresh,16 oz,Current price: $5.53,Publix,2026-03-06,False,5.53,16.0,oz,False,0.345625,Private,Household,False
+Whole Milk,"Walmart Lactaid Whole Milk, 64 oz",64 oz,$448current price $4.48,Walmart,2026-03-06,False,448.0,64.0,oz,False,7.0,National,Dairy,False
+Whole Milk,"Walmart a2 Milk® Vitamin D Whole Milk, 59 oz",59 oz,$437current price $4.377.4 ¢/fl oz,Walmart,2026-03-06,False,437.0,59.0,oz,False,7.40678,National,Dairy,False
+Whole Milk,"Walmart Horizon Organic DHA Omega-3 Whole Milk, DHA Whole, 64 fl oz Carton",64 fl oz Carton,$646current price $6.4610.1 ¢/fl oz,Walmart,2026-03-06,False,646.0,64.0,oz,False,10.09375,National,Dairy,False
+Whole Milk,"Walmart Great Value Milk Whole Vitamin D, Half Gallon, , 64 fl oz",64 fl oz,$203current price $2.033.2 ¢/fl oz,Walmart,2026-03-06,False,203.0,64.0,oz,False,3.171875,National,Dairy,False
+Whole Milk,"Walmart Great Value Whole Vitamin D Milk, Gallon, 128 fl oz",128 fl oz,$338current price $3.382.6 ¢/fl oz,Walmart,2026-03-06,False,338.0,128.0,oz,False,2.640625,National,Dairy,False
+Large Eggs (12 count),Walmart Pete & Gerry's Organic Eggs Large 12 Ct,,"Now$587current price Now $5.87, Was $6.54$6.5424.5 ¢/oz",Walmart,2026-03-06,False,587.0,12.0,count,False,48.916667,National,Dairy,False
+Large Eggs (12 count),"Walmart Great Value Large White Eggs, 12 Count",12 Count,$167current price $1.677.0 ¢/oz,Walmart,2026-03-06,False,167.0,12.0,count,False,13.916667,National,Dairy,False
+Large Eggs (12 count),"Walmart Eggland's Best Large White Eggs, 12 Count",12 Count,$387current price $3.8716.1 ¢/oz,Walmart,2026-03-06,False,387.0,12.0,count,False,32.25,National,Dairy,False
+Large Eggs (12 count),"Walmart Marketside Large Cage-Free Brown Eggs, 12 Count",12 Count,$296current price $2.9612.3 ¢/oz,Walmart,2026-03-06,False,296.0,12.0,count,False,24.666667,National,Dairy,False
+Large Eggs (12 count),"Walmart Eggland's Best Cage Free Large Brown Eggs, 12 Count",12 Count,$462current price $4.6219.3 ¢/oz,Walmart,2026-03-06,False,462.0,12.0,count,False,38.5,National,Dairy,False
+Salted Butter,"Walmart Land O Lakes Salted Stick Butter, 16 oz box, 4 Sticks",4 Sticks,"Now$446current price Now $4.46, Was $4.96$4.9627.9 ¢/oz",Walmart,2026-03-06,False,446.0,4.0,count,False,111.5,National,Dairy,False
+Salted Butter,"Walmart Land O Lakes Salted Butter in Half Sticks, 4 Half Sticks, 8 oz Pack",8 oz Pack,"Now$257current price Now $2.57, Was $2.86$2.8632.1 ¢/oz",Walmart,2026-03-06,False,257.0,8.0,count,False,32.125,National,Dairy,False
+Salted Butter,"Walmart Land O Lakes Salted Butter in Half Sticks, 8 Half Sticks, 1 lb Pack",1 lb Pack,"Now$446current price Now $4.46, Was $4.96$4.9627.9 ¢/oz",Walmart,2026-03-06,False,446.0,16.0,oz,False,27.875,National,Dairy,False
+Salted Butter,"Walmart Land O Lakes Salted Butter Balls, 8 oz Bag",8 oz Bag,$397current price $3.9749.6 ¢/oz,Walmart,2026-03-06,False,397.0,8.0,oz,False,49.625,National,Dairy,False
+Salted Butter,"Walmart Great Value Sweet Cream Salted Butter, 16 oz, 4 Sticks",4 Sticks,$344current price $3.4421.5 ¢/oz,Walmart,2026-03-06,False,344.0,4.0,count,False,86.0,National,Dairy,False
+Bananas,"Walmart Fresh Banana, Each",Each,$020current price $0.20each (est.)50.0 ¢/lbFinal cost by weight,Walmart,2026-03-06,False,20.0,1.0,count,False,20.0,National,Produce,False
+Bananas,"Walmart Marketside Fresh Organic Bananas, Bunch",Bunch,$171current price $1.71each (est.)74.0 ¢/lbFinal cost by weight,Walmart,2026-03-06,False,171.0,,,True,,National,Produce,False
+Bananas,"Walmart Great Value Sliced Bananas, 16 oz Bag",16 oz Bag,$247current price $2.4715.4 ¢/oz,Walmart,2026-03-06,False,247.0,16.0,oz,False,15.4375,National,Produce,False
+Bananas,"Walmart Savor Banana Slices, 30 Pound - 1 each.",30 Pound - 1 each.,$13604current price $136.04,Walmart,2026-03-06,False,13604.0,480.0,oz,False,,National,Produce,False
+Bananas,"Walmart Simple Kitchen Freeze-Dried Sliced Bananas, 1.6 oz",1.6 oz,"Now$331current price Now $3.31, Was $3.92$3.92$2.07/oz",Walmart,2026-03-06,False,331.0,1.6,oz,False,206.875,National,Produce,False
+Gala Apples,"Walmart Fresh Gala Apple, Each",Each,"Now$046current price Now $0.46, Was $0.73$0.73each (est.)94.0 ¢/lbFinal cost by weight",Walmart,2026-03-06,False,46.0,1.0,count,False,46.0,National,Produce,False
+Gala Apples,"Walmart Fresh Gala Apples, 3 lb Bag",3 lb Bag,$217current price $2.1772.3 ¢/lb,Walmart,2026-03-06,False,217.0,48.0,oz,False,4.520833,National,Produce,False
+Gala Apples,"Walmart Fresh Organic Gala Apples, 3 lb Bag",3 lb Bag,$452current price $4.52$1.51/lb,Walmart,2026-03-06,False,452.0,48.0,oz,False,9.416667,National,Produce,False
+Gala Apples,Walmart The Perfect Garnish Co. Dehydrated Apples Gala - 35 slices - Natural Fruit,,$1499current price $14.99,Walmart,2026-03-06,False,1499.0,,,True,,National,Produce,False
+Gala Apples,"Walmart Fresh Gala Apples, 9-Count Box (4 lb.)",9-Count Box (4 lb.),$2599current price $25.99,Walmart,2026-03-06,False,2599.0,9.0,count,False,,National,Produce,False
+Iceberg Lettuce,Walmart Fieldpack Unbranded Fresh Iceberg Lettuce,,$228current price $2.28,Walmart,2026-03-06,False,228.0,,,True,,National,Produce,False
+Iceberg Lettuce,"Walmart Marketside Fresh Shredded Iceberg Lettuce, 8 oz, Bag",Bag,$197current price $1.9724.6 ¢/oz,Walmart,2026-03-06,False,197.0,1.0,count,False,197.0,National,Produce,False
+Iceberg Lettuce,"Walmart Marketside Organic Fresh Iceberg Lettuce, Each",Each,$266current price $2.66,Walmart,2026-03-06,False,266.0,1.0,count,False,266.0,National,Produce,False
+Iceberg Lettuce,"Walmart Marketside Fresh Shredded Iceberg Lettuce, 16 oz Bag",16 oz Bag,$384current price $3.8424.0 ¢/oz,Walmart,2026-03-06,False,384.0,16.0,oz,False,24.0,National,Produce,False
+Iceberg Lettuce,Walmart 1200+ Batavian Iceberg Lettuce Seeds | Non-GMO Vegetable Lettuce Seeds USA,,$398current price $3.98+$4.98 shipping,Walmart,2026-03-06,False,398.0,,,True,,National,Produce,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 2.25 lb Tray, Fresh, All Natural*",All Natural*,$1593current price $15.93$7.08/lb,Walmart,2026-03-06,False,1593.0,36.0,oz,False,,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 1 lb Tray, Fresh, All Natural*",All Natural*,$723current price $7.23$7.23/lb,Walmart,2026-03-06,False,723.0,16.0,oz,False,45.1875,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 1 lb Roll, Fresh, All Natural*",All Natural*,$673current price $6.73$6.73/lb,Walmart,2026-03-06,False,673.0,16.0,oz,False,42.0625,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 5 lb Roll, Fresh, All Natural*",All Natural*,$2693current price $26.93$5.39/lb,Walmart,2026-03-06,False,2693.0,80.0,oz,False,,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 3 lb Roll, Fresh, All Natural*",All Natural*,$1833current price $18.33$6.11/lb,Walmart,2026-03-06,False,1833.0,48.0,oz,False,,National,Meat,False
+Chicken Breast,"Walmart Sanderson Farms Fresh Boneless Skinless Chicken Breast Fillets, 25g Protein, 4oz 112g, 1.6 - 3.05lb",1.6 - 3.05lb,"Now$948current price Now $9.48, Was $10.67$10.67$4.12/lbFinal cost by weight",Walmart,2026-03-06,False,948.0,25.6,oz,False,37.03125,National,Meat,False
+Chicken Breast,"Walmart Sanderson Farms, Boneless Skinless Chicken Breast Fillets with Rib Meat, 25g Protein, 3.0 - 4 lb",3.0 - 4 lb,"Now$1183current price Now $11.83, Was $13.54$13.54$3.47/lbFinal cost by weight",Walmart,2026-03-06,False,1183.0,48.0,oz,False,,National,Meat,False
+Chicken Breast,"Walmart Perdue Harvestland, Free Range, Fresh Boneless Chicken Breast, 2.75-3.6 lb. Tray",2.75-3.6 lb. Tray,$1536current price $15.36$5.12/lbFinal cost by weight,Walmart,2026-03-06,False,1536.0,44.0,oz,False,,National,Meat,False
+Chicken Breast,"Walmart Freshness Guaranteed Boneless, Skinless Chicken Breasts, 4.7-6.1 lb Tray",4.7-6.1 lb Tray,$1157current price $11.57avg price$2.57/lbFinal cost by weight,Walmart,2026-03-06,False,1157.0,75.2,oz,False,,National,Meat,False
+Chicken Breast,"Walmart Sanderson Farms Fresh Boneless Skinless Chicken Breast Fillets, 25g Protein, 4oz 112g, 1.6 - 3.05lb",1.6 - 3.05lb,"Now$948current price Now $9.48, Was $10.67$10.67avg price$4.12/lbFinal cost by weight",Walmart,2026-03-06,False,948.0,25.6,oz,False,37.03125,National,Meat,False
+White Bread,"Walmart Dave's Killer Bread White Bread Done Right Organic Bread Loaf, 24 oz, Shelf-Stable (24 ounce)",Shelf-Stable (24 ounce),$642current price $6.4226.8 ¢/oz,Walmart,2026-03-06,False,642.0,24.0,oz,False,26.75,National,Pantry,False
+White Bread,"Walmart Sara Lee White Bread, Half Loaf, 12 oz, Bread, Bag",Bag,$214current price $2.1417.8 ¢/oz,Walmart,2026-03-06,False,214.0,1.0,count,False,214.0,National,Pantry,False
+White Bread,"Walmart Sara Lee White made with Whole Grain Bread, 20 oz, Plain Wheat Bread, Bag",Bag,$334current price $3.3416.7 ¢/oz,Walmart,2026-03-06,False,334.0,1.0,count,False,334.0,National,Pantry,False
+White Bread,"Walmart Great Value White Sandwich Bread, 20 oz",20 oz,$148current price $1.487.4 ¢/oz,Walmart,2026-03-06,False,148.0,20.0,oz,False,7.4,National,Pantry,False
+White Bread,"Walmart Great Value White Round Top Bread Loaf, 20 oz",20 oz,$148current price $1.487.4 ¢/oz,Walmart,2026-03-06,False,148.0,20.0,oz,False,7.4,National,Pantry,False
+Spaghetti Pasta,"Walmart Brami Spaghetti High Protein Pasta, Made in Italy, 21g Protein, High Fiber, Low Carb Vs. Regular Pasta Noodles, Durum Wheat Plus Lupini Beans, Bronze Cut Shelf-Stable Noodles, 14.5 oz Box",14.5 oz Box,$324current price $3.24,Walmart,2026-03-06,False,324.0,14.5,oz,False,22.344828,National,Pantry,False
+Spaghetti Pasta,"Walmart (3 pack) Brami Spaghetti High Protein Pasta, Made in Italy, 21g Protein, High Fiber, Low Carb Vs. Regular Pasta Noodles, Durum Wheat Plus Lupini Beans, Bronze Cut Shelf-Stable Noodles, 14.5 oz Box",14.5 oz Box,$972current price $9.72,Walmart,2026-03-06,False,972.0,14.5,oz,False,67.034483,National,Pantry,False
+Spaghetti Pasta,"Walmart Brami Spaghetti High Protein Pasta, Made in Italy, 21g Protein, High Fiber, Low Carb Vs. Regular Pasta Noodles, Durum Wheat Plus Lupini Beans, Bronze Cut Shelf-Stable Noodles, 14.5 oz Box",14.5 oz Box,$324current price $3.2422.3 ¢/ozOptions from $3.24 – $9.72,Walmart,2026-03-06,False,324.0,14.5,oz,False,22.344828,National,Pantry,False
+Spaghetti Pasta,"Walmart Carbe Diem Spaghetti Pasta, 12 OZ",12 OZ,$378current price $3.7831.5 ¢/oz,Walmart,2026-03-06,False,378.0,12.0,oz,False,31.5,National,Pantry,False
+Spaghetti Pasta,"Walmart Anthony’s Spaghetti, 24-Pack (16 oz Each) – Traditional Pasta for Classic Italian inspired dishes",24-Pack (16 oz Each) – Traditional Pasta for Classic Italian inspired dishes,$4499current price $44.99,Walmart,2026-03-06,False,4499.0,24.0,count,False,,National,Pantry,False
+Tomato Sauce,"Walmart Contadina Tomato Sauce, Canned Tomatoes, 15 oz Can",15 oz Can,$116current price $1.16,Walmart,2026-03-06,False,116.0,15.0,oz,False,7.733333,National,Pantry,False
+Tomato Sauce,"Walmart Sonoma Gourmet Creamy Tomato Parmesan Pasta Sauce, 24.5 Ounce",24.5 Ounce,$798current price $7.9832.6 ¢/oz,Walmart,2026-03-06,False,798.0,,,True,,National,Pantry,False
+Tomato Sauce,"Walmart RAGU Kettle Cooked Tomato Basil Pasta Sauce, 24 oz",24 oz,$262current price $2.6210.9 ¢/ozOptions from $2.62 – $5.24,Walmart,2026-03-06,False,262.0,24.0,oz,False,10.916667,National,Pantry,False
+Tomato Sauce,"Walmart Great Value Tomato Sauce, 15 oz",15 oz,$096current price $0.966.4 ¢/oz,Walmart,2026-03-06,False,96.0,15.0,oz,False,6.4,National,Pantry,False
+Tomato Sauce,"Walmart Great Value Tomato Sauce, 8 oz Can",8 oz Can,$048current price $0.486.0 ¢/oz,Walmart,2026-03-06,False,48.0,8.0,oz,False,6.0,National,Pantry,False
+Dish Soap,"Walmart Dawn Platinum Plus Dishwashing Soap, Powe suds, EZ-Squeeze Bottle, 13.6 oz",13.6 oz,"Now$354current price Now $3.54, Was $3.94$3.9426.0 ¢/fl oz",Walmart,2026-03-06,False,354.0,13.6,oz,False,26.029412,National,Household,False
+Dish Soap,"Walmart Dawn EZ-Squeeze Ultra Dish Soap Dishwashing Liquid, Original Scent, 22.0 fl oz",22.0 fl oz,"Now$354current price Now $3.54, Was $3.94$3.9416.1 ¢/fl oz",Walmart,2026-03-06,False,354.0,22.0,oz,False,16.090909,National,Household,False
+Dish Soap,"Walmart Ajax Ultra Triple Action Dishwashing Liquid Dish Soap, Orange Scent, 90 Fluid Ounce",90 Fluid Ounce,$597current price $5.976.6 ¢/fl oz,Walmart,2026-03-06,False,597.0,,,True,,National,Household,False
+Dish Soap,"Walmart Dawn Ultra, EZ Squeeze Dish Soap Orange, 22oz",22oz,"Now$354current price Now $3.54, Was $3.94$3.9416.1 ¢/fl ozOptions from $3.54 – $55.00",Walmart,2026-03-06,False,354.0,22.0,oz,False,16.090909,National,Household,False
+Dish Soap,"Walmart Dawn Ultra, Dish Soap Apple Blossom, 22oz",22oz,"Now$354current price Now $3.54, Was $3.94$3.9416.1 ¢/fl ozOptions from $3.54 – $55.00",Walmart,2026-03-06,False,354.0,22.0,oz,False,16.090909,National,Household,False
+Whole Milk,"Friendly Farms Whole  Milk, 1 gal",1 gal,$3.65,Aldi,2026-03-08,False,3.65,128.0,oz,False,0.028516,Private,Dairy,False
+Whole Milk,"Friendly Farms Whole Milk, 0.5 gal",0.5 gal,$2.25,Aldi,2026-03-08,False,2.25,64.0,oz,False,0.035156,Private,Dairy,False
+Whole Milk,"Friendly Farms Lactose Free Whole Milk, 64 fl oz",64 fl oz,$3.29,Aldi,2026-03-08,False,3.29,64.0,oz,False,0.051406,Private,Dairy,False
+Whole Milk,"Simply Nature Kids Organic Whole Milk, 59 fl oz",59 fl oz,$5.49,Aldi,2026-03-08,False,5.49,59.0,oz,False,0.093051,Private,Dairy,False
+Large Eggs (12 count),"Goldhen Free  Range Large Brown Grade A Eggs, 12 count",12 ct,$4.25,Aldi,2026-03-08,False,4.25,12.0,count,False,0.354167,Private,Dairy,False
+Large Eggs (12 count),"Goldhen Pasture Raised Large Brown Eggs Grade A, 12 count",12 ct,$4.35,Aldi,2026-03-08,False,4.35,12.0,count,False,0.3625,Private,Dairy,False
+Large Eggs (12 count),"Happy Farms Mozzarella String  Cheese, 12 count",12 oz,$3.45,Aldi,2026-03-08,False,3.45,12.0,oz,False,0.2875,National,Dairy,False
+Large Eggs (12 count),"Happy Farms Gouda Cheese Snack Sticks, 12 count",9 oz,$3.19,Aldi,2026-03-08,False,3.19,9.0,oz,False,0.354444,National,Dairy,False
+Large Eggs (12 count),"EggLife Roasted Garlic & Herb Egg White Wraps, 6 count",6 oz,$5.49,Aldi,2026-03-08,False,5.49,6.0,oz,False,0.915,National,Dairy,False
+Salted Butter,"Countryside Creamery Salted Butter Sticks, 1 lb",16 oz,$3.55,Aldi,2026-03-08,False,3.55,16.0,oz,False,0.221875,National,Dairy,False
+Salted Butter,"Simply Nature Organic Salted Butter, 16 oz",16 oz.,$6.85,Aldi,2026-03-08,False,6.85,16.0,oz,False,0.428125,Private,Dairy,False
+Bananas,"Bananas, per lb",avg. 0.33 lb/piece  ($0.47/lb),$0.16,Aldi,2026-03-08,False,0.16,5.28,oz,False,0.030303,National,Produce,False
+Bananas,Sweet Banana Pepper,1 ea,$1.64,Aldi,2026-03-08,False,1.64,,,True,,National,Produce,False
+Bananas,"Simply Nature Dark Chocolate Covered Banana, 4 oz",4 oz,$4.39,Aldi,2026-03-08,False,4.39,4.0,oz,False,1.0975,Private,Produce,False
+Bananas,"Organic Bananas, per lb",avg. 1 lb/piece  ($0.73/lb),$0.73,Aldi,2026-03-08,False,0.73,16.0,oz,False,0.045625,National,Produce,False
+Bananas,"Bake Shop Banana Nut Muffins, 4 count",14.1 oz,$4.29,Aldi,2026-03-08,False,4.29,14.1,oz,False,0.304255,National,Produce,False
+Gala Apples,"Gala Apples, 3 lb",3 lb,$2.45,Aldi,2026-03-08,False,2.45,48.0,oz,False,0.051042,National,Produce,False
+Gala Apples,"Organic Gala Apples, 3 lb",3 lb,$4.75,Aldi,2026-03-08,False,4.75,48.0,oz,False,0.098958,National,Produce,False
+Iceberg Lettuce,"Iceberg Lettuce, each",1 each,$2.39,Aldi,2026-03-08,False,2.39,1.0,count,False,2.39,National,Produce,False
+Ground Beef 80/20,"Fresh  80% Lean 20% Fat Ground Beef, per lb",avg. 2 lb/package  ($5.49/lb),$10.98,Aldi,2026-03-08,False,10.98,32.0,oz,False,0.343125,National,Meat,False
+Ground Beef 80/20,"Fresh  80% Lean 20% Fat Ground Beef Patties, 4 count",avg. 1.33 lb/package  ($5.59/lb),$7.43,Aldi,2026-03-08,False,7.43,21.28,oz,False,0.349154,National,Meat,False
+Ground Beef 80/20,"Fresh  80%  Lean 20% Fat Ground Beef Patties Family Pack, 10 count",2.2 lb,$12.00,Aldi,2026-03-08,False,12.0,35.2,oz,False,0.340909,National,Meat,False
+Ground Beef 80/20,"Never Any! Antibiotic Free 80% Lean Ground Pork, 16 oz",16 oz,$3.55,Aldi,2026-03-08,False,3.55,16.0,oz,False,0.221875,Private,Meat,False
+Chicken Breast,Simply Nature Organic  Chicken  Breast Strips,avg. 1.25 lb/package  ($7.29/lb),$9.11,Aldi,2026-03-08,False,9.11,20.0,oz,False,0.4555,Private,Meat,False
+Chicken Breast,Simply Nature Organic  Chicken  Breast Strips,avg. 1.25 lb/package  ($6.49/lb),$8.11,Aldi,2026-03-08,False,8.11,20.0,oz,False,0.4055,Private,Meat,False
+Chicken Breast,"Simply Nature Organic Chicken Breasts, per lb",avg. 1 lb/package  ($5.79/lb),$5.79,Aldi,2026-03-08,False,5.79,16.0,oz,False,0.361875,Private,Meat,False
+Chicken Breast,"Kirkwood Fresh Chicken Breasts, per lb",avg. 1.75 lb/package  ($3.29/lb),$5.76,Aldi,2026-03-08,False,5.76,28.0,oz,False,0.205714,National,Meat,False
+Chicken Breast,"Kirkwood Split Chicken Breasts, per lb",avg. 2.5 lb/package  ($1.99/lb),$4.98,Aldi,2026-03-08,False,4.98,40.0,oz,False,0.1245,National,Meat,False
+White Bread,"L'oven Fresh White Bread,  20 oz",20 oz,$1.65,Aldi,2026-03-08,False,1.65,20.0,oz,False,0.0825,National,Pantry,False
+White Bread,"L'oven Fresh Keto  Friendly White Bread, 14 oz",14 oz,$4.95,Aldi,2026-03-08,False,4.95,14.0,oz,False,0.353571,National,Pantry,False
+White Bread,"liveGfree Gluten Free Wide Pan White Bread, 20 oz",20 oz,$7.69,Aldi,2026-03-08,False,7.69,20.0,oz,False,0.3845,National,Pantry,False
+Tomato Sauce,"Happy Harvest Tomato Sauce, 8 oz",8 oz,$0.55,Aldi,2026-03-08,False,0.55,8.0,oz,False,0.06875,National,Pantry,False
+Dish Soap,"Dawn Ultra Dish Soap, 28 fl oz",28 fl oz,$4.95,Aldi,2026-03-08,False,4.95,28.0,oz,False,0.176786,National,Household,False
+Whole Milk,Publix Lactaid Whole Milk,96 fl oz,Current price: $7.75,Publix,2026-03-08,False,7.75,96.0,oz,False,0.080729,Private,Dairy,False
+Whole Milk,Publix Organic Valley® Grassmilk® Organic Whole Milk,59 fl oz,Current price: $8.19,Publix,2026-03-08,False,8.19,59.0,oz,False,0.138814,National,Dairy,False
+Whole Milk,"Publix Publix Milk, Whole",1 gal,Current price: $4.73,Publix,2026-03-08,False,4.73,128.0,oz,False,0.036953,Private,Dairy,False
+Whole Milk,"Publix Publix Milk, Whole",64 oz,Current price: $3.23,Publix,2026-03-08,False,3.23,64.0,oz,False,0.050469,Private,Dairy,False
+Whole Milk,"Publix Publix Milk, Whole",,Current price: $2.43,Publix,2026-03-08,False,2.43,,,True,,Private,Dairy,False
+Large Eggs (12 count),"Publix Nellies Eggs, Free Range, Grade A, Brown, Extra Large",18 ct,Current price: $8.85,Publix,2026-03-08,False,8.85,18.0,count,False,0.491667,National,Dairy,False
+Large Eggs (12 count),Publix 12 ct,12 ct,Current price: $6.63,Publix,2026-03-08,False,6.63,12.0,count,False,0.5525,Private,Dairy,False
+Large Eggs (12 count),Publix Eggland's Best Grade A Large White Eggs,12 ct,Current price: $4.41,Publix,2026-03-08,False,4.41,12.0,count,False,0.3675,National,Dairy,False
+Large Eggs (12 count),"Publix Eggland's Best Cage Free Large Brown Eggs, 12 count",12 ct,Current price: $5.53,Publix,2026-03-08,False,5.53,12.0,count,False,0.460833,National,Dairy,False
+Large Eggs (12 count),"Publix Eggland's Best Classic Extra Large White Eggs, 12 count",12 ct,Current price: $4.59,Publix,2026-03-08,False,4.59,12.0,count,False,0.3825,National,Dairy,False
+Salted Butter,"Publix Land O Lakes Butter, Salted",1 lb,Current price: $6.49,Publix,2026-03-08,False,6.49,16.0,oz,False,0.405625,National,Dairy,False
+Salted Butter,"Publix Publix Butter, Sweet Cream, Salted",16 oz,Current price: $5.31,Publix,2026-03-08,False,5.31,16.0,oz,False,0.331875,Private,Dairy,False
+Salted Butter,"Publix Publix Butter, Salted, Sweet Cream",8 oz,Current price: $2.43,Publix,2026-03-08,False,2.43,8.0,oz,False,0.30375,Private,Dairy,False
+Salted Butter,"Publix Publix Whipped Butter, Salted",8 oz,Current price: $3.87,Publix,2026-03-08,False,3.87,8.0,oz,False,0.48375,Private,Dairy,False
+Salted Butter,Publix Kerrygold Grass-Fed Salted Butter Sticks,8 oz,Current price: $6.91,Publix,2026-03-08,False,6.91,8.0,oz,False,0.86375,Private,Dairy,False
+Gala Apples,Publix Gala Apple,About 0.54 lb each,Current price: $1.59 each (estimated),Publix,2026-03-08,False,1.59,8.64,oz,False,0.184028,Private,Produce,False
+Gala Apples,Publix GreenWise Organic Gala Apples,2 lb,Current price: $6.63,Publix,2026-03-08,False,6.63,32.0,oz,False,0.207187,Private,Produce,False
+Gala Apples,Publix Organic Gala Apple,About 0.42 lb each,Current price: $1.64 each (estimated),Publix,2026-03-08,False,1.64,6.72,oz,False,0.244048,Private,Produce,False
+Gala Apples,Publix CMI Orchards Gala Snack Apples,2 lb,Current price: $5.53,Publix,2026-03-08,False,5.53,32.0,oz,False,0.172813,Private,Produce,False
+Iceberg Lettuce,Publix Iceberg Lettuce,,Current price: $2.97,Publix,2026-03-08,False,2.97,,,True,,Private,Produce,False
+Iceberg Lettuce,Publix Fresh Express Iceberg Lettuce Shreds,,Current price: $4.19,Publix,2026-03-08,False,4.19,,,True,,National,Produce,False
+Ground Beef 80/20,"Publix Beyond Meat Beyond Beef, Plant-Based Ground",16 oz,Current price: $12.19,Publix,2026-03-08,False,12.19,16.0,oz,False,0.761875,Private,Meat,False
+Ground Beef 80/20,"Publix Publix Ground Chuck Beef, USDA-Inspected",About 1.52 lb / package,Current price: $14.27 per package (estimated),Publix,2026-03-08,False,14.27,24.32,oz,False,0.58676,Private,Meat,False
+Ground Beef 80/20,Publix GreenWise Ground Chuck 100% Beef 80% Lean 20% Fat,About 1.15 lb each,Current price: $12.64 each (estimated),Publix,2026-03-08,False,12.64,18.4,oz,False,0.686957,Private,Meat,False
+Ground Beef 80/20,"Publix Schweid & Sons Ground Beef, 80%/20%, Butcher's Blend",16 oz,Current price: $9.19,Publix,2026-03-08,False,9.19,16.0,oz,False,0.574375,Private,Meat,False
+Ground Beef 80/20,"Publix Publix Ground Chuck Beef, USDA-Inspected",About 3.27 lb / package,Current price: $29.68 per package (estimated),Publix,2026-03-08,False,29.68,52.32,oz,False,0.567278,Private,Meat,False
+Chicken Breast,Publix Just Bare Brand Boneless Skinless Chicken Breast Fillets,1.13 lb,Current price: $9.43,Publix,2026-03-08,False,9.43,18.08,oz,False,0.521571,National,Meat,False
+Chicken Breast,Publix Just Bare Fully Cooked Lightly Breaded Chicken Breast Bites,1.5 lb,Current price: $15.49,Publix,2026-03-08,False,15.49,24.0,oz,False,0.645417,National,Meat,False
+Chicken Breast,"Publix Publix Boneless Skinless Chicken Breast, USDA Grade A, 97% Fat Free",About 2.17 lb / package,Current price: $12.95 per package (estimated),Publix,2026-03-08,False,12.95,34.72,oz,False,0.372984,Private,Meat,False
+Chicken Breast,Publix Just Bare Brand Boneless Skinless Chicken Breast Fillets,1.13 lb,Current price: $9.43,Publix,2026-03-08,False,9.43,18.08,oz,False,0.521571,National,Meat,False
+Chicken Breast,Publix Perdue Fresh Boneless Skinless Chicken Breasts,About 1.53 lb / package,Current price: $11.86 per package (estimated),Publix,2026-03-08,False,11.86,24.48,oz,False,0.484477,Private,Meat,False
+White Bread,"Publix Nature's Own Butterbread, Sliced White Bread, 20 oz Loaf",20 oz,Current price: $4.87,Publix,2026-03-08,False,4.87,20.0,oz,False,0.2435,National,Pantry,False
+White Bread,"Publix Nature's Own Perfectly Crafted White Bread, Thick Sliced Non-GMO Sandwich Bread, 22 oz Loaf",22 oz,Current price: $5.31,Publix,2026-03-08,False,5.31,22.0,oz,False,0.241364,National,Pantry,False
+White Bread,"Publix Publix Bread, Enriched, Large White",20 oz,Current price: $2.65,Publix,2026-03-08,False,2.65,20.0,oz,False,0.1325,Private,Pantry,False
+White Bread,"Publix Publix Bread, White Sandwich",20 oz,Current price: $3.31,Publix,2026-03-08,False,3.31,20.0,oz,False,0.1655,Private,Pantry,False
+White Bread,"Publix Publix Bread, White, Old Fashioned, Enriched",20 oz,Current price: $3.05,Publix,2026-03-08,False,3.05,20.0,oz,False,0.1525,Private,Pantry,False
+Spaghetti Pasta,Publix Barilla Spaghetti - Non-GMO Pasta Made with Durum Wheat Semolina & Kosher Certified,1 lb,Current price: $2.19,Publix,2026-03-08,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,"Publix Ronzoni Spaghetti, 16 oz, Classic Pasta, Non-GMO, Great Taste",1 lb,Current price: $2.19,Publix,2026-03-08,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,"Publix Ronzoni Spaghetti, 16 oz, Classic Pasta, Non-GMO, Great Taste",1 lb,Current price: $2.19,Publix,2026-03-08,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,Publix Barilla Thin Spaghetti Pasta,16 oz,Current price: $2.19,Publix,2026-03-08,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,"Publix Barilla Protein+ (Plus) Thin Spaghetti Pasta- Plant Based - Made from Lentils, Chickpeas & Peas",14.5 oz,Current price: $3.53,Publix,2026-03-08,False,3.53,14.5,oz,False,0.243448,Private,Pantry,False
+Tomato Sauce,Publix Contadina Tomato Sauce,8 oz,Current price: $1.09,Publix,2026-03-08,False,1.09,8.0,oz,False,0.13625,National,Pantry,False
+Tomato Sauce,Publix Publix Tomato Sauce,15 oz,Current price: $1.35,Publix,2026-03-08,False,1.35,15.0,oz,False,0.09,Private,Pantry,False
+Tomato Sauce,Publix Publix Tomato Sauce,8 oz,Current price: $0.83,Publix,2026-03-08,False,0.83,8.0,oz,False,0.10375,Private,Pantry,False
+Tomato Sauce,Publix Publix Tomato Sauce,29 oz,Current price: $2.43,Publix,2026-03-08,False,2.43,29.0,oz,False,0.083793,Private,Pantry,False
+Tomato Sauce,"Publix Ragu Chunky Tomato, Garlic and Onion Pasta Sauce, Made with Diced Tomatoes, Delicious Garlic and Onions, 45 oz",45 oz,Current price: $5.09,Publix,2026-03-08,False,5.09,45.0,oz,False,0.113111,Private,Pantry,False
+Dish Soap,Publix Dawn Ultra Dish Soap,70 fl oz,Current price: $10.99,Publix,2026-03-08,False,10.99,70.0,oz,False,0.157,Private,Household,False
+Dish Soap,"Publix Dawn Platinum Dishwashing Liquid Dish Soap, Refreshing Rain Scent",54.8 fl oz,Current price: $10.99,Publix,2026-03-08,False,10.99,54.8,oz,False,0.200547,Private,Household,False
+Dish Soap,Publix Dawn Ultra Dish Soap,18 fl oz,Current price: $3.49,Publix,2026-03-08,False,3.49,18.0,oz,False,0.193889,Private,Household,False
+Dish Soap,"Publix Dawn Ultra Dishwashing Liquid Dish Soap, Original Scent",7.5 fl oz,Current price: $2.09,Publix,2026-03-08,False,2.09,7.5,oz,False,0.278667,Private,Household,False
+Dish Soap,Publix Dawn PowerwashDish Spray Dish SoapFresh,16 oz,Current price: $5.53,Publix,2026-03-08,False,5.53,16.0,oz,False,0.345625,Private,Household,False
+Whole Milk,"Walmart Lactaid Whole Milk, 64 oz",64 oz,$448current price $4.48,Walmart,2026-03-08,False,448.0,64.0,oz,False,7.0,National,Dairy,False
+Whole Milk,"Walmart Lactaid Whole Milk, Calcium Enriched, 64 oz",64 oz,$448current price $4.48,Walmart,2026-03-08,False,448.0,64.0,oz,False,7.0,National,Dairy,False
+Whole Milk,"Walmart Hoosier Hill Farm Whole Milk Powder, 1 lb Jar",1 lb Jar,$1499current price $14.99Options from $14.99 – $22.99,Walmart,2026-03-08,False,1499.0,16.0,oz,False,,National,Dairy,False
+Whole Milk,"Walmart NIDO Fortificada Dry Whole Milk Powder with Vitamins A, C, D, Iron & Calcium, 12.6 oz Canister",12.6 oz Canister,$676current price $6.7653.7 ¢/oz,Walmart,2026-03-08,False,676.0,12.6,oz,False,53.650794,National,Dairy,False
+Whole Milk,"Walmart Great Value Milk Whole Vitamin D, Half Gallon, , 64 fl oz",64 fl oz,$203current price $2.033.2 ¢/fl oz,Walmart,2026-03-08,False,203.0,64.0,oz,False,3.171875,National,Dairy,False
+Large Eggs (12 count),"Walmart Great Value Large White Eggs, 12 Count",12 Count,$167current price $1.677.0 ¢/oz,Walmart,2026-03-08,False,167.0,12.0,count,False,13.916667,National,Dairy,False
+Large Eggs (12 count),"Walmart Eggland's Best Large White Eggs, 12 Count",12 Count,$387current price $3.8716.1 ¢/oz,Walmart,2026-03-08,False,387.0,12.0,count,False,32.25,National,Dairy,False
+Large Eggs (12 count),"Walmart Marketside Large Cage-Free Brown Eggs, 12 Count",12 Count,$296current price $2.9612.3 ¢/oz,Walmart,2026-03-08,False,296.0,12.0,count,False,24.666667,National,Dairy,False
+Large Eggs (12 count),"Walmart Eggland's Best Cage Free Large Brown Eggs, 12 Count",12 Count,$462current price $4.6219.3 ¢/oz,Walmart,2026-03-08,False,462.0,12.0,count,False,38.5,National,Dairy,False
+Large Eggs (12 count),"Walmart Great Value Extra Large White Eggs, 12 Count",12 Count,$187current price $1.8715.6 ¢/count,Walmart,2026-03-08,False,187.0,12.0,count,False,15.583333,National,Dairy,False
+Salted Butter,"Walmart Land O Lakes Salted Stick Butter, 16 oz box, 4 Sticks",4 Sticks,"Now$446current price Now $4.46, Was $4.96$4.9627.9 ¢/oz",Walmart,2026-03-08,False,446.0,4.0,count,False,111.5,National,Dairy,False
+Salted Butter,"Walmart Land O Lakes Salted Butter in Half Sticks, 4 Half Sticks, 8 oz Pack",8 oz Pack,"Now$257current price Now $2.57, Was $2.86$2.8632.1 ¢/oz",Walmart,2026-03-08,False,257.0,8.0,count,False,32.125,National,Dairy,False
+Salted Butter,"Walmart Land O Lakes Salted Butter in Half Sticks, 8 Half Sticks, 1 lb Pack",1 lb Pack,"Now$446current price Now $4.46, Was $4.96$4.9627.9 ¢/oz",Walmart,2026-03-08,False,446.0,16.0,oz,False,27.875,National,Dairy,False
+Salted Butter,"Walmart Country Crock Homestyle Dairy Free Butter Salted Sticks, 16 oz, 4-pack",4-pack,$347current price $3.4721.7 ¢/oz,Walmart,2026-03-08,False,347.0,4.0,count,False,86.75,National,Dairy,False
+Salted Butter,"Walmart Great Value Sweet Cream Salted Butter, 16 oz, 4 Sticks",4 Sticks,$344current price $3.4421.5 ¢/oz,Walmart,2026-03-08,False,344.0,4.0,count,False,86.0,National,Dairy,False
+Bananas,"Walmart Fresh Banana, Each",Each,$020current price $0.20each (est.)50.0 ¢/lbFinal cost by weight,Walmart,2026-03-08,False,20.0,1.0,count,False,20.0,National,Produce,False
+Bananas,"Walmart Marketside Fresh Organic Bananas, Bunch",Bunch,$171current price $1.71each (est.)74.0 ¢/lbFinal cost by weight,Walmart,2026-03-08,False,171.0,,,True,,National,Produce,False
+Bananas,"Walmart Great Value Sliced Bananas, 16 oz Bag",16 oz Bag,$247current price $2.4715.4 ¢/oz,Walmart,2026-03-08,False,247.0,16.0,oz,False,15.4375,National,Produce,False
+Bananas,"Walmart Savor Banana Slices, 30 Pound - 1 each.",30 Pound - 1 each.,$13604current price $136.04,Walmart,2026-03-08,False,13604.0,480.0,oz,False,,National,Produce,False
+Bananas,"Walmart Dole Individually Quick Frozen Sliced Banana, 30 Pound -- 1 Each",30 Pound -- 1 Each,$13055current price $130.55,Walmart,2026-03-08,False,13055.0,480.0,oz,False,,National,Produce,False
+Gala Apples,"Walmart Fresh Gala Apple, Each",Each,"Now$046current price Now $0.46, Was $0.73$0.73each (est.)94.0 ¢/lbFinal cost by weight",Walmart,2026-03-08,False,46.0,1.0,count,False,46.0,National,Produce,False
+Gala Apples,"Walmart Fresh Gala Apples, 3 lb Bag",3 lb Bag,$217current price $2.1772.3 ¢/lb,Walmart,2026-03-08,False,217.0,48.0,oz,False,4.520833,National,Produce,False
+Gala Apples,"Walmart Fresh Organic Gala Apples, 3 lb Bag",3 lb Bag,$452current price $4.52$1.51/lb,Walmart,2026-03-08,False,452.0,48.0,oz,False,9.416667,National,Produce,False
+Gala Apples,"Walmart Fresh Gala Apples, 9-Count Box (4 lb.)",9-Count Box (4 lb.),$2599current price $25.99+$14.00 shipping,Walmart,2026-03-08,False,2599.0,9.0,count,False,,National,Produce,False
+Gala Apples,Walmart The Perfect Garnish Co. Dehydrated Apples Gala - 35 slices - Natural Fruit,,$1499current price $14.99,Walmart,2026-03-08,False,1499.0,,,True,,National,Produce,False
+Iceberg Lettuce,Walmart Fieldpack Unbranded Fresh Iceberg Lettuce,,$228current price $2.28,Walmart,2026-03-08,False,228.0,,,True,,National,Produce,False
+Iceberg Lettuce,"Walmart Marketside Fresh Shredded Iceberg Lettuce, 8 oz, Bag",Bag,$197current price $1.9724.6 ¢/oz,Walmart,2026-03-08,False,197.0,1.0,count,False,197.0,National,Produce,False
+Iceberg Lettuce,"Walmart Marketside Organic Fresh Iceberg Lettuce, Each",Each,$266current price $2.66,Walmart,2026-03-08,False,266.0,1.0,count,False,266.0,National,Produce,False
+Iceberg Lettuce,"Walmart Marketside Fresh Shredded Iceberg Lettuce, 16 oz Bag",16 oz Bag,$384current price $3.8424.0 ¢/oz,Walmart,2026-03-08,False,384.0,16.0,oz,False,24.0,National,Produce,False
+Iceberg Lettuce,Walmart Iceberg Lettuce Seeds,,$495current price $4.95,Walmart,2026-03-08,False,495.0,,,True,,National,Produce,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 2.25 lb Tray, Fresh, All Natural*",All Natural*,$1593current price $15.93$7.08/lb,Walmart,2026-03-08,False,1593.0,36.0,oz,False,,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 1 lb Tray, Fresh, All Natural*",All Natural*,$723current price $7.23$7.23/lb,Walmart,2026-03-08,False,723.0,16.0,oz,False,45.1875,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 1 lb Roll, Fresh, All Natural*",All Natural*,$673current price $6.73$6.73/lb,Walmart,2026-03-08,False,673.0,16.0,oz,False,42.0625,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 5 lb Roll, Fresh, All Natural*",All Natural*,$2693current price $26.93$5.39/lb,Walmart,2026-03-08,False,2693.0,80.0,oz,False,,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 3 lb Roll, Fresh, All Natural*",All Natural*,$1833current price $18.33$6.11/lb,Walmart,2026-03-08,False,1833.0,48.0,oz,False,,National,Meat,False
+Chicken Breast,"Walmart Just Bare Fully Cooked Lightly Breaded Chicken Breast Bites 1.5 lb, 16g of Protein, Serving Size 3 Ounces",Serving Size 3 Ounces,"Now$977current price Now $9.77, Was $10.86$10.8640.7 ¢/oz",Walmart,2026-03-08,False,977.0,24.0,oz,False,40.708333,National,Meat,False
+Chicken Breast,"Walmart Tyson Spicy Chicken Breast Sandwich, 1.5 lb, 4 Count (Frozen Fully Cooked)",4 Count (Frozen Fully Cooked),$878current price $8.7836.6 ¢/oz,Walmart,2026-03-08,False,878.0,4.0,count,False,219.5,National,Meat,False
+Chicken Breast,"Walmart Just Bare Fully Cooked Lightly Breaded Chicken Breast Strips 1.5 lb, 16g of Protein, Serving Size 2 Pieces",Serving Size 2 Pieces,"Now$977current price Now $9.77, Was $10.86$10.8640.7 ¢/oz",Walmart,2026-03-08,False,977.0,24.0,oz,False,40.708333,National,Meat,False
+Chicken Breast,"Walmart Freshness Guaranteed Boneless, Skinless Chicken Breasts, 4.7-6.1 lb Tray",4.7-6.1 lb Tray,$1157current price $11.57avg price$2.57/lbFinal cost by weight,Walmart,2026-03-08,False,1157.0,75.2,oz,False,,National,Meat,False
+Chicken Breast,"Walmart Great Value All Natural Boneless Skinless Chicken Breasts, 3 lb (Frozen)",3 lb (Frozen),"Now$894current price Now $8.94, Was $9.94$9.94$2.98/lb",Walmart,2026-03-08,False,894.0,48.0,oz,False,18.625,National,Meat,False
+White Bread,"Walmart Sara Lee White Bread, Half Loaf, 12 oz, Bread, Bag",Bag,$214current price $2.1417.8 ¢/oz,Walmart,2026-03-08,False,214.0,1.0,count,False,214.0,National,Pantry,False
+White Bread,"Walmart Canyon Bakehouse Mountain White Gluten Free White Bread Loaf, 18 oz., Frozen",Frozen,$647current price $6.4735.9 ¢/oz,Walmart,2026-03-08,False,647.0,18.0,oz,False,35.944444,National,Pantry,False
+White Bread,"Walmart Great Value White Sandwich Bread, 20 oz",20 oz,$154current price $1.547.7 ¢/oz,Walmart,2026-03-08,False,154.0,20.0,oz,False,7.7,National,Pantry,False
+White Bread,"Walmart Great Value White Round Top Bread Loaf, 20 oz",20 oz,$154current price $1.547.7 ¢/oz,Walmart,2026-03-08,False,154.0,20.0,oz,False,7.7,National,Pantry,False
+White Bread,"Walmart Sara Lee Delightful White Bread, 15 oz, White Bread, Bag",Bag,$348current price $3.4823.2 ¢/oz,Walmart,2026-03-08,False,348.0,1.0,count,False,348.0,National,Pantry,False
+Spaghetti Pasta,"Walmart Anthony’s Spaghetti, 24-Pack (16 oz Each) – Traditional Pasta for Classic Italian inspired dishes",24-Pack (16 oz Each) – Traditional Pasta for Classic Italian inspired dishes,$4499current price $44.99,Walmart,2026-03-08,False,4499.0,24.0,count,False,,National,Pantry,False
+Spaghetti Pasta,"Walmart Mueller’s Spaghetti (12-Pack, 32 oz Each) – Classic Italian Pasta for All Your Favorite Dishes – Perfect for spaghetti and meatballs, pasta primavera, creamy Alfredo, or homemade carbonara.",or homemade carbonara.,N/A,Walmart,2026-03-08,True,999.0,32.0,oz,False,,National,Pantry,False
+Spaghetti Pasta,"Walmart It’s Skinny  Spaghetti Pasta – Low Carb, Gluten Free Keto, Vegan Konjac Noodles, Non-GMO & Only 4.5 Calories Per Serving (24 Packs)",Non-GMO & Only 4.5 Calories Per Serving (24 Packs),$7398current price $73.98Options from $25.99,Walmart,2026-03-08,False,7398.0,,,True,,National,Pantry,False
+Spaghetti Pasta,"Walmart Barilla Classic Non-GMO, Kosher Certified Spaghetti Pasta, 16 oz",16 oz,$184current price $1.8411.5 ¢/oz,Walmart,2026-03-08,False,184.0,16.0,oz,False,11.5,National,Pantry,False
+Spaghetti Pasta,"Walmart Pasta Zing Microwavable Variety Pasta Pack of 7 | 2x Elbow | 2x Farfalle, 3x Spaghetti | Ready To Eat in 60 Sec - Fully Cooked - 7.05 Ounce",3x Spaghetti | Ready To Eat in 60 Sec - Fully Cooked - 7.05 Ounce,"Now$1400current price Now $14.00, Was $17.99$17.99",Walmart,2026-03-08,False,1400.0,,,True,,National,Pantry,False
+Tomato Sauce,"Walmart Contadina Tomato Sauce, Canned Tomatoes, 15 oz Can",15 oz Can,$116current price $1.16,Walmart,2026-03-08,False,116.0,15.0,oz,False,7.733333,National,Pantry,False
+Tomato Sauce,"Walmart Sonoma Gourmet Creamy Tomato Parmesan Pasta Sauce, 24.5 Ounce",24.5 Ounce,$798current price $7.9832.6 ¢/oz,Walmart,2026-03-08,False,798.0,,,True,,National,Pantry,False
+Tomato Sauce,"Walmart Dave’s Gourmet Organic Heritage Red Tomato Pasta Sauce, Classic Marinara Flavor for Spaghetti Dishes, Shelf-Stable, Gluten-Free, Vegan, 24oz Jar",24oz Jar,$698current price $6.9827.4 ¢/oz,Walmart,2026-03-08,False,698.0,24.0,oz,False,29.083333,National,Pantry,False
+Tomato Sauce,"Walmart Great Value Tomato Sauce, 8 oz Can",8 oz Can,$048current price $0.486.0 ¢/oz,Walmart,2026-03-08,False,48.0,8.0,oz,False,6.0,National,Pantry,False
+Tomato Sauce,"Walmart Great Value Tomato Sauce, 15 oz",15 oz,$096current price $0.966.4 ¢/oz,Walmart,2026-03-08,False,96.0,15.0,oz,False,6.4,National,Pantry,False
+Dish Soap,"Walmart Palmolive Ultra Strength Liquid Dish Soap, 70 fl oz Bottle",70 fl oz Bottle,$798current price $7.9811.4 ¢/fl oz,Walmart,2026-03-08,False,798.0,70.0,oz,False,11.4,National,Household,False
+Dish Soap,"Walmart Ajax Ultra Triple Action Dishwashing Liquid Dish Soap, Orange Scent, 90 Fluid Ounce",90 Fluid Ounce,$597current price $5.976.6 ¢/fl oz,Walmart,2026-03-08,False,597.0,,,True,,National,Household,False
+Dish Soap,"Walmart Palmolive Ultra Oxy Liquid Dish Soap, Power Degreaser, 70 fl oz Bottle",70 fl oz Bottle,$798current price $7.9811.4 ¢/ea,Walmart,2026-03-08,False,798.0,70.0,oz,False,11.4,National,Household,False
+Dish Soap,"Walmart Dawn Platinum Plus Dishwashing Soap, Powe suds, EZ-Squeeze Bottle, 13.6 oz",13.6 oz,"Now$354current price Now $3.54, Was $3.94$3.9426.0 ¢/fl oz",Walmart,2026-03-08,False,354.0,13.6,oz,False,26.029412,National,Household,False
+Dish Soap,"Walmart ECOS Hypoallergenic Liquid Dish Soap, Free & Clear, 25 Fluid Ounce",25 Fluid Ounce,$298current price $2.9811.9 ¢/fl ozOptions from $2.98 – $5.96,Walmart,2026-03-08,False,298.0,,,True,,National,Household,False
+Whole Milk,"Friendly Farms Whole  Milk, 1 gal",1 gal,$3.65,Aldi,2026-03-11,False,3.65,128.0,oz,False,0.028516,Private,Dairy,False
+Whole Milk,"Friendly Farms Whole Milk, 0.5 gal",0.5 gal,$2.25,Aldi,2026-03-11,False,2.25,64.0,oz,False,0.035156,Private,Dairy,False
+Whole Milk,"Friendly Farms Lactose Free Whole Milk, 64 fl oz",64 fl oz,$3.29,Aldi,2026-03-11,False,3.29,64.0,oz,False,0.051406,Private,Dairy,False
+Whole Milk,"Simply Nature Kids Organic Whole Milk, 59 fl oz",59 fl oz,$5.49,Aldi,2026-03-11,False,5.49,59.0,oz,False,0.093051,Private,Dairy,False
+Large Eggs (12 count),"Goldhen Free  Range Large Brown Grade A Eggs, 12 count",12 ct,$4.25,Aldi,2026-03-11,False,4.25,12.0,count,False,0.354167,Private,Dairy,False
+Large Eggs (12 count),"Goldhen Pasture Raised Large Brown Eggs Grade A, 12 count",12 ct,$4.35,Aldi,2026-03-11,False,4.35,12.0,count,False,0.3625,Private,Dairy,False
+Large Eggs (12 count),"Happy Farms Mozzarella String  Cheese, 12 count",12 oz,$3.45,Aldi,2026-03-11,False,3.45,12.0,oz,False,0.2875,National,Dairy,False
+Large Eggs (12 count),"Happy Farms Gouda Cheese Snack Sticks, 12 count",9 oz,$3.19,Aldi,2026-03-11,False,3.19,9.0,oz,False,0.354444,National,Dairy,False
+Large Eggs (12 count),"Happy Farms Habanero Jack Cheese Snack Sticks, 12 count",9 oz,$3.19,Aldi,2026-03-11,False,3.19,9.0,oz,False,0.354444,National,Dairy,False
+Salted Butter,"Countryside Creamery Salted Butter Sticks, 1 lb",16 oz,$3.55,Aldi,2026-03-11,False,3.55,16.0,oz,False,0.221875,National,Dairy,False
+Salted Butter,"Simply Nature Organic Salted Butter, 16 oz",16 oz.,$6.85,Aldi,2026-03-11,False,6.85,16.0,oz,False,0.428125,Private,Dairy,False
+Bananas,"Bananas, per lb",avg. 0.33 lb/piece  ($0.47/lb),$0.16,Aldi,2026-03-11,False,0.16,5.28,oz,False,0.030303,National,Produce,False
+Bananas,Sweet Banana Pepper,1 ea,$1.64,Aldi,2026-03-11,False,1.64,,,True,,National,Produce,False
+Bananas,"Simply Nature Dark Chocolate Covered Banana, 4 oz",4 oz,$4.39,Aldi,2026-03-11,False,4.39,4.0,oz,False,1.0975,Private,Produce,False
+Bananas,"Organic Bananas, per lb",avg. 1 lb/piece  ($0.73/lb),$0.73,Aldi,2026-03-11,False,0.73,16.0,oz,False,0.045625,National,Produce,False
+Bananas,"Bake Shop Banana Nut Muffins, 4 count",14.1 oz,$4.29,Aldi,2026-03-11,False,4.29,14.1,oz,False,0.304255,National,Produce,False
+Gala Apples,"Gala Apples, 3 lb",3 lb,$2.45,Aldi,2026-03-11,False,2.45,48.0,oz,False,0.051042,National,Produce,False
+Gala Apples,"Organic Gala Apples, 3 lb",3 lb,$4.75,Aldi,2026-03-11,False,4.75,48.0,oz,False,0.098958,National,Produce,False
+Iceberg Lettuce,"Iceberg Lettuce, each",1 each,$2.19,Aldi,2026-03-11,False,2.19,1.0,count,False,2.19,National,Produce,False
+Ground Beef 80/20,"Fresh  80% Lean 20% Fat Ground Beef, per lb",avg. 2 lb/package  ($5.49/lb),$10.98,Aldi,2026-03-11,False,10.98,32.0,oz,False,0.343125,National,Meat,False
+Ground Beef 80/20,"Fresh  80% Lean 20% Fat Ground Beef Patties, 4 count",avg. 1.33 lb/package  ($5.59/lb),$7.43,Aldi,2026-03-11,False,7.43,21.28,oz,False,0.349154,National,Meat,False
+Ground Beef 80/20,"Fresh  80%  Lean 20% Fat Ground Beef Patties Family Pack, 10 count",2.2 lb,$12.00,Aldi,2026-03-11,False,12.0,35.2,oz,False,0.340909,National,Meat,False
+Ground Beef 80/20,"Never Any! Antibiotic Free 80% Lean Ground Pork, 16 oz",16 oz,$3.55,Aldi,2026-03-11,False,3.55,16.0,oz,False,0.221875,Private,Meat,False
+Chicken Breast,Simply Nature Organic  Chicken  Breast Strips,avg. 1.25 lb/package  ($7.29/lb),$9.11,Aldi,2026-03-11,False,9.11,20.0,oz,False,0.4555,Private,Meat,False
+Chicken Breast,Simply Nature Organic  Chicken  Breast Strips,avg. 1.25 lb/package  ($6.49/lb),$8.11,Aldi,2026-03-11,False,8.11,20.0,oz,False,0.4055,Private,Meat,False
+Chicken Breast,"Simply Nature Organic Chicken Breasts, per lb",avg. 1 lb/package  ($5.79/lb),$5.79,Aldi,2026-03-11,False,5.79,16.0,oz,False,0.361875,Private,Meat,False
+Chicken Breast,"Kirkwood Fresh Chicken Breasts, per lb",avg. 1.75 lb/package  ($3.29/lb),$5.76,Aldi,2026-03-11,False,5.76,28.0,oz,False,0.205714,National,Meat,False
+Chicken Breast,"Kirkwood Split Chicken Breasts, per lb",avg. 2.7 lb/package  ($1.99/lb),$5.37,Aldi,2026-03-11,False,5.37,43.2,oz,False,0.124306,National,Meat,False
+White Bread,"L'oven Fresh White Bread,  20 oz",20 oz,$1.65,Aldi,2026-03-11,False,1.65,20.0,oz,False,0.0825,National,Pantry,False
+White Bread,"L'oven Fresh Keto  Friendly White Bread, 14 oz",14 oz,$4.95,Aldi,2026-03-11,False,4.95,14.0,oz,False,0.353571,National,Pantry,False
+White Bread,"liveGfree Gluten Free Wide Pan White Bread, 20 oz",20 oz,$7.69,Aldi,2026-03-11,False,7.69,20.0,oz,False,0.3845,National,Pantry,False
+Tomato Sauce,"Happy Harvest Tomato Sauce, 8 oz",8 oz,$0.55,Aldi,2026-03-11,False,0.55,8.0,oz,False,0.06875,National,Pantry,False
+Dish Soap,"Dawn Ultra Dish Soap, 28 fl oz",28 fl oz,$4.95,Aldi,2026-03-11,False,4.95,28.0,oz,False,0.176786,National,Household,False
+Whole Milk,Publix Organic Valley® Grassmilk® Organic Whole Milk,59 fl oz,Current price: $8.19,Publix,2026-03-11,False,8.19,59.0,oz,False,0.138814,National,Dairy,False
+Whole Milk,Publix Organic Valley® Whole Milk,64 fl oz,Current price: $5.83,Publix,2026-03-11,False,5.83,64.0,oz,False,0.091094,National,Dairy,False
+Whole Milk,"Publix Publix Milk, Whole",1 gal,Current price: $4.73,Publix,2026-03-11,False,4.73,128.0,oz,False,0.036953,Private,Dairy,False
+Whole Milk,"Publix Publix Milk, Whole",64 oz,Current price: $3.23,Publix,2026-03-11,False,3.23,64.0,oz,False,0.050469,Private,Dairy,False
+Whole Milk,"Publix Publix Milk, Whole",,Current price: $2.43,Publix,2026-03-11,False,2.43,,,True,,Private,Dairy,False
+Large Eggs (12 count),"Publix Nellies Eggs, Free Range, Grade A, Brown, Extra Large",18 ct,Current price: $8.85,Publix,2026-03-11,False,8.85,18.0,count,False,0.491667,National,Dairy,False
+Large Eggs (12 count),Publix 12 ct,12 ct,Current price: $6.63,Publix,2026-03-11,False,6.63,12.0,count,False,0.5525,Private,Dairy,False
+Large Eggs (12 count),Publix Eggland's Best Grade A Large White Eggs,12 ct,Current price: $4.41,Publix,2026-03-11,False,4.41,12.0,count,False,0.3675,National,Dairy,False
+Large Eggs (12 count),"Publix Eggland's Best Cage Free Large Brown Eggs, 12 count",12 ct,Current price: $6.09,Publix,2026-03-11,False,6.09,12.0,count,False,0.5075,National,Dairy,False
+Large Eggs (12 count),"Publix Eggland's Best Classic Extra Large White Eggs, 12 count",12 ct,Current price: $4.59,Publix,2026-03-11,False,4.59,12.0,count,False,0.3825,National,Dairy,False
+Salted Butter,"Publix Land O Lakes Butter, Salted",1 lb,Current price: $6.49,Publix,2026-03-11,False,6.49,16.0,oz,False,0.405625,National,Dairy,False
+Salted Butter,"Publix Publix Butter, Sweet Cream, Salted",16 oz,Current price: $5.31,Publix,2026-03-11,False,5.31,16.0,oz,False,0.331875,Private,Dairy,False
+Salted Butter,"Publix Publix Butter, Salted, Sweet Cream",8 oz,Current price: $2.43,Publix,2026-03-11,False,2.43,8.0,oz,False,0.30375,Private,Dairy,False
+Salted Butter,"Publix Publix Whipped Butter, Salted",8 oz,Current price: $3.87,Publix,2026-03-11,False,3.87,8.0,oz,False,0.48375,Private,Dairy,False
+Salted Butter,"Publix Land O Lakes Butter, Salted",1 lb,Current price: $6.49,Publix,2026-03-11,False,6.49,16.0,oz,False,0.405625,National,Dairy,False
+Bananas,Publix Banana,About 0.42 lb each,Current price: $0.29 each (estimated),Publix,2026-03-11,False,0.29,6.72,oz,False,0.043155,Private,Produce,False
+Bananas,Publix Organic Bananas,About 0.47 lb each,Current price: $0.50 each (estimated),Publix,2026-03-11,False,0.5,7.52,oz,False,0.066489,Private,Produce,False
+Bananas,Publix Green Banana,About 0.4 lb each,Current price: $0.28 each (estimated),Publix,2026-03-11,False,0.28,6.4,oz,False,0.04375,Private,Produce,False
+Bananas,Publix Publix Sweetened Banana Chips,15 oz,Current price: $6.09,Publix,2026-03-11,False,6.09,15.0,oz,False,0.406,Private,Produce,False
+Bananas,"Publix Activia Strawberry Banana Probiotic Yogurt, Delicious Low Fat Yogurt Cups to Help Support Gut Health, 4 oz, 4 Count",4 x 4 oz,Current price: $3.91,Publix,2026-03-11,False,3.91,4.0,oz,False,0.9775,Private,Produce,False
+Gala Apples,Publix Gala Apple,About 0.54 lb each,Current price: $1.59 each (estimated),Publix,2026-03-11,False,1.59,8.64,oz,False,0.184028,Private,Produce,False
+Gala Apples,Publix GreenWise Organic Gala Apples,2 lb,Current price: $6.63,Publix,2026-03-11,False,6.63,32.0,oz,False,0.207187,Private,Produce,False
+Gala Apples,Publix Organic Gala Apple,About 0.42 lb each,Current price: $1.64 each (estimated),Publix,2026-03-11,False,1.64,6.72,oz,False,0.244048,Private,Produce,False
+Gala Apples,Publix CMI Orchards Gala Snack Apples,2 lb,Current price: $5.53,Publix,2026-03-11,False,5.53,32.0,oz,False,0.172813,Private,Produce,False
+Iceberg Lettuce,Publix Iceberg Lettuce,,Current price: $2.97,Publix,2026-03-11,False,2.97,,,True,,Private,Produce,False
+Iceberg Lettuce,Publix Organic Iceberg Lettuce,,Current price: $3.87,Publix,2026-03-11,False,3.87,,,True,,Private,Produce,False
+Iceberg Lettuce,Publix Fresh Express Iceberg Lettuce Shreds,,Current price: $4.19,Publix,2026-03-11,False,4.19,,,True,,National,Produce,False
+Ground Beef 80/20,"Publix Publix Ground Chuck Beef, USDA-Inspected",About 1.52 lb / package,Current price: $14.27 per package (estimated),Publix,2026-03-11,False,14.27,24.32,oz,False,0.58676,Private,Meat,False
+Ground Beef 80/20,Publix GreenWise Ground Chuck 100% Beef 80% Lean 20% Fat,About 1.15 lb each,Current price: $11.47 each (estimated),Publix,2026-03-11,False,11.47,18.4,oz,False,0.62337,Private,Meat,False
+Ground Beef 80/20,"Publix Schweid & Sons Ground Beef, 80%/20%, Butcher's Blend",16 oz,Current price: $9.19,Publix,2026-03-11,False,9.19,16.0,oz,False,0.574375,Private,Meat,False
+Ground Beef 80/20,"Publix Publix Ground Chuck Beef, USDA-Inspected",About 3.27 lb / package,Current price: $29.68 per package (estimated),Publix,2026-03-11,False,29.68,52.32,oz,False,0.567278,Private,Meat,False
+Ground Beef 80/20,Publix Publix Market Ground Beef,About 1.15 lb / package,Current price: $8.91 per package (estimated),Publix,2026-03-11,False,8.91,18.4,oz,False,0.484239,Private,Meat,False
+Chicken Breast,Publix Just Bare Brand Boneless Skinless Chicken Breast Fillets,1.13 lb,Current price: $9.43,Publix,2026-03-11,False,9.43,18.08,oz,False,0.521571,National,Meat,False
+Chicken Breast,Publix Just Bare Fully Cooked Lightly Breaded Chicken Breast Bites,1.5 lb,Current price: $15.49,Publix,2026-03-11,False,15.49,24.0,oz,False,0.645417,National,Meat,False
+Chicken Breast,"Publix Publix Boneless Skinless Chicken Breast, USDA Grade A, 97% Fat Free",About 2.18 lb / package,Current price: $10.36 per package (estimated),Publix,2026-03-11,False,10.36,34.88,oz,False,0.297018,Private,Meat,False
+Chicken Breast,Publix Perdue Fresh Boneless Skinless Chicken Breasts,About 1.53 lb / package,Current price: $11.86 per package (estimated),Publix,2026-03-11,False,11.86,24.48,oz,False,0.484477,Private,Meat,False
+Chicken Breast,Publix Just Bare Brand Boneless Skinless Chicken Breast Fillets,1.13 lb,Current price: $9.43,Publix,2026-03-11,False,9.43,18.08,oz,False,0.521571,National,Meat,False
+White Bread,"Publix Nature's Own Butterbread, Sliced White Bread, 20 oz Loaf",20 oz,Current price: $4.87,Publix,2026-03-11,False,4.87,20.0,oz,False,0.2435,National,Pantry,False
+White Bread,"Publix Nature's Own Perfectly Crafted White Bread, Thick Sliced Non-GMO Sandwich Bread, 22 oz Loaf",22 oz,Current price: $5.41,Publix,2026-03-11,False,5.41,22.0,oz,False,0.245909,National,Pantry,False
+White Bread,"Publix Publix Bread, Enriched, Large White",20 oz,Current price: $2.65,Publix,2026-03-11,False,2.65,20.0,oz,False,0.1325,Private,Pantry,False
+White Bread,"Publix Publix Bread, White Sandwich",20 oz,Current price: $3.31,Publix,2026-03-11,False,3.31,20.0,oz,False,0.1655,Private,Pantry,False
+White Bread,"Publix Publix Bread, White, Old Fashioned, Enriched",20 oz,Current price: $3.05,Publix,2026-03-11,False,3.05,20.0,oz,False,0.1525,Private,Pantry,False
+Spaghetti Pasta,Publix Barilla Spaghetti - Non-GMO Pasta Made with Durum Wheat Semolina & Kosher Certified,1 lb,Current price: $2.19,Publix,2026-03-11,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,"Publix Ronzoni Spaghetti, 16 oz, Classic Pasta, Non-GMO, Great Taste",1 lb,Current price: $2.19,Publix,2026-03-11,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,Publix Barilla Thin Spaghetti Pasta,16 oz,Current price: $2.19,Publix,2026-03-11,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,"Publix Ronzoni Thin Spaghetti, 16 oz, Non-GMO Pasta for Entrees, Soups, Sides",1 lb,Current price: $2.19,Publix,2026-03-11,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Spaghetti Pasta,Publix Barilla Spaghetti Rigati- Non-GMO Pasta Made with Durum Wheat Semolina & Kosher,16 oz,Current price: $2.19,Publix,2026-03-11,False,2.19,16.0,oz,False,0.136875,Private,Pantry,False
+Tomato Sauce,Publix Tuttorosso Tomato Sauce,28 oz,Current price: $2.87,Publix,2026-03-11,False,2.87,28.0,oz,False,0.1025,Private,Pantry,False
+Tomato Sauce,Publix Publix Tomato Sauce,15 oz,Current price: $1.35,Publix,2026-03-11,False,1.35,15.0,oz,False,0.09,Private,Pantry,False
+Tomato Sauce,Publix Publix Tomato Sauce,8 oz,Current price: $0.83,Publix,2026-03-11,False,0.83,8.0,oz,False,0.10375,Private,Pantry,False
+Tomato Sauce,Publix Publix Tomato Sauce,29 oz,Current price: $2.43,Publix,2026-03-11,False,2.43,29.0,oz,False,0.083793,Private,Pantry,False
+Tomato Sauce,"Publix Ragu Chunky Tomato, Garlic and Onion Pasta Sauce, Made with Diced Tomatoes, Delicious Garlic and Onions, 45 oz",45 oz,Current price: $5.09,Publix,2026-03-11,False,5.09,45.0,oz,False,0.113111,Private,Pantry,False
+Dish Soap,Publix Dawn Ultra Dish Soap,70 fl oz,Current price: $12.69,Publix,2026-03-11,False,12.69,70.0,oz,False,0.181286,Private,Household,False
+Dish Soap,"Publix Dawn Ultra Dishwashing Liquid Dish Soap, Original Scent",38 fl oz,Current price: $7.87,Publix,2026-03-11,False,7.87,38.0,oz,False,0.207105,Private,Household,False
+Dish Soap,Publix Dawn Ultra Dish Soap,18 fl oz,Current price: $3.49,Publix,2026-03-11,False,3.49,18.0,oz,False,0.193889,Private,Household,False
+Dish Soap,"Publix Dawn Ultra Dishwashing Liquid Dish Soap, Original Scent",7.5 fl oz,Current price: $2.09,Publix,2026-03-11,False,2.09,7.5,oz,False,0.278667,Private,Household,False
+Dish Soap,Publix Dawn PowerwashDish Spray Dish SoapFresh,16 oz,Current price: $5.53,Publix,2026-03-11,False,5.53,16.0,oz,False,0.345625,Private,Household,False
+Whole Milk,"Walmart Lactaid Whole Milk, 64 oz",64 oz,$448current price $4.48,Walmart,2026-03-11,False,448.0,64.0,oz,False,7.0,National,Dairy,False
+Whole Milk,"Walmart Organic Valley Grassmilk Organic Grassfed Whole Milk, 59 fl oz",59 fl oz,$667current price $6.6710.4 ¢/fl oz,Walmart,2026-03-11,False,667.0,59.0,oz,False,11.305085,National,Dairy,False
+Whole Milk,"Walmart Horizon Organic DHA Omega-3 Whole Milk, DHA Whole, 64 fl oz Carton",64 fl oz Carton,$646current price $6.4610.1 ¢/fl oz,Walmart,2026-03-11,False,646.0,64.0,oz,False,10.09375,National,Dairy,False
+Whole Milk,"Walmart Lactaid Whole Milk, 96 oz",96 oz,$638current price $6.386.6 ¢/fl oz,Walmart,2026-03-11,False,638.0,96.0,oz,False,6.645833,National,Dairy,False
+Whole Milk,"Walmart Great Value Whole Vitamin D Milk, Gallon, 128 fl oz",128 fl oz,$338current price $3.382.6 ¢/fl oz,Walmart,2026-03-11,False,338.0,128.0,oz,False,2.640625,National,Dairy,False
+Large Eggs (12 count),Walmart Pete & Gerry's Organic Eggs Large 12 Ct,,$587current price $5.8724.5 ¢/oz,Walmart,2026-03-11,False,587.0,12.0,count,False,48.916667,National,Dairy,False
+Large Eggs (12 count),"Walmart Great Value Large White Eggs, 12 Count",12 Count,$167current price $1.677.0 ¢/oz,Walmart,2026-03-11,False,167.0,12.0,count,False,13.916667,National,Dairy,False
+Large Eggs (12 count),"Walmart Eggland's Best Large White Eggs, 12 Count",12 Count,$387current price $3.8716.1 ¢/oz,Walmart,2026-03-11,False,387.0,12.0,count,False,32.25,National,Dairy,False
+Large Eggs (12 count),"Walmart Marketside Large Cage-Free Brown Eggs, 12 Count",12 Count,$296current price $2.9612.3 ¢/oz,Walmart,2026-03-11,False,296.0,12.0,count,False,24.666667,National,Dairy,False
+Large Eggs (12 count),"Walmart Eggland's Best Cage Free Large Brown Eggs, 12 Count",12 Count,$462current price $4.6219.3 ¢/oz,Walmart,2026-03-11,False,462.0,12.0,count,False,38.5,National,Dairy,False
+Salted Butter,"Walmart Land O Lakes Salted Stick Butter, 16 oz box, 4 Sticks",4 Sticks,"Now$446current price Now $4.46, Was $4.96$4.9627.9 ¢/oz",Walmart,2026-03-11,False,446.0,4.0,count,False,111.5,National,Dairy,False
+Salted Butter,"Walmart Land O Lakes Salted Butter in Half Sticks, 4 Half Sticks, 8 oz Pack",8 oz Pack,"Now$257current price Now $2.57, Was $2.86$2.8632.1 ¢/oz",Walmart,2026-03-11,False,257.0,8.0,count,False,32.125,National,Dairy,False
+Salted Butter,"Walmart Land O Lakes Salted Butter in Half Sticks, 8 Half Sticks, 1 lb Pack",1 lb Pack,"Now$446current price Now $4.46, Was $4.96$4.9627.9 ¢/oz",Walmart,2026-03-11,False,446.0,16.0,oz,False,27.875,National,Dairy,False
+Salted Butter,"Walmart Kerrygold Grass-Fed Pure Irish Salted Butter Sticks, 8 oz, 2 Sticks",2 Sticks,$524current price $5.2465.5 ¢/oz,Walmart,2026-03-11,False,524.0,2.0,count,False,262.0,National,Dairy,False
+Salted Butter,"Walmart Great Value Sweet Cream Salted Butter, 16 oz, 4 Sticks",4 Sticks,$344current price $3.4421.5 ¢/oz,Walmart,2026-03-11,False,344.0,4.0,count,False,86.0,National,Dairy,False
+Bananas,"Walmart Fresh Banana, Each",Each,$020current price $0.20each (est.)50.0 ¢/lbFinal cost by weight,Walmart,2026-03-11,False,20.0,1.0,count,False,20.0,National,Produce,False
+Bananas,"Walmart Marketside Fresh Organic Bananas, Bunch",Bunch,$171current price $1.71each (est.)74.0 ¢/lbFinal cost by weight,Walmart,2026-03-11,False,171.0,,,True,,National,Produce,False
+Bananas,"Walmart Great Value Sliced Bananas, 16 oz Bag",16 oz Bag,$247current price $2.4715.4 ¢/oz,Walmart,2026-03-11,False,247.0,16.0,oz,False,15.4375,National,Produce,False
+Bananas,"Walmart Simple Kitchen Freeze-Dried Sliced Bananas, 1.6 oz",1.6 oz,"Now$331current price Now $3.31, Was $3.92$3.92$2.07/oz",Walmart,2026-03-11,False,331.0,1.6,oz,False,206.875,National,Produce,False
+Bananas,"Walmart Dole Individually Quick Frozen Sliced Banana, 30 Pound -- 1 Each",30 Pound -- 1 Each,$13055current price $130.55,Walmart,2026-03-11,False,13055.0,480.0,oz,False,,National,Produce,False
+Gala Apples,"Walmart Fresh Gala Apple, Each",Each,"Now$046current price Now $0.46, Was $0.73$0.73each (est.)94.0 ¢/lbFinal cost by weight",Walmart,2026-03-11,False,46.0,1.0,count,False,46.0,National,Produce,False
+Gala Apples,"Walmart Fresh Gala Apples, 3 lb Bag",3 lb Bag,$217current price $2.1772.3 ¢/lb,Walmart,2026-03-11,False,217.0,48.0,oz,False,4.520833,National,Produce,False
+Gala Apples,Walmart The Perfect Garnish Co. Dehydrated Apples Gala - 35 slices - Natural Fruit,,$1499current price $14.99,Walmart,2026-03-11,False,1499.0,,,True,,National,Produce,False
+Gala Apples,"Walmart Fresh Organic Gala Apples, 3 lb Bag",3 lb Bag,$512current price $5.12$1.71/lb,Walmart,2026-03-11,False,512.0,48.0,oz,False,10.666667,National,Produce,False
+Gala Apples,"Walmart Fresh Gala Apples, 9-Count Box (4 lb.)",9-Count Box (4 lb.),$2599current price $25.99,Walmart,2026-03-11,False,2599.0,9.0,count,False,,National,Produce,False
+Iceberg Lettuce,Walmart Fieldpack Unbranded Fresh Iceberg Lettuce,,$228current price $2.28,Walmart,2026-03-11,False,228.0,,,True,,National,Produce,False
+Iceberg Lettuce,"Walmart Marketside Fresh Shredded Iceberg Lettuce, 8 oz, Bag",Bag,$197current price $1.9724.6 ¢/oz,Walmart,2026-03-11,False,197.0,1.0,count,False,197.0,National,Produce,False
+Iceberg Lettuce,"Walmart Marketside Organic Fresh Iceberg Lettuce, Each",Each,$266current price $2.66,Walmart,2026-03-11,False,266.0,1.0,count,False,266.0,National,Produce,False
+Iceberg Lettuce,"Walmart Marketside Fresh Shredded Iceberg Lettuce, 16 oz Bag",16 oz Bag,$384current price $3.8424.0 ¢/oz,Walmart,2026-03-11,False,384.0,16.0,oz,False,24.0,National,Produce,False
+Iceberg Lettuce,Walmart 1200+ Batavian Iceberg Lettuce Seeds | Non-GMO Vegetable Lettuce Seeds USA,,$398current price $3.98+$4.98 shipping,Walmart,2026-03-11,False,398.0,,,True,,National,Produce,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 2.25 lb Tray, Fresh, All Natural*",All Natural*,$1643current price $16.43$7.30/lb,Walmart,2026-03-11,False,1643.0,36.0,oz,False,,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 1 lb Tray, Fresh, All Natural*",All Natural*,$743current price $7.43$7.43/lb,Walmart,2026-03-11,False,743.0,16.0,oz,False,46.4375,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 1 lb Roll, Fresh, All Natural*",All Natural*,$693current price $6.93$6.93/lb,Walmart,2026-03-11,False,693.0,16.0,oz,False,43.3125,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 5 lb Roll, Fresh, All Natural*",All Natural*,$2843current price $28.43$5.69/lb,Walmart,2026-03-11,False,2843.0,80.0,oz,False,,National,Meat,False
+Ground Beef 80/20,"Walmart 80% Lean / 20% Fat Ground Beef Chuck, 3 lb Roll, Fresh, All Natural*",All Natural*,$1943current price $19.43$6.48/lb,Walmart,2026-03-11,False,1943.0,48.0,oz,False,,National,Meat,False
+Chicken Breast,"Walmart Sanderson Farms Fresh Boneless Skinless Chicken Breast Fillets, 25g Protein, 4oz 112g, 1.6 - 3.05lb",1.6 - 3.05lb,"Now$948current price Now $9.48, Was $10.67$10.67$4.12/lbFinal cost by weight",Walmart,2026-03-11,False,948.0,25.6,oz,False,37.03125,National,Meat,False
+Chicken Breast,"Walmart Sanderson Farms, Boneless Skinless Chicken Breast Fillets with Rib Meat, 25g Protein, 3.0 - 4 lb",3.0 - 4 lb,"Now$1183current price Now $11.83, Was $13.54$13.54$3.47/lbFinal cost by weight",Walmart,2026-03-11,False,1183.0,48.0,oz,False,,National,Meat,False
+Chicken Breast,"Walmart Perdue Harvestland, Free Range, Fresh Boneless Chicken Breasts, 1.3-1.9 lb. Tray",1.3-1.9 lb. Tray,$994current price $9.94$5.46/lbFinal cost by weight,Walmart,2026-03-11,False,994.0,20.8,oz,False,47.788462,National,Meat,False
+Chicken Breast,"Walmart Freshness Guaranteed Boneless, Skinless Chicken Breasts, 4.7-6.1 lb Tray",4.7-6.1 lb Tray,$1157current price $11.57avg price$2.57/lbFinal cost by weight,Walmart,2026-03-11,False,1157.0,75.2,oz,False,,National,Meat,False
+Chicken Breast,"Walmart Great Value All Natural Boneless Skinless Chicken Breasts, 3 lb (Frozen)",3 lb (Frozen),$894current price $8.94$2.98/lb,Walmart,2026-03-11,False,894.0,48.0,oz,False,18.625,National,Meat,False
+White Bread,"Walmart Sara Lee Butter Bread, 20 oz, White Bread, Bag",Bag,$322current price $3.22,Walmart,2026-03-11,False,322.0,1.0,count,False,322.0,National,Pantry,False
+White Bread,"Walmart Sara Lee Classic Bread, 20 oz, Plain White Bread, Bag",Bag,$282current price $2.82,Walmart,2026-03-11,False,282.0,1.0,count,False,282.0,National,Pantry,False
+White Bread,"Walmart Sara Lee Delightful White Bread, 15 oz, White Bread, Bag",Bag,$368current price $3.68,Walmart,2026-03-11,False,368.0,1.0,count,False,368.0,National,Pantry,False
+White Bread,"Walmart Nature's Own Butterbread Sliced White Bread Loaf, 20 oz, Shelf-Stable",Shelf-Stable,$376current price $3.7618.8 ¢/oz,Walmart,2026-03-11,False,376.0,20.0,oz,False,18.8,National,Pantry,False
+White Bread,"Walmart Dave's Killer Bread White Bread Done Right Organic Bread Loaf, 24 oz, Shelf-Stable (24 ounce)",Shelf-Stable (24 ounce),$642current price $6.4226.8 ¢/oz,Walmart,2026-03-11,False,642.0,24.0,oz,False,26.75,National,Pantry,False
+Spaghetti Pasta,"Walmart Brami Spaghetti High Protein Pasta, Made in Italy, 21g Protein, High Fiber, Low Carb Vs. Regular Pasta Noodles, Durum Wheat Plus Lupini Beans, Bronze Cut Shelf-Stable Noodles, 14.5 oz Box",14.5 oz Box,$324current price $3.24,Walmart,2026-03-11,False,324.0,14.5,oz,False,22.344828,National,Pantry,False
+Spaghetti Pasta,"Walmart (3 pack) Brami Spaghetti High Protein Pasta, Made in Italy, 21g Protein, High Fiber, Low Carb Vs. Regular Pasta Noodles, Durum Wheat Plus Lupini Beans, Bronze Cut Shelf-Stable Noodles, 14.5 oz Box",14.5 oz Box,$972current price $9.72,Walmart,2026-03-11,False,972.0,14.5,oz,False,67.034483,National,Pantry,False
+Spaghetti Pasta,"Walmart Brami Spaghetti High Protein Pasta, Made in Italy, 21g Protein, High Fiber, Low Carb Vs. Regular Pasta Noodles, Durum Wheat Plus Lupini Beans, Bronze Cut Shelf-Stable Noodles, 14.5 oz Box",14.5 oz Box,$324current price $3.2422.3 ¢/ozOptions from $3.24 – $9.72,Walmart,2026-03-11,False,324.0,14.5,oz,False,22.344828,National,Pantry,False
+Spaghetti Pasta,"Walmart Miracle Noodle Egg White Spaghetti High Protein, Low Carb Pasta, 3.5 oz",3.5 oz,$492current price $4.92$1.41/oz,Walmart,2026-03-11,False,492.0,3.5,oz,False,140.571429,National,Pantry,False
+Spaghetti Pasta,"Walmart Anthony’s Spaghetti, 24-Pack (16 oz Each) – Traditional Pasta for Classic Italian inspired dishes",24-Pack (16 oz Each) – Traditional Pasta for Classic Italian inspired dishes,$4499current price $44.99,Walmart,2026-03-11,False,4499.0,24.0,count,False,,National,Pantry,False
+Tomato Sauce,"Walmart Contadina Tomato Sauce, Canned Tomatoes, 15 oz Can",15 oz Can,$116current price $1.16,Walmart,2026-03-11,False,116.0,15.0,oz,False,7.733333,National,Pantry,False
+Tomato Sauce,"Walmart Sonoma Gourmet Creamy Tomato Parmesan Pasta Sauce, 24.5 Ounce",24.5 Ounce,$798current price $7.9832.6 ¢/oz,Walmart,2026-03-11,False,798.0,,,True,,National,Pantry,False
+Tomato Sauce,"Walmart Classico Fire Roasted Tomato & Garlic Pasta Sauce, 24 oz Jar",24 oz Jar,$298current price $2.9812.4 ¢/ozOptions from $2.98 – $22.66,Walmart,2026-03-11,False,298.0,24.0,oz,False,12.416667,National,Pantry,False
+Tomato Sauce,"Walmart Great Value Tomato Sauce, 8 oz Can",8 oz Can,$048current price $0.486.0 ¢/oz,Walmart,2026-03-11,False,48.0,8.0,oz,False,6.0,National,Pantry,False
+Tomato Sauce,"Walmart Great Value Tomato Sauce, 15 oz",15 oz,$148current price $1.489.9 ¢/oz,Walmart,2026-03-11,False,148.0,15.0,oz,False,9.866667,National,Pantry,False
+Dish Soap,"Walmart Dawn Platinum Plus, Dish Soap, 13.6 oz. EZ-Squeeze Bottle",13.6 oz. EZ-Squeeze Bottle,"Now$354current price Now $3.54, Was $3.94$3.9426.0 ¢/fl oz",Walmart,2026-03-11,False,354.0,13.6,oz,False,26.029412,National,Household,False
+Dish Soap,"Walmart Dawn EZ-Squeeze Ultra Dish Soap Dishwashing Liquid, Original Scent, 22.0 fl oz",22.0 fl oz,"Now$354current price Now $3.54, Was $3.94$3.9416.1 ¢/fl oz",Walmart,2026-03-11,False,354.0,22.0,oz,False,16.090909,National,Household,False
+Dish Soap,"Walmart Ajax Ultra Triple Action Dishwashing Liquid Dish Soap, Orange Scent, 90 Fluid Ounce",90 Fluid Ounce,$597current price $5.976.6 ¢/fl oz,Walmart,2026-03-11,False,597.0,,,True,,National,Household,False
+Dish Soap,"Walmart Dawn Ultra, EZ Squeeze Dish Soap Orange, 22oz",22oz,"Now$354current price Now $3.54, Was $3.94$3.9416.1 ¢/fl ozOptions from $3.54 – $55.00",Walmart,2026-03-11,False,354.0,22.0,oz,False,16.090909,National,Household,False
+Dish Soap,"Walmart Dawn Ultra, Dish Soap Apple Blossom, 22oz",22oz,"Now$354current price Now $3.54, Was $3.94$3.9416.1 ¢/fl ozOptions from $3.54 – $55.00",Walmart,2026-03-11,False,354.0,22.0,oz,False,16.090909,National,Household,False
+Whole Milk,"Friendly Farms Whole  Milk, 1 gal",1 gal,$2.75,Aldi,2026-03-20,2.75,128.0,oz,False,0.021484,Private,Dairy,False,False
+Whole Milk,"Friendly Farms Whole Milk, 0.5 gal",0.5 gal,$2.09,Aldi,2026-03-20,2.09,64.0,oz,False,0.032656,Private,Dairy,False,False
+Whole Milk,"Friendly Farms Lactose Free Whole Milk, 64 fl oz",64 fl oz,$3.29,Aldi,2026-03-20,3.29,64.0,oz,False,0.051406,Private,Dairy,False,False
+Whole Milk,"Simply Nature Kids Organic Whole Milk, 59 fl oz",59 fl oz,$5.49,Aldi,2026-03-20,5.49,59.0,oz,False,0.093051,Private,Dairy,False,False
+Large Eggs (12 count),"Goldhen Free  Range Large Brown Grade A Eggs, 12 count",12 ct,$4.25,Aldi,2026-03-20,4.25,12.0,count,False,0.354167,Private,Dairy,False,False
+Large Eggs (12 count),"Goldhen Pasture Raised Large Brown Eggs Grade A, 12 count",12 ct,$4.35,Aldi,2026-03-20,4.35,12.0,count,False,0.3625,Private,Dairy,False,False
+Large Eggs (12 count),"Happy Farms Mozzarella String  Cheese, 12 count",12 oz,$3.45,Aldi,2026-03-20,3.45,12.0,oz,False,0.2875,National,Dairy,False,False
+Large Eggs (12 count),"Happy Farms Gouda Cheese Snack Sticks, 12 count",9 oz,$3.19,Aldi,2026-03-20,3.19,9.0,oz,False,0.354444,National,Dairy,False,False
+Large Eggs (12 count),"Happy Farms Habanero Jack Cheese Snack Sticks, 12 count",9 oz,$3.19,Aldi,2026-03-20,3.19,9.0,oz,False,0.354444,National,Dairy,False,False
+Salted Butter,"Fremont Fish Market Toss & Serve Shrimp with Salted Butter & Garlic Sauce, 12 oz",12 oz,$4.29,Aldi,2026-03-20,4.29,12.0,oz,False,0.3575,National,Dairy,False,False
+Salted Butter,"Countryside Creamery Salted Butter Sticks, 1 lb",16 oz,$3.55,Aldi,2026-03-20,3.55,16.0,oz,False,0.221875,National,Dairy,False,False
+Salted Butter,"Simply Nature Organic Salted Butter, 16 oz",16 oz.,$6.85,Aldi,2026-03-20,6.85,16.0,oz,False,0.428125,Private,Dairy,False,False
+Salted Butter,"Fremont Fish Market Toss & Serve Shrimp with Salted Butter & Garlic Sauce, 12 oz",12 oz,$4.29,Aldi,2026-03-20,4.29,12.0,oz,False,0.3575,National,Dairy,False,False
+Bananas,"Bananas, per lb",avg. 0.33 lb/piece  ($0.48/lb),$0.16,Aldi,2026-03-20,0.16,5.28,oz,False,0.030303,National,Produce,False,False
+Bananas,"Simply Nature Dark Chocolate Covered Banana, 4 oz",4 oz,$4.39,Aldi,2026-03-20,4.39,4.0,oz,False,1.0975,Private,Produce,False,False
+Bananas,"Organic Bananas, per lb",avg. 1 lb/piece  ($0.73/lb),$0.73,Aldi,2026-03-20,0.73,16.0,oz,False,0.045625,National,Produce,False,False
+Bananas,"Bake Shop Banana Nut Muffins, 4 count",14.1 oz,$4.29,Aldi,2026-03-20,4.29,14.1,oz,False,0.304255,National,Produce,False,False
+Bananas,"Bolthouse Farms Strawberry  Banana Smoothie, 52 fl oz",52 fl oz,$6.59,Aldi,2026-03-20,6.59,52.0,oz,False,0.126731,National,Produce,False,False
+Gala Apples,"Gala Apples, 3 lb",3 lb,$2.45,Aldi,2026-03-20,2.45,48.0,oz,False,0.051042,National,Produce,False,False
+Gala Apples,"Organic Gala Apples, 3 lb",3 lb,$4.75,Aldi,2026-03-20,4.75,48.0,oz,False,0.098958,National,Produce,False,False
+Iceberg Lettuce,"Iceberg Lettuce, each",1 each,$2.19,Aldi,2026-03-20,2.19,1.0,count,False,2.19,National,Produce,False,False
+Ground Beef 80/20,"Fresh  80% Lean 20% Fat Ground Beef, per lb",avg. 2 lb/package  ($5.69/lb),$11.38,Aldi,2026-03-20,11.38,32.0,oz,False,0.355625,National,Meat,False,False
+Ground Beef 80/20,"Fresh  80% Lean 20% Fat Ground Beef Patties, 4 count",avg. 1.33 lb/package  ($5.69/lb),$7.57,Aldi,2026-03-20,7.57,21.28,oz,False,0.355733,National,Meat,False,False
+Ground Beef 80/20,"Never Any! Antibiotic Free 80% Lean Ground Pork, 16 oz",16 oz,$3.55,Aldi,2026-03-20,3.55,16.0,oz,False,0.221875,Private,Meat,False,False
+Chicken Breast,Simply Nature Organic  Chicken  Breast Strips,avg. 1.25 lb/package  ($6.49/lb),$8.11,Aldi,2026-03-20,8.11,20.0,oz,False,0.4055,Private,Meat,False,False
+Chicken Breast,"Simply Nature Organic Chicken Breasts, per lb",avg. 1 lb/package  ($5.79/lb),$5.79,Aldi,2026-03-20,5.79,16.0,oz,False,0.361875,Private,Meat,False,False
+Chicken Breast,"Kirkwood Fresh Chicken Breasts, per lb",avg. 1.75 lb/package  ($3.29/lb),$5.76,Aldi,2026-03-20,5.76,28.0,oz,False,0.205714,National,Meat,False,False
+Chicken Breast,"Kirkwood Split Chicken Breasts, per lb",avg. 2.7 lb/package  ($1.99/lb),$5.37,Aldi,2026-03-20,5.37,43.2,oz,False,0.124306,National,Meat,False,False
+Chicken Breast,"Kirkwood Chicken Breast Tenderloins, per lb",avg. 2 lb/package  ($3.99/lb),$7.98,Aldi,2026-03-20,7.98,32.0,oz,False,0.249375,National,Meat,False,False
+White Bread,"L'oven Fresh White Bread,  20 oz",20 oz,$1.65,Aldi,2026-03-20,1.65,20.0,oz,False,0.0825,National,Pantry,False,False
+White Bread,"L'oven Fresh White Pita Bread, 12 oz",11 oz,$2.85,Aldi,2026-03-20,2.85,11.0,oz,False,0.259091,National,Pantry,False,False
+White Bread,"liveGfree Gluten Free Wide Pan White Bread, 20 oz",20 oz,$7.69,Aldi,2026-03-20,7.69,20.0,oz,False,0.3845,National,Pantry,False,False
+Tomato Sauce,"Happy Harvest Tomato Sauce, 8 oz",8 oz,$0.55,Aldi,2026-03-20,0.55,8.0,oz,False,0.06875,National,Pantry,False,False
+Dish Soap,"Dawn Ultra Dish Soap, 28 fl oz",28 fl oz,$4.95,Aldi,2026-03-20,4.95,28.0,oz,False,0.176786,National,Household,False,False
+Dish Soap,"Palmolive Original Liquid Dish Soap, 90 fl oz",90 fl oz,$7.99,Aldi,2026-03-20,7.99,90.0,oz,False,0.088778,National,Household,False,False
+Whole Milk,Publix Nestlé Nido Fortificada Powdered Drink Mix - Dry Whole Milk Powder With Vitamins And Minerals -,12.6 oz,Current price: $8.41,Publix,2026-03-20,8.41,12.6,oz,False,0.66746,Private,Dairy,False,False
+Whole Milk,Publix Lifeway Organic Whole Milk Plain Kefir,32 fl oz,Current price: $7.19,Publix,2026-03-20,7.19,32.0,oz,False,0.224688,Private,Dairy,False,False
+Whole Milk,"Publix Publix Milk, Whole",64 oz,Current price: $2.97,Publix,2026-03-20,2.97,64.0,oz,False,0.046406,Private,Dairy,False,False
+Whole Milk,"Publix Publix Milk, Whole",,Current price: $2.85,Publix,2026-03-20,2.85,,,True,,Private,Dairy,False,False
+Whole Milk,"Publix Publix Milk, Whole",,Current price: $1.55,Publix,2026-03-20,1.55,,,True,,Private,Dairy,False,False
+Large Eggs (12 count),"Publix Pete & Gerry's Organic Pasture Raised Eggs, Large",12 ct,Current price: $10.79,Publix,2026-03-20,10.79,12.0,count,False,0.899167,National,Dairy,False,False
+Large Eggs (12 count),Publix 12 ct,12 ct,Current price: $8.09,Publix,2026-03-20,8.09,12.0,count,False,0.674167,Private,Dairy,False,False
+Large Eggs (12 count),Publix Eggland's Best Grade A Large White Eggs,12 ct,Current price: $3.09,Publix,2026-03-20,3.09,12.0,count,False,0.2575,National,Dairy,False,False
+Large Eggs (12 count),"Publix Eggland's Best Cage Free Large Brown Eggs, 12 count",12 ct,Current price: $6.09,Publix,2026-03-20,6.09,12.0,count,False,0.5075,National,Dairy,False,False
+Large Eggs (12 count),"Publix Eggland's Best Classic Extra Large White Eggs, 12 count",12 ct,Current price: $3.25,Publix,2026-03-20,3.25,12.0,count,False,0.270833,National,Dairy,False,False
+Salted Butter,"Publix Publix Butter, Sweet Cream, Salted",16 oz,Current price: $3.87,Publix,2026-03-20,3.87,16.0,oz,False,0.241875,Private,Dairy,False,False
+Salted Butter,"Publix Publix Butter, Salted, Sweet Cream",8 oz,Current price: $2.43,Publix,2026-03-20,2.43,8.0,oz,False,0.30375,Private,Dairy,False,False
+Salted Butter,"Publix Publix Whipped Butter, Salted",8 oz,Current price: $3.87,Publix,2026-03-20,3.87,8.0,oz,False,0.48375,Private,Dairy,False,False
+Salted Butter,"Publix Land O Lakes Butter, Salted",1 lb,Current price: $6.09,Publix,2026-03-20,6.09,16.0,oz,False,0.380625,National,Dairy,False,False
+Salted Butter,Publix Kerrygold Grass-Fed Salted Butter Sticks,8 oz,Current price: $6.09,Publix,2026-03-20,6.09,8.0,oz,False,0.76125,Private,Dairy,False,False
+Bananas,Publix Tru Fru Nature's Bananas Hyper-Chilled in Peanut Butter & Dark Chocolate,8 oz,Current price: $9.97,Publix,2026-03-20,9.97,8.0,oz,False,1.24625,Private,Produce,False,False
+Bananas,Publix Banana,About 0.43 lb each,Current price: $0.25 each (estimated),Publix,2026-03-20,0.25,6.88,oz,False,0.036337,Private,Produce,False,False
+Bananas,Publix Organic Bananas,About 0.46 lb each,Current price: $0.39 each (estimated),Publix,2026-03-20,0.39,7.36,oz,False,0.052989,Private,Produce,False,False
+Bananas,Publix Publix Sweetened Banana Chips,15 oz,Current price: $6.09,Publix,2026-03-20,6.09,15.0,oz,False,0.406,Private,Produce,False,False
+Bananas,Publix Manzano Banana,About 0.26 lb each,$2.19 / lb,Publix,2026-03-20,2.19,4.16,oz,False,0.526442,Private,Produce,False,False
+Gala Apples,Publix Gala Apple,About 0.54 lb each,Current price: $0.94 each (estimated),Publix,2026-03-20,0.94,8.64,oz,False,0.108796,Private,Produce,False,False
+Gala Apples,Publix GreenWise Organic Gala Apples,2 lb,Current price: $6.63,Publix,2026-03-20,6.63,32.0,oz,False,0.207187,Private,Produce,False,False
+Gala Apples,Publix Organic Gala Apple,About 0.46 lb each,Current price: $1.21 each (estimated),Publix,2026-03-20,1.21,7.36,oz,False,0.164402,Private,Produce,False,False
+Iceberg Lettuce,Publix Iceberg Lettuce,,Current price: $2.75,Publix,2026-03-20,2.75,,,True,,Private,Produce,False,False
+Iceberg Lettuce,Publix Organic Iceberg Lettuce,,Current price: $3.87,Publix,2026-03-20,3.87,,,True,,Private,Produce,False,False
+Iceberg Lettuce,Publix Fresh Express Iceberg Lettuce Shreds,,Current price: $4.19,Publix,2026-03-20,4.19,,,True,,National,Produce,False,False
+Ground Beef 80/20,"Publix Publix Ground Chuck Beef, USDA-Inspected",About 1.14 lb / package,Current price: $10.70 per package (estimated),Publix,2026-03-20,10.7,18.24,oz,False,0.586623,Private,Meat,False,False
+Ground Beef 80/20,Publix GreenWise Ground Chuck 100% Beef 80% Lean 20% Fat,About 1.13 lb each,Current price: $12.42 each (estimated),Publix,2026-03-20,12.42,18.08,oz,False,0.686947,Private,Meat,False,False
+Ground Beef 80/20,"Publix Schweid & Sons Ground Beef, 80%/20%, Butcher's Blend",16 oz,Current price: $9.19,Publix,2026-03-20,9.19,16.0,oz,False,0.574375,Private,Meat,False,False
+Ground Beef 80/20,"Publix Publix Ground Chuck Beef, USDA-Inspected",About 3.33 lb / package,Current price: $30.09 per package (estimated),Publix,2026-03-20,30.09,53.28,oz,False,0.564752,Private,Meat,False,False
+Ground Beef 80/20,Publix Publix Market Ground Beef,About 1.15 lb / package,Current price: $9.53 per package (estimated),Publix,2026-03-20,9.53,18.4,oz,False,0.517935,Private,Meat,False,False
+Chicken Breast,"Publix Publix Boneless Skinless Chicken Breast, USDA Grade A, 97% Fat Free",About 2.28 lb / package,Current price: $13.61 per package (estimated),Publix,2026-03-20,13.61,36.48,oz,False,0.373081,Private,Meat,False,False
+Chicken Breast,Publix Just Bare Brand Boneless Skinless Chicken Breast Fillets,1.13 lb,Current price: $9.43,Publix,2026-03-20,9.43,18.08,oz,False,0.521571,National,Meat,False,False
+Chicken Breast,"Publix GreenWise Boneless Skinless Chicken Breast, USDA Grade A, Antibiotic-Free",About 1.5 lb / package,Current price: $12.80 per package (estimated),Publix,2026-03-20,12.8,24.0,oz,False,0.533333,Private,Meat,False,False
+Chicken Breast,Publix Perdue Fresh Boneless Skinless Chicken Breasts,About 1.53 lb / package,Current price: $11.86 per package (estimated),Publix,2026-03-20,11.86,24.48,oz,False,0.484477,Private,Meat,False,False
+Chicken Breast,Publix Perdue Thin Sliced Boneless Skinless Chicken Breasts,About 1.31 lb / package,Current price: $7.24 per package (estimated),Publix,2026-03-20,7.24,20.96,oz,False,0.34542,Private,Meat,False,False
+White Bread,"Publix Sara Lee Classic, Bread, White Bread, 20 oz",20 oz,Current price: $4.41,Publix,2026-03-20,4.41,20.0,oz,False,0.2205,Private,Pantry,False,False
+White Bread,"Publix Sara Lee White, Bread, Half Loaf, Bread, 12 oz",12 oz,Current price: $3.59,Publix,2026-03-20,3.59,12.0,oz,False,0.299167,Private,Pantry,False,False
+White Bread,"Publix Publix Bread, Enriched, Large White",20 oz,Current price: $2.19,Publix,2026-03-20,2.19,20.0,oz,False,0.1095,Private,Pantry,False,False
+White Bread,"Publix Publix Bread, White, Old Fashioned, Enriched",20 oz,Current price: $2.31,Publix,2026-03-20,2.31,20.0,oz,False,0.1155,Private,Pantry,False,False
+White Bread,"Publix Publix Bread, White Sandwich",20 oz,Current price: $3.31,Publix,2026-03-20,3.31,20.0,oz,False,0.1655,Private,Pantry,False,False
+Spaghetti Pasta,Publix Barilla Spaghetti - Non-GMO Pasta Made with Durum Wheat Semolina & Kosher Certified,1 lb,Current price: $2.09,Publix,2026-03-20,2.09,16.0,oz,False,0.130625,Private,Pantry,False,False
+Spaghetti Pasta,Publix Barilla Thin Spaghetti Pasta,16 oz,Current price: $2.09,Publix,2026-03-20,2.09,16.0,oz,False,0.130625,Private,Pantry,False,False
+Spaghetti Pasta,"Publix Ronzoni Spaghetti, 16 oz, Classic Pasta, Non-GMO, Great Taste",1 lb,Current price: $2.19,Publix,2026-03-20,2.19,16.0,oz,False,0.136875,Private,Pantry,False,False
+Spaghetti Pasta,"Publix Ronzoni Thin Spaghetti, 16 oz, Non-GMO Pasta for Entrees, Soups, Sides",1 lb,Current price: $2.19,Publix,2026-03-20,2.19,16.0,oz,False,0.136875,Private,Pantry,False,False
+Spaghetti Pasta,"Publix Barilla Protein+ (Plus) Thin Spaghetti Pasta- Plant Based - Made from Lentils, Chickpeas & Peas",14.5 oz,Current price: $3.53,Publix,2026-03-20,3.53,14.5,oz,False,0.243448,Private,Pantry,False,False
+Tomato Sauce,Publix Publix Tomato Sauce,15 oz,Current price: $1.11,Publix,2026-03-20,1.11,15.0,oz,False,0.074,Private,Pantry,False,False
+Tomato Sauce,Publix Publix Tomato Sauce,8 oz,Current price: $0.63,Publix,2026-03-20,0.63,8.0,oz,False,0.07875,Private,Pantry,False,False
+Tomato Sauce,Publix Publix Tomato Sauce,29 oz,Current price: $2.09,Publix,2026-03-20,2.09,29.0,oz,False,0.072069,Private,Pantry,False,False
+Tomato Sauce,"Publix Ragu Chunky Tomato, Garlic and Onion Pasta Sauce, Made with Diced Tomatoes, Delicious Garlic and Onions, 45 oz",45 oz,Current price: $4.33,Publix,2026-03-20,4.33,45.0,oz,False,0.096222,Private,Pantry,False,False
+Tomato Sauce,"Publix Ragu Chunky Tomato, Garlic and Onion Pasta Sauce, Made with Diced Tomatoes, Delicious Garlic and Onions, 66 oz",66 oz,Current price: $6.87,Publix,2026-03-20,6.87,66.0,oz,False,0.104091,Private,Pantry,False,False
+Dish Soap,Publix Dawn PowerwashDish Spray Dish SoapFresh,16 oz,Current price: $6.63,Publix,2026-03-20,6.63,16.0,oz,False,0.414375,Private,Household,False,False
+Dish Soap,Publix Dawn Ultra Dish Soap,70 fl oz,Current price: $12.69,Publix,2026-03-20,12.69,70.0,oz,False,0.181286,Private,Household,False,False
+Dish Soap,"Publix Dawn Platinum Dishwashing Liquid Dish Soap, Refreshing Rain Scent",32.7 fl oz,Current price: $7.87,Publix,2026-03-20,7.87,32.7,oz,False,0.240673,Private,Household,False,False
+Dish Soap,"Publix Dawn Powerwash Spray Dish Soap, Fresh",16 fl oz,Current price: $5.19,Publix,2026-03-20,5.19,16.0,oz,False,0.324375,Private,Household,False,False
+Dish Soap,Publix Dawn Platinum Liquid Dish Soap,24.3 fl oz,Current price: $6.63,Publix,2026-03-20,6.63,24.3,oz,False,0.27284,Private,Household,False,False
+Whole Milk,"Walmart Lactaid Whole Milk, 64 oz",64 oz,$4.48,Walmart,2026-03-20,4.48,64.0,oz,False,0.07,National,Dairy,False,False
+Whole Milk,"Walmart Lactaid Whole Milk, Calcium Enriched, 64 oz",64 oz,$4.48,Walmart,2026-03-20,4.48,64.0,oz,False,0.07,National,Dairy,False,False
+Whole Milk,"Walmart Great Value Whole Vitamin D Milk, Gallon, 128 fl oz",128 fl oz,$2.48,Walmart,2026-03-20,2.48,128.0,oz,False,0.019375,National,Dairy,False,False
+Whole Milk,"Walmart Great Value Milk Whole Vitamin D, Half Gallon, , 64 fl oz",64 fl oz,$2.06,Walmart,2026-03-20,2.06,64.0,oz,False,0.032188,National,Dairy,False,False
+Whole Milk,"Walmart Hoosier Hill Farm Whole Milk Powder, 1 lb Jar",1 lb Jar,$14.99,Walmart,2026-03-20,14.99,16.0,oz,False,0.936875,National,Dairy,False,False

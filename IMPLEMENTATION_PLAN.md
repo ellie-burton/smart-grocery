@@ -1,6 +1,6 @@
 # Smart Grocery – Implementation Plan
 
-This plan maps the ideas in `next_steps.md` to concrete tasks and file changes.
+This plan maps the original project ideas to concrete tasks and file changes.
 
 ---
 
@@ -14,7 +14,7 @@ This plan maps the ideas in `next_steps.md` to concrete tasks and file changes.
 
 | # | Task | Details |
 |---|------|--------|
-| 1 | Add `standardize_unit()` | Create `scrapers/units.py` (or `lib/units.py`) with the logic from `next_steps.md`: handle dozen→12 ct, gal→128 oz, lb→16 oz, pack, oz, ct. Return `{'qty': float, 'unit': 'oz'|'count'}` or `None`. |
+| 1 | Add `standardize_unit()` | Create `scrapers/units.py` (or `lib/units.py`): handle dozen→12 ct, gal→128 oz, lb→16 oz, pack, oz, ct. Return `{'qty': float, 'unit': 'oz'|'count'}` or `None`. |
 | 2 | Add tests | Optional: small unit tests for "1 gal", "0.5 gal", "12 ct", "1 dozen", "20 oz", "1 lb", etc. |
 
 **Files:** New `scrapers/units.py` (or `lib/units.py`).

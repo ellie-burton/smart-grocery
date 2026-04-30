@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node (slide generator)
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# PowerPoint autosave artifacts
+*\[Autosaved\]*.pptx
+~$*.pptx
+
+# Local env files
+.env
+.env.local

@@ -1,198 +1,147 @@
-import time
+"""
+Walmart scraper — HTTP-only.
+
+Fetches search results via plain HTTP requests and parses the server-rendered
+HTML.  No Selenium or browser automation required, which avoids Walmart's
+aggressive PerimeterX/HUMAN bot detection entirely.
+
+Location-specific pricing is not set; Walmart.com returns prices for the
+nearest store based on the requester's IP geolocation, which is close enough
+for comparison purposes.
+"""
+
+import re
 from datetime import datetime
+from urllib.parse import quote_plus
+from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import StaleElementReferenceException
-import undetected_chromedriver as uc
 
 try:
-    from .utils import get_chrome_major_version
+    from .utils import _get_chrome_version
     from .match import product_matches_query
 except ImportError:
-    from utils import get_chrome_major_version
+    from utils import _get_chrome_version
     from match import product_matches_query
 
 
-def setup_stealth_driver():
-    options = uc.ChromeOptions()
-    # Match installed Chrome version to avoid "ChromeDriver only supports Chrome version X" crash
-    major = get_chrome_major_version()
-    if major is not None:
-        driver = uc.Chrome(options=options, version_main=major)
-    else:
-        driver = uc.Chrome(options=options)
-    driver.maximize_window()
-    return driver
+def _build_user_agent():
+    """Build a UA string from the installed Chrome version for realistic headers."""
+    full_version = _get_chrome_version()
+    if full_version:
+        return (
+            f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            f"(KHTML, like Gecko) Chrome/{full_version} Safari/537.36"
+        )
+    return (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+    )
 
-def force_click(driver, element):
-    driver.execute_script("arguments[0].click();", element)
 
-# --- STORE LOCATION LOGIC ---
-def set_store_location(driver, zip_code):
-    print(f"Setting Walmart location to: {zip_code}")
-    driver.get("https://www.walmart.com/store-finder")
-    
-    # Anti-Bot Buffer
-    time.sleep(3)
-    if "Press and hold" in driver.page_source:
-        print("Bot check detected! Please solve it manually on the screen.")
-        input("Press Enter here once the page loads...")
-
-    try:
-        # 1. TYPE ZIP CODE (retry on stale element – page can re-render)
-        print("Waiting for Zip Input...")
-        zip_typed = False
-        for attempt in range(4):
-            try:
-                search_input = WebDriverWait(driver, 15).until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, "input[data-automation-id='store-zip-code']"))
-                )
-                force_click(driver, search_input)
-                time.sleep(0.5)
-                for _ in range(2):
-                    try:
-                        search_input = driver.find_element(By.CSS_SELECTOR, "input[data-automation-id='store-zip-code']")
-                        search_input.clear()
-                        search_input.send_keys(zip_code)
-                        time.sleep(1)
-                        search_input.send_keys(Keys.RETURN)
-                        zip_typed = True
-                        break
-                    except StaleElementReferenceException:
-                        time.sleep(0.5)
-                if zip_typed:
-                    break
-            except Exception as e:
-                print(f"Retry {attempt}: {e}")
-                time.sleep(2)
-        
-        time.sleep(5) # Wait for results list to populate
-        
-        # 2. SELECT FIRST STORE RESULT
-        print("Selecting first store...")
-        try:
-            first_store_card = WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, "(//button[@role='checkbox'])[1]"))
-            )
-            force_click(driver, first_store_card)
-        except Exception as e:
-            print(f"Could not click store card (maybe already selected?): {e}")
-        
-        time.sleep(3) # Wait for details to expand
-        
-        # 3. CLICK "MAKE THIS MY STORE" (The Fix)
-        print("Clicking 'Make this my store'...")
-        try:
-            # Updated Selector: Target aria-label OR text text
-            make_store_btn = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.XPATH, "//button[contains(@aria-label, 'Make this my store') or contains(., 'Make this my store')]"))
-            )
-            
-            # Scroll to it (Critical for Walmart lazy loading)
-            driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", make_store_btn)
-            time.sleep(1)
-            
-            force_click(driver, make_store_btn)
-            print("Store set successfully!")
-        except Exception as e:
-            print(f"Make store button issue (Store might already be set): {e}")
-
-        time.sleep(3)
-        return "Walmart Store"
-
-    except Exception as e:
-        print(f"Error setting Walmart location: {e}")
-        return "Walmart Default"
-
-# --- PRODUCT SCRAPING LOGIC ---
-def scrape_items(driver, items):
+def _extract_walmart_cards_from_html(html, item):
+    """
+    Parse Walmart search HTML into normalized scraper rows (max 5 matches).
+    """
     data = []
-    
-    for item in items:
-        print(f"Searching for: {item}...")
+    soup = BeautifulSoup(html, "html.parser")
+    cards = soup.find_all("div", attrs={"data-test-id": "gpt-product-tile-grid-container"})
+    count = 0
+    for card in cards:
+        if count >= 5:
+            break
         try:
-            search_url = f"https://www.walmart.com/search?q={item}"
-            driver.get(search_url)
-            
-            time.sleep(5) 
-            
-            if "Press and hold" in driver.page_source:
-                print("Bot check! Solve manually.")
-                input("Press Enter to continue...")
+            title_tag = card.find("h3", attrs={"data-automation-id": "product-title"})
+            title = title_tag.get_text(strip=True) if title_tag else "Unknown"
 
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
-            cards = soup.find_all('div', attrs={'data-test-id': 'gpt-product-tile-grid-container'})
-            
-            # Top 5 + keyword filter (collect up to 5 matches per search term)
-            count = 0
-            for card in cards:
-                if count >= 5:
-                    break
-                try:
-                    title_tag = card.find('h3', attrs={'data-automation-id': 'product-title'})
-                    title = title_tag.get_text(strip=True) if title_tag else "Unknown"
-                    
-                    price = "N/A"
-                    price_container = card.find('div', attrs={'data-automation-id': 'product-price'})
-                    
-                    if price_container:
-                        sr_text = price_container.find('span', class_='w_iUH7')
-                        if sr_text:
-                            raw_price = sr_text.get_text(strip=True)
-                            if "$" in raw_price:
-                                price = "$" + raw_price.split("$")[-1]
-                        
-                        if price == "N/A":
-                            price_flex = price_container.find('div', attrs={'data-test-id': 'gpt-price-flex-container'})
-                            if price_flex:
-                                price = price_flex.get_text(strip=True)
+            price = "N/A"
+            price_container = card.find("div", attrs={"data-automation-id": "product-price"})
 
-                    unit = "" 
-                    if "," in title:
-                        parts = title.split(',')
-                        if len(parts) > 1:
-                            unit = parts[-1].strip()
+            if price_container:
+                sr_text = price_container.find("span", class_="w_iUH7")
+                if sr_text:
+                    raw_price = sr_text.get_text(strip=True)
+                    if "$" in raw_price:
+                        price = "$" + raw_price.split("$")[-1]
 
-                    full_name = f"Walmart {title}"
+                if price == "N/A":
+                    price_flex = price_container.find("div", attrs={"data-test-id": "gpt-price-flex-container"})
+                    if price_flex:
+                        raw_text = price_flex.get_text(strip=True)
+                        current_match = re.search(r"current price[:\s]*\$?([\d]+\.[\d]{2})", raw_text, re.IGNORECASE)
+                        if current_match:
+                            price = f"${current_match.group(1)}"
+                        else:
+                            price_matches = re.findall(r"\$?([\d]{1,2}\.[\d]{2})", raw_text)
+                            if price_matches:
+                                price = f"${price_matches[0]}"
+                            elif "$" in raw_text:
+                                price = "$" + raw_text.split("$")[-1].split()[0]
 
-                    if not product_matches_query(full_name, item):
-                        continue
+            unit = ""
+            if "," in title:
+                parts = title.split(",")
+                if len(parts) > 1:
+                    unit = parts[-1].strip()
 
-                    scraper_error = (
-                        price == "N/A" or not title or title == "Unknown"
-                    )
-                    data.append({
-                        "search_term": item,
-                        "product_name": full_name,
-                        "unit_size": unit,
-                        "price": price,
-                        "store": "Walmart",
-                        "date": datetime.now().strftime("%Y-%m-%d"),
-                        "scraper_error": scraper_error,
-                    })
-                    count += 1
-                    
-                except (AttributeError, TypeError):
-                    continue
-                    
-        except Exception as e:
-            print(f"Error scraping {item}: {e}")
-            
+            full_name = f"Walmart {title}"
+            if not product_matches_query(full_name, item):
+                continue
+
+            scraper_error = (price == "N/A" or not title or title == "Unknown")
+            data.append({
+                "search_term": item,
+                "product_name": full_name,
+                "unit_size": unit,
+                "price": price,
+                "store": "Walmart",
+                "date": datetime.now().strftime("%Y-%m-%d"),
+                "scraper_error": scraper_error,
+            })
+            count += 1
+        except (AttributeError, TypeError):
+            continue
     return data
 
+
+def _http_search(item):
+    """Fetch Walmart search results via plain HTTP and parse the HTML."""
+    search_url = f"https://www.walmart.com/search?q={quote_plus(item)}"
+    headers = {
+        "User-Agent": _build_user_agent(),
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Connection": "keep-alive",
+    }
+    req = Request(search_url, headers=headers)
+    with urlopen(req, timeout=30) as resp:
+        html = resp.read().decode("utf-8", errors="ignore")
+    if "press and hold" in html.lower() or "robot or human" in html.lower():
+        print(f"  HTTP request for '{item}' was challenged — returning empty.")
+        return []
+    return _extract_walmart_cards_from_html(html, item)
+
+
 def run(zip_code, items):
-    driver = setup_stealth_driver()
-    try:
-        set_store_location(driver, zip_code)
-        return scrape_items(driver, items) 
-    finally:
+    """
+    Scrape Walmart for each item via HTTP.
+
+    zip_code is accepted for interface compatibility with the other scrapers
+    but is not used — Walmart returns local prices based on IP geolocation.
+    """
+    data = []
+    for item in items:
+        print(f"[Walmart HTTP] Searching for: {item}...")
         try:
-            driver.quit()
-        except OSError:
-            pass 
+            rows = _http_search(item)
+            if rows:
+                print(f"  {item}: {len(rows)} results")
+            else:
+                print(f"  {item}: no results")
+            data.extend(rows)
+        except Exception as e:
+            print(f"  {item}: error — {e}")
+    return data
+
 
 if __name__ == "__main__":
-    print(run("37129", ["eggs"]))
+    print(run("35401", ["eggs", "whole milk", "white bread"]))

@@ -1,0 +1,27 @@
+{
+  "name": "smart-grocery",
+  "version": "1.0.0",
+  "description": "Compare grocery prices across **Aldi**, **Publix**, and **Walmart** by entering a list and location. Uses a Streamlit UI and optional daily-basket script for longitudinal tracking.",
+  "main": "pptx.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellie-burton/smart-grocery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ellie-burton/smart-grocery/issues"
+  },
+  "homepage": "https://github.com/ellie-burton/smart-grocery#readme",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}
